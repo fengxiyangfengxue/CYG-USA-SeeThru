@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Project Title="SuperCalStageCal" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="200" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b1d895f7-049e-436b-9c26-9bb9917cb4fc">
+    <FunctionArguments />
+    <Item Title="Script_Initialize" Checked="True" FunctionName="Script_Initialize" RetryTimes="3" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="70727fc1-53a3-4d14-b82c-5a774f83325e">
+      <FunctionArguments />
+    </Item>
+    <Item Title="ALGOSTATUS" Checked="True" FunctionName="SetAlgo" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d1ffbf1f-fc31-4630-9094-7065d3265cc6">
+      <FunctionArguments>
+        <Argument Name="value" Type="bool" Value="false" />
+      </FunctionArguments>
+    </Item>
+    <Group Title="PlcControl" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="bcf67698-c20c-4033-b90f-d9008b2822a6">
+      <FunctionArguments />
+      <Item Title="PlcWrite460" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="cd53cc70-1971-4754-8275-42a408d3bac3">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="460" />
+          <Argument Name="value" Type="ushort" Value="0" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcRead460" Checked="True" FunctionName="StageCalPLCReadContinouslyTillAlarm" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="4b1e2e73-46b7-415f-a64f-7185a0ebcfa5">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="460" />
+          <Argument Name="targetValue" Type="ushort" Value="2" />
+          <Argument Name="timeOut" Type="int" Value="20000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="wait" Checked="True" FunctionName="TestSleep" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="fa60fdf5-edab-494a-9cab-7432c9b7b8b7">
+        <FunctionArguments>
+          <Argument Name="sleepTime" Type="int" Value="500" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcWrite400" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6d54869e-00df-4ce6-a148-8f95c05d9234">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="400" />
+          <Argument Name="value" Type="ushort" Value="0" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcRead400" Checked="True" FunctionName="StageCalPLCReadContinouslyTillAlarm" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="11a14f8a-7b0c-42a6-a492-79fc2f00dc86">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="400" />
+          <Argument Name="targetValue" Type="ushort" Value="0" />
+          <Argument Name="timeOut" Type="int" Value="2000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcWrite460" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="94b44d4e-db30-4d9b-a07c-f67115d61eb0">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="460" />
+          <Argument Name="value" Type="ushort" Value="0" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcWrite408" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="1c76b4a6-48f0-4230-ba7c-545aa06b50c2">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="408" />
+          <Argument Name="value" Type="ushort" Value="10" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcWrite416" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e5b915d1-a321-42ba-b0f9-c6163e27f4e9">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="416" />
+          <Argument Name="value" Type="ushort" Value="1000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcRead440" Checked="True" FunctionName="StageCalPLCReadContinouslyTillAlarm" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="229efe2f-e713-4449-9b33-b16634e1fa44">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="440" />
+          <Argument Name="targetValue" Type="ushort" Value="1" />
+          <Argument Name="timeOut" Type="int" Value="10000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="wait" Checked="True" FunctionName="TestSleep" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="c86f530d-5629-47b9-9b0c-1ab70c54582e">
+        <FunctionArguments>
+          <Argument Name="sleepTime" Type="int" Value="500" />
+        </FunctionArguments>
+      </Item>
+    </Group>
+    <Item Title="BfMotionHome" Checked="True" FunctionName="BfMotionHome" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="9bbcbf9c-abe8-439c-a708-71d82bcb8d0c">
+      <FunctionArguments>
+        <Argument Name="precision" Type="double" Value="0.02" />
+        <Argument Name="delay" Type="int" Value="0" />
+        <Argument Name="timeout" Type="int" Value="100000" />
+      </FunctionArguments>
+    </Item>
+    <Group Title="Board" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="743f6b69-67c3-481c-a468-9510f378df38">
+      <FunctionArguments />
+      <Item Title="LoadBoard" Checked="True" FunctionName="LoadBoard" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d5330f64-64f8-4438-a223-d63cddd98a52">
+        <FunctionArguments />
+      </Item>
+      <Item Title="ImageEmptyBoard" Checked="True" FunctionName="ImageEmptyBoard" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="df01437c-2f3d-4569-8c1a-959a4ce517ac">
+        <FunctionArguments />
+      </Item>
+      <Item Title="wait" Checked="True" FunctionName="TestSleep" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="61372df0-b79e-487c-b3a1-aecf828d3e35">
+        <FunctionArguments>
+          <Argument Name="sleepTime" Type="int" Value="1000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="ImagePathBoard" Checked="True" FunctionName="ImagePathBoard" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="031b20f2-a608-4c51-8928-0c04eaef9051">
+        <FunctionArguments />
+      </Item>
+      <Item Title="motion_ab_1p" Checked="True" FunctionName="motion_ab_1p" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="1c8d8cd4-6781-4acd-acfb-09cd483bd028">
+        <FunctionArguments>
+          <Argument Name="motionName" Type="string" Value="STAGE_CAL" />
+          <Argument Name="timeout" Type="int" Value="100000" />
+          <Argument Name="isCheck" Type="bool" Value="true" />
+          <Argument Name="waitAnyway" Type="bool" Value="false" />
+        </FunctionArguments>
+      </Item>
+    </Group>
+    <Group Title="SnapMotion" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b7052f6b-1c94-4022-991f-957e2be758dd">
+      <FunctionArguments />
+      <Item Title="PlcWrite400" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e593f088-d33a-4249-9b41-75b0c3e22d91">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="400" />
+          <Argument Name="value" Type="ushort" Value="1" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="motion_ab" Checked="True" FunctionName="motion_ab" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3e0b8fa1-290c-47a3-aab2-8cad9f170a57">
+        <FunctionArguments>
+          <Argument Name="motionName" Type="string" Value="STAGE_CAL" />
+          <Argument Name="precision" Type="double" Value="0.2" />
+          <Argument Name="timeout" Type="int" Value="100000" />
+          <Argument Name="isCheck" Type="bool" Value="true" />
+          <Argument Name="waitAnyway" Type="bool" Value="false" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcWrite400" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="bdc506ea-3fa3-4667-9aa4-50a186867caf">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="400" />
+          <Argument Name="value" Type="ushort" Value="0" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="BfMotionHome" Checked="True" FunctionName="BfMotionHome" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="9eeb3de3-6d60-4332-a27b-9391aaf74f8a">
+        <FunctionArguments>
+          <Argument Name="precision" Type="double" Value="0.02" />
+          <Argument Name="delay" Type="int" Value="0" />
+          <Argument Name="timeout" Type="int" Value="100000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="wait" Checked="True" FunctionName="TestSleep" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="54469daf-a466-4a12-ba0f-b77efb792dbf">
+        <FunctionArguments>
+          <Argument Name="sleepTime" Type="int" Value="2000" />
+        </FunctionArguments>
+      </Item>
+    </Group>
+    <Item Title="ck_img_led_board" Checked="True" FunctionName="CkImageLedBoard" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b0a27223-bcc9-48e8-b37d-3155eb00e830">
+      <FunctionArguments>
+        <Argument Name="plcTriggerAddress" Type="ushort" Value="424" />
+      </FunctionArguments>
+    </Item>
+    <Group Title="数据上传" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d8cba04e-abaa-458a-b68d-341f86d8d886">
+      <FunctionArguments />
+      <Item Title="image_process_board" Checked="False" FunctionName="ImageProcessBoard" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="c80a6554-b78d-46bc-9b22-039c84fef3ae">
+        <FunctionArguments />
+      </Item>
+      <Item Title="save_sum_csv_board" Checked="False" FunctionName="SaveSumCsvBoard" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="bf01303e-bdf1-4248-b45b-66c88bdf08e3">
+        <FunctionArguments />
+      </Item>
+    </Group>
+    <Group Title="与上传数据同步进行" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6769b44a-c472-4389-9060-2d62dcae2d4e">
+      <FunctionArguments />
+      <Item Title="BfMotionHome" Checked="True" FunctionName="BfMotionHome" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e3d127c4-60ac-4ef6-9a79-6f54c98cb9a8">
+        <FunctionArguments>
+          <Argument Name="precision" Type="double" Value="0.02" />
+          <Argument Name="delay" Type="int" Value="0" />
+          <Argument Name="timeout" Type="int" Value="100000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcWrite448" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="c06b56d0-3caa-486a-85aa-ce0d1e79085d">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="448" />
+          <Argument Name="value" Type="ushort" Value="0" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcRead448" Checked="True" FunctionName="StageCalPLCReadContinouslyTillAlarm" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="07e5c9cd-eacd-4315-b6be-5916e30bfd89">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="448" />
+          <Argument Name="targetValue" Type="ushort" Value="0" />
+          <Argument Name="timeOut" Type="int" Value="2000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcWrite460" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="38866449-47f4-4a3d-9bae-aaa018501a48">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="460" />
+          <Argument Name="value" Type="ushort" Value="0" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PlcWrite242" Checked="True" FunctionName="StageCalPLCWrite" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="df729931-2f23-44c9-8b29-c0a8e11afb17">
+        <FunctionArguments>
+          <Argument Name="slave_id" Type="byte" Value="1" />
+          <Argument Name="address" Type="ushort" Value="242" />
+          <Argument Name="value" Type="ushort" Value="1" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+    </Group>
+    <Finally Title="Finally" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d522ec55-1a24-4fe2-b2d9-ea30c3dc249f">
+      <FunctionArguments />
+    </Finally>
+    <Item Title="BfMotionHome" Checked="True" FunctionName="BfMotionHome" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="89029dd9-8b25-4a05-87fc-6abd5803352c">
+      <FunctionArguments>
+        <Argument Name="precision" Type="double" Value="0.02" />
+        <Argument Name="delay" Type="int" Value="0" />
+        <Argument Name="timeout" Type="int" Value="100" />
+      </FunctionArguments>
+    </Item>
+  </Project>
+</Root>

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Config>
+	<Variable>
+		<Dll>
+			System.dll
+			System.Core.dll
+			System.Data.dll
+		</Dll>
+		<NameSpace>
+			System
+			System.Data
+			System.Linq
+			System.Collections.Generic
+		</NameSpace>
+	</Variable>
+	<Script>
+		<CreateInstanceMode>Parallel</CreateInstanceMode>
+		<ScriptMode>code_roslyn</ScriptMode>
+		<Roslyn>
+			<Path></Path>
+		</Roslyn>
+		<Dll>
+			Scripts\bin\Debug\Test.dll
+		</Dll>
+		<MSBuild>
+			<MSBuildPath>E:\msbuild\msbuild\artifacts\bin\bootstrap\net472\MSBuild\Current\Bin\MSBuild.exe</MSBuildPath>
+			<ProjectFile>Scripts/Test.csproj</ProjectFile>
+			<Dll>Scripts\bin\Debug\Test.dll</Dll>
+			<TimeOut>100000</TimeOut>
+			<Retry>1</Retry>
+			<Parameter>-restore:False /p:DebugType=embedded /p:Configuration=Debug,DebugSymbols=true -verbosity:minimal -noWarn:CS0164 -fileLoggerParameters:LogFile=MyLog.log;Encoding=UTF-8;Verbosity=minimal</Parameter>
+		</MSBuild>
+		<SourceFiles>
+
+			Properties\AssemblyInfo.cs
+			Properties\Settings.Designer.cs
+
+			_AppDoNotModify\Data\DataCollector.cs
+			_AppDoNotModify\Data\ECData.cs
+			_AppDoNotModify\Data\ResultData.cs
+
+			_AppDoNotModify\Common\MainClass_Audit.cs
+			_AppDoNotModify\Common\MainClass_IMainClass.cs
+			_AppDoNotModify\Common\MainClass_Invoker.cs
+			_AppDoNotModify\Common\MainClass_Resolver.cs
+			_AppDoNotModify\Common\MainClass_LimitAndConfig.cs
+			_AppDoNotModify\Common\MainClass_RunMode_Trigger.cs
+			_AppDoNotModify\Common\MainClass_Utilities.cs
+
+			_AppDoNotModify\Definitions\ItemLimit.cs
+			_AppDoNotModify\Definitions\ScriptAttributes.cs
+			_AppDoNotModify\Definitions\StationLimits.cs
+
+			_AppDoNotModify\Extensions\ArgsExtension.cs
+			_AppDoNotModify\Extensions\ByteExtension.cs
+			_AppDoNotModify\Extensions\ConcurrentDictionaryExtension.cs
+			_AppDoNotModify\Extensions\EnumExtension.cs
+			_AppDoNotModify\Extensions\ListExtension.cs
+			_AppDoNotModify\Extensions\LitJsonExtension.cs
+			_AppDoNotModify\Extensions\LoggerExtension.cs
+			_AppDoNotModify\Extensions\ObjectExtension.cs
+			_AppDoNotModify\Extensions\SerialPortExtension.cs
+			_AppDoNotModify\Extensions\StringExtension.cs
+			_AppDoNotModify\Extensions\TypeExtension.cs
+			_AppDoNotModify\Extensions\XmlNodeExtension.cs
+
+			_AppDoNotModify\Helpers\AppraiserHelper.cs
+			_AppDoNotModify\Helpers\AuditHelper.cs
+			_AppDoNotModify\Helpers\ComDeviceHelper.cs
+			_AppDoNotModify\Helpers\CSVHelper.cs
+			_AppDoNotModify\Helpers\IniHelper.cs
+			_AppDoNotModify\Helpers\JsonSettingHelper.cs
+			_AppDoNotModify\Helpers\XmlSettingHelper.cs
+			_AppDoNotModify\Helpers\ZipHelper.cs
+
+			_Common\MainClass.cs
+			_Common\MainClass_ADB.cs
+			_Common\MainClass_Common.cs
+			_Common\MainClass_MES_GTK.cs
+			_Common\MainClass_QDF_GTK.cs
+
+			_Definitions\ConstKeys.cs
+			_Definitions\Enumerations.cs
+			_Definitions\TestConfig.cs
+
+			_ScriptExtensions\YourExtension.cs
+			_ScriptExtensions\StringExtension.cs
+
+			_ScriptHelpers\YourHelper.cs
+			_ScriptHelpers\ADBClientHelper.cs
+			_ScriptHelpers\CacheHelper.cs
+			_ScriptHelpers\RetryHelper.cs
+			_ScriptHelpers\SettingHelper.cs
+			_ScriptHelpers\TagAttribute.cs
+			_ScriptHelpers\XmlSettingCacheHelper.cs
+
+			_StartupConfigs\IStartupConfig.cs
+			_StartupConfigs\StartupConfig_FATP_Button.cs
+			_StartupConfigs\StartupCustomConfig.cs
+			_StartupConfigs\StartupConfig_FATP_SuperCal.cs
+			_StartupConfigs\StartupConfig_FATP_SeeThru.cs
+			_StartupConfigs\StartupConfig_FATP_SuperCal_StageCal.cs
+
+			ScriptSettings\BuildPhaseSetting.cs
+			ScriptSettings\CommonSetting.cs
+			ScriptSettings\MESSetting.cs
+			ScriptSettings\ScannerSetting.cs
+			ScriptSettings\ADBLocationSetting.cs
+
+			StationsScripts\FATP_Button\FATP_Button_DUT.cs
+			StationsScripts\FATP_Button\FATP_Button_PLC.cs
+			StationsScripts\FATP_Button\FATP_Button_Context.cs
+			StationsScripts\FATP_Button\FATP_Button_Interfaces.cs
+			StationsScripts\FATP_Button\FATP_Camera_Setting.cs
+
+			StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs
+			StationsScripts\FATP_SuperCal\FATP_SuperCal_Context.cs
+			StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs
+			StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs
+			StationsScripts\FATP_SuperCal\FATP_SuperCal_Interfaces.cs
+			StationsScripts\FATP_SuperCal\FATP_SuperCal_ReadWriteJson.cs
+			StationsScripts\FATP_SuperCal\FATP_SuperCal_Setting.cs
+			StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs
+
+			StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_CalBoard.cs
+			StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Context.cs
+			StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Interfaces.cs
+			StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Setting.cs
+			StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs
+
+			StationsScripts\FATP_SeeThru\FATP_SeeThru_Context.cs
+			StationsScripts\FATP_SeeThru\FATP_SeeThru_Control.cs
+			StationsScripts\FATP_SeeThru\FATP_SeeThru_Interfaces.cs
+			StationsScripts\FATP_SeeThru\FATP_SeeThru_Setting.cs
+			StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs
+			StationsScripts\FATP_SeeThru\FATP_SeeThru_ReadWriteJson.cs
+
+			StationsScripts\Shared\QDFContext.cs
+			StationsScripts\Shared\TestContext.cs
+			StationsScripts\Shared\TestModeForm.cs
+			StationsScripts\Shared\TestModeForm.Designer.cs
+			StationsScripts\Shared\TestModeForm.resx
+
+			USBDevice\USBDeviceHandler.cs
+			USBDevice\USBDeviceManagement.cs
+
+			ModbusTCP\ModbusTCP.cs
+			HcLabelCommunication\HcTagCommunicate.cs
+
+			Modules\SerialMotionBf\serialPort.cs
+			Modules\motion_control\hardware_control.cs
+			Modules\motion_control\robotMotionServer.cs
+
+		</SourceFiles>
+		<SystemDll>
+			System.dll
+			Microsoft.CSharp.dll
+			Microsoft.VisualBasic.dll
+			System.Core.dll
+			System.Data.dll
+			System.Data.DataSetExtensions.dll
+			System.Xml.dll
+			System.Drawing.dll
+			System.Xml.Linq.dll
+			System.Windows.dll
+			System.Management.dll
+			System.Runtime.Caching.dll
+			UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+			PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+			PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+			WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+			System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+			System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			System.IO.Compression.dll
+			System.IO.Compression.FileSystem.dll
+
+		</SystemDll>
+		<PluginDll>
+			LitJSON.dll
+			DotNetZip.dll
+			UserHelpers.dll
+			MetaHelpers.dll
+			MetaDeviceHelpers.dll
+			DotNetZip.dll
+			Newtonsoft.Json.dll
+			CsvHelper.dll
+			NModbus.dll
+			MES.DLL.Test.Interface.dll
+			GTKWebServices.dll
+			GitignoreParserNet.dll
+			TagAccessCS.dll
+			NLog.dll
+			
+			QDFSqlite\Plugin.Sqlite.dll
+		</PluginDll>
+	</Script>
+</Config>

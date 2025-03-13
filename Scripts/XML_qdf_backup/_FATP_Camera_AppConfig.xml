@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Config>
+  <UIConfig>
+    <Maximized>1</Maximized>
+    <Width>1366</Width>
+    <Height>768</Height>
+    <TopMost>0</TopMost>
+    <Header>1</Header>
+    <ToolBar>1</ToolBar>
+    <FontSizeType>Normal</FontSizeType>
+    <Mutex>0</Mutex>
+    <MutexName>Caesar.exe</MutexName>
+    <WaterMarkOpacity>25</WaterMarkOpacity>
+    <WaterMarkModeVisible>1</WaterMarkModeVisible>
+    <WaterMarkSFISVisible>1</WaterMarkSFISVisible>
+    <MaxThreads>110</MaxThreads>
+    <SaveConfirmation>1</SaveConfirmation>
+    <CSharpScriptBaseDirectory>Scripts</CSharpScriptBaseDirectory>
+    <ScriptXML>_ScriptConfig.xml</ScriptXML>
+  </UIConfig>
+  <ProjectConfigs>
+    <Config>
+      <Grid>
+        <Row>1</Row>
+        <Column>2</Column>
+        <Count>2</Count>
+        <Orientation>0</Orientation>
+        <CustomOrder>
+        </CustomOrder>
+      </Grid>
+      <Project index="0">_FATP_Camera_Setting.xml</Project>
+      <Project index="1">_FATP_Camera_R_Setting.xml</Project>
+    </Config>
+  </ProjectConfigs>
+</Config>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Project Title="Seethru" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="200" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b1d895f7-049e-436b-9c26-9bb9917cb4fc">
+    <FunctionArguments />
+    <Item Title="Script_Initialize" Checked="True" FunctionName="Script_Initialize" RetryTimes="3" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="70727fc1-53a3-4d14-b82c-5a774f83325e">
+      <FunctionArguments />
+    </Item>
+    <Item Title="GenerateAdbCommandRunnerinstance" Checked="True" FunctionName="GenerateAdbCommandRunnerinstance" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="f3c0af4a-268b-4e8f-8b55-702edfd7fe9d">
+      <FunctionArguments>
+        <Argument Name="adbPath" Type="string" Value="C:\adb_tool\platform-tools" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="GetOpID" Checked="True" FunctionName="GetOpID" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="606badc7-e8d4-4535-9e48-5c943e81c24b">
+      <FunctionArguments />
+    </Item>
+    <Item Title="SeeThruCheckNoDutTime" Checked="True" FunctionName="SeeThruCheckNoDutTime" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="1275af4c-5f9e-40d9-9581-a22fbdfd9387">
+      <FunctionArguments>
+        <Argument Name="testInterval" Type="int" Value="7" />
+        <Argument Name="checkCmd" Type="string" Value="curl http://172.18.193.172:8088/parameterdata/NODUT/24/dstcalstation/camera" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="StartTest" Checked="True" FunctionName="StartTest" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d8cc694f-58ea-4746-879c-097e2c562774">
+      <FunctionArguments />
+    </Item>
+    <Item Title="SeeThruReadSnAndOtherCommand" Checked="True" FunctionName="SeeThruReadSnAndOtherCommand" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="5147c08f-ae8f-42f2-941f-239ebdfd4a73">
+      <FunctionArguments>
+        <Argument Name="timeout_" Type="int" Value="10000" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="CreateFolderStructure" Checked="True" FunctionName="CreateFolderStructure" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e41df7c3-b4c8-4016-ae0f-5f367e773da7">
+      <FunctionArguments>
+        <Argument Name="isNotDUt" Type="bool" Value="false" />
+        <Argument Name="Stability" Type="bool" Value="false" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="SeeThruReadIAD" Checked="True" FunctionName="SeeThruReadIAD" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="2d48108c-5355-44c6-9ce2-739de9a722a3">
+      <FunctionArguments>
+        <Argument Name="timeout" Type="int" Value="10000" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="PullIOTCalibrationFiles" Checked="True" FunctionName="PullIOTCalibrationFiles" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="ee029248-f106-40e1-8b1e-2beef29f93b4">
+      <FunctionArguments>
+        <Argument Name="timeout" Type="int" Value="10000" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="TestActionSetLights" Checked="True" FunctionName="SetLights" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6dbc27e5-66d2-4186-a7ef-b15eb8542662">
+      <FunctionArguments>
+        <Argument Name="LightStatue" Type="bool" Value="false" />
+        <Argument Name="channel" Type="List&lt;string&gt;" Value="new List&lt;string&gt; { &quot;channel1&quot;, &quot;channel2&quot;, &quot;channel3&quot; }" />
+        <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{2500,2500,2500}" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="ServoControl-ON" Checked="True" FunctionName="RobotServoControl" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="18e62845-e7a8-4872-b88b-aa93ac160484">
+      <FunctionArguments>
+        <Argument Name="RobotServoStatus" Type="bool" Value="true" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="CloseAutoDoor" Checked="True" FunctionName="CloseAutoDoor" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6e7de067-e463-4654-b741-61d19780882b">
+      <FunctionArguments>
+        <Argument Name="timeoutSecond" Type="int" Value="10" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="CheckRobotLoad" Checked="True" FunctionName="CheckLoadOrHome" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3d820cb1-6e5f-4759-a1c5-080178b55cc9">
+      <FunctionArguments>
+        <Argument Name="checkName" Type="string" Value="load" />
+        <Argument Name="timeout" Type="int" Value="65" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="RobotToHome" Checked="True" FunctionName="RobotCallJob" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="c29c9bcb-c4c0-47ce-9e52-6ae7f1b9b6e1">
+      <FunctionArguments>
+        <Argument Name="jobName" Type="string" Value="CARPO_LOAD_2_HOME" />
+        <Argument Name="timeout" Type="int" Value="95" />
+        <Argument Name="minimumExerciseTime" Type="int" Value="1" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="StartDUTVRS" Checked="True" FunctionName="StartVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="bce3cf08-f5f2-4193-a844-50729ef52a2a">
+      <FunctionArguments>
+        <Argument Name="timeout" Type="int" Value="50000" />
+        <Argument Name="duration" Type="int" Value="45" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="StartExtCamRecording" Checked="True" FunctionName="ExternalCameraStartVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="592aac93-bced-4ab2-8901-43fd2cbd8971">
+      <FunctionArguments>
+        <Argument Name="pythonPath" Type="string" Value="D:\\python3.11" />
+        <Argument Name="cameraClientPath" Type="string" Value="D:\\python" />
+        <Argument Name="stability" Type="bool" Value="false" />
+        <Argument Name="notDut" Type="bool" Value="false" />
+        <Argument Name="vrsDuration" Type="int" Value="35" />
+        <Argument Name="timeout" Type="int" Value="50000" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="RobotCallJobSeeThru" Checked="True" FunctionName="RobotCallJob" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="172978f8-efc1-48e2-88e1-dea79565242e">
+      <FunctionArguments>
+        <Argument Name="jobName" Type="string" Value="ADK3_TRAJ" />
+        <Argument Name="timeout" Type="int" Value="95" />
+        <Argument Name="minimumExerciseTime" Type="int" Value="6" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="PullDUTVRS" Checked="True" FunctionName="PullVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="82075300-d863-4cf9-8dad-f615fbbf4561">
+      <FunctionArguments />
+    </Item>
+    <Item Title="New_Item_2025/3/12 19:18:44" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="84139537-971a-41b7-97ba-be4bc7d3f01e">
+      <FunctionArguments />
+    </Item>
+    <Item Title="New_Item_2025/3/12 19:18:44" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6c317c34-ab43-4547-a367-33bcc51aec10">
+      <FunctionArguments />
+    </Item>
+  </Project>
+</Root>

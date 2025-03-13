@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Project Title="Example" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="2" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b1d895f7-049e-436b-9c26-9bb9917cb4fc">
+    <FunctionArguments />
+    <Item Title="Script_Initialize" Checked="True" FunctionName="Script_Initialize" RetryTimes="3" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="[COF][GTK]" Suffix="wefwfewfefe" Expanded="True" GUID="70727fc1-53a3-4d14-b82c-5a774f83325e">
+      <FunctionArguments />
+    </Item>
+    <Item Title="AddInfo" Checked="True" FunctionName="AddInfo" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="2dc50ea1-8eb9-4534-95e6-5901c5bbe119">
+      <FunctionArguments />
+    </Item>
+    <Item Title="ShowString" Checked="True" FunctionName="ShowString" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="996e8db6-ccee-4585-a137-78d920edc02d">
+      <FunctionArguments />
+    </Item>
+    <Item Title="Scan_SerialNumber" Checked="False" FunctionName="Manual_ScanSerialNumber" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e65f0576-b84a-4fdb-932d-a8696fd083f7">
+      <FunctionArguments>
+        <Argument Name="snLength" Type="int" Value="0" />
+        <Argument Name="pattern" Type="string" Value="" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="Package_Verify" Checked="False" FunctionName="Package_Verify" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="True" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="Paul" Suffix="" Expanded="True" GUID="2867d865-64a9-45c7-b440-655462262ba6">
+      <FunctionArguments />
+    </Item>
+    <Item Title="Delay" Checked="True" FunctionName="Delay" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b105af1f-f4e1-4ddf-bbc5-7275bb52ce80">
+      <FunctionArguments>
+        <Argument Name="Millseconds" Type="int" Value="1000" />
+        <Argument Name="isAddResult" Type="bool" Value="false" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="Fail" Checked="False" FunctionName="PyConsoleCommand" RetryTimes="5" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="f02b5e52-b751-4fcb-9496-17d6c97d2ca6">
+      <FunctionArguments>
+        <Argument Name="command" Type="string" Value="command1" />
+        <Argument Name="timeOut" Type="int" Value="10000" />
+        <Argument Name="preWaiting" Type="int" Value="200" />
+        <Argument Name="afterWaiting" Type="int" Value="0" />
+        <Argument Name="retryWaiting" Type="int" Value="0" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="TestPass" Checked="True" FunctionName="TestPass" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="15e64176-76de-4115-bec8-4ed22300384a">
+      <FunctionArguments>
+        <Argument Name="preWaiting" Type="int" Value="500" />
+        <Argument Name="afterWaiting" Type="int" Value="0" />
+        <Argument Name="retryWating" Type="int" Value="0" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="TestFail" Checked="False" FunctionName="TestFail" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="5c49e724-5c30-4b72-a7fb-1457052c9dc9">
+      <FunctionArguments>
+        <Argument Name="preWaiting" Type="int" Value="500" />
+        <Argument Name="afterWaiting" Type="int" Value="0" />
+        <Argument Name="retryWating" Type="int" Value="0" />
+      </FunctionArguments>
+    </Item>
+    <If Title="Is_FirstOne" Checked="False" FunctionName="Is_FirstOne" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="3305655d-45ec-403c-b1fe-8da2535d1874">
+      <FunctionArguments />
+      <Item Title="FirstOneReady" Checked="False" FunctionName="FirstOneReady" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="a7b5cc82-2eb2-49d9-a42f-14a6e1af5663">
+        <FunctionArguments />
+      </Item>
+    </If>
+    <Group Title="New_Group_2024/1/24 10:37:29" Checked="False" FunctionName="" RetryTimes="4" AgingTimes="2" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="188c8b42-e336-4333-a008-0f266b2ed803">
+      <FunctionArguments />
+      <Item Title="New_Item_2024/1/24 10:37:57" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="0a47656e-0d62-4a41-a6d6-b645cccfa1fc">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Delay" Checked="False" FunctionName="Delay" RetryTimes="5" AgingTimes="3" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="cfdedc45-0efd-4032-80ed-e32209190cc9">
+        <FunctionArguments>
+          <Argument Name="Millseconds" Type="int" Value="1000" />
+          <Argument Name="isAddResult" Type="bool" Value="false" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="command1" Checked="False" FunctionName="PyConsoleCommand" RetryTimes="5" AgingTimes="1" RunMode="Sequential" IsFailStop="True" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="5e14ba82-18a9-4348-aca7-823b2ed28049">
+        <FunctionArguments>
+          <Argument Name="command" Type="string" Value="command1" />
+          <Argument Name="timeOut" Type="int" Value="10000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Finally Title="Finally" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="cdf880cd-c65a-4e42-a0ae-70d7412fc08b">
+        <FunctionArguments />
+        <Item Title="pyEnd" Checked="False" FunctionName="PyConsoleEnd" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="1e4421f3-148f-4ceb-9f3c-df281007f5ba">
+          <FunctionArguments />
+        </Item>
+      </Finally>
+    </Group>
+    <Group Title="Parent" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="cc20708e-dee2-404e-a1f3-cd77c3b0fd16">
+      <FunctionArguments />
+      <Item Title="Child1" Checked="False" FunctionName="SplicingTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="50663c95-d328-4d97-b57b-8c6602d59094">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Child2" Checked="False" FunctionName="SplicingTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="741d4535-9bff-46bc-bd91-920f08977d31">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Child3" Checked="False" FunctionName="SplicingTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3035d8d2-5582-4df2-ac41-86582006faeb">
+        <FunctionArguments />
+      </Item>
+    </Group>
+    <Group Title="Rename" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="70af3483-e67e-4505-ab95-a84f1aa2f7e7">
+      <FunctionArguments />
+      <Item Title="Rename_Child_01" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e793e481-7822-4069-bf4c-dd9ece99e88e">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Rename_Child_02" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="2581284f-dbf5-4ca8-94c7-bf3478498e6d">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Rename_Child_03" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="bd062612-9c4f-43a0-9927-6d752618ee62">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Rename_Child_04" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d4b46099-2de5-424c-8f84-e03b68e932f3">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Rename_Child_05" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="cc65df8f-282f-405d-b69c-9c3c860c8ab3">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Rename_Child_06" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="cf97d668-f869-4a10-a2a6-7535815e4867">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Rename_Child_07" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="469a0e02-07b9-4a04-ab2a-d1dd8f02541f">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Rename_Child_08" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="1f5f77c7-d70b-4e30-8a7d-cd58715937d6">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Rename_Child_09" Checked="False" FunctionName="RenameTitle" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="bf2e98f7-848e-4e0d-960b-8973fa1d0fb4">
+        <FunctionArguments />
+      </Item>
+    </Group>
+    <Group Title="PyConsole" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="3f68c0fd-8a6f-468b-b583-14a1e8760c3d">
+      <FunctionArguments />
+      <Item Title="pyStart" Checked="False" FunctionName="PyConsoleStart" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="04734c7e-3c6a-4b65-b409-470900fb8fbe">
+        <FunctionArguments />
+      </Item>
+      <Item Title="command1" Checked="False" FunctionName="PyConsoleCommand" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="434e0a37-5f9b-449c-99e0-9a6bcf7be307">
+        <FunctionArguments>
+          <Argument Name="command" Type="string" Value="command1" />
+          <Argument Name="timeOut" Type="int" Value="10000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="command2" Checked="False" FunctionName="PyConsoleCommand" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="5da2511c-624c-4bb0-a283-2efccce3ea19">
+        <FunctionArguments>
+          <Argument Name="command" Type="string" Value="command2" />
+          <Argument Name="timeOut" Type="int" Value="10000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Finally Title="Finally" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="1b39be60-1900-4d83-8945-0e6b87550d03">
+        <FunctionArguments />
+        <Item Title="pyEnd" Checked="False" FunctionName="PyConsoleEnd" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="eeb9e0ff-029a-4c4c-a768-25d616c19ead">
+          <FunctionArguments />
+        </Item>
+      </Finally>
+    </Group>
+    <Group Title="PySingleCall" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="ff0a24af-37a4-4903-913c-554ae25e0451">
+      <FunctionArguments />
+      <Item Title="command1" Checked="False" FunctionName="PySingleCall" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3a335c84-5106-418e-989e-b02580539950">
+        <FunctionArguments>
+          <Argument Name="command" Type="string" Value="command1" />
+          <Argument Name="timeOut" Type="int" Value="10000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="command2" Checked="False" FunctionName="PySingleCall" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="630b4d7a-9532-435c-b800-d1706626328e">
+        <FunctionArguments>
+          <Argument Name="command" Type="string" Value="command2" />
+          <Argument Name="timeOut" Type="int" Value="10000" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+        </FunctionArguments>
+      </Item>
+    </Group>
+    <Group Title="Equipment" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="4276e6c0-51e9-49da-84aa-9344e0d55375">
+      <FunctionArguments />
+      <Item Title="Wait_FSC" Checked="False" FunctionName="Wait_FSC" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3a23c0a6-19a9-4f32-850c-23b7201f8642">
+        <FunctionArguments />
+      </Item>
+      <Item Title="Do_Test" Checked="False" FunctionName="FSC_Test" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="275cfc48-e958-40db-8ec0-07b762dfc05e">
+        <FunctionArguments />
+      </Item>
+      <Finally Title="Finally" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="800b2e9c-5331-4c81-bfa0-cb149471332d">
+        <FunctionArguments />
+        <Item Title="Release_FSC" Checked="False" FunctionName="Release_FSC" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="90fbad02-f7b7-4270-a369-aa1d93e698c2">
+          <FunctionArguments />
+        </Item>
+      </Finally>
+    </Group>
+    <Item Title="WinForm" Checked="False" FunctionName="WinFormTest" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="4e71036d-7791-4436-9dc0-dffa2f7a8eea">
+      <FunctionArguments />
+    </Item>
+    <Item Title="SelectModeTest" Checked="False" FunctionName="SelectModeTest" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="a31da090-2267-4fce-af39-01458d7340c5">
+      <FunctionArguments />
+    </Item>
+    <Finally Title="Finally" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d522ec55-1a24-4fe2-b2d9-ea30c3dc249f">
+      <FunctionArguments />
+      <Item Title="Test_End" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="7d6e8273-9147-42a1-9df5-7fcd652e818e">
+        <FunctionArguments />
+      </Item>
+    </Finally>
+  </Project>
+</Root>

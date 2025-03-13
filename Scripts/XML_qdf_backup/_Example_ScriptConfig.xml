@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Config>
+	<Variable>
+		<Dll>
+			System.dll
+			System.Core.dll
+			System.Data.dll
+		</Dll>
+		<NameSpace>
+			System
+			System.Data
+			System.Linq
+			System.Collections.Generic
+		</NameSpace>
+	</Variable>
+	<Script>
+		<CreateInstanceMode>Parallel</CreateInstanceMode>
+		<ScriptMode>code_roslyn</ScriptMode>
+		<Roslyn>
+			<Path></Path>
+		</Roslyn>
+		<Dll>
+			Scripts\bin\Debug\Test.dll
+		</Dll>
+		<MSBuild>
+			<MSBuildPath>E:\msbuild\msbuild\artifacts\bin\bootstrap\net472\MSBuild\Current\Bin\MSBuild.exe</MSBuildPath>
+			<ProjectFile>Scripts/Test.csproj</ProjectFile>
+			<Dll>Scripts\bin\Debug\Test.dll</Dll>
+			<TimeOut>100000</TimeOut>
+			<Retry>1</Retry>
+			<Parameter>-restore:False /p:DebugType=embedded /p:Configuration=Debug,DebugSymbols=true -verbosity:minimal -noWarn:CS0164 -fileLoggerParameters:LogFile=MyLog.log;Encoding=UTF-8;Verbosity=minimal</Parameter>
+		</MSBuild>
+		<SourceFiles>
+			Properties\AssemblyInfo.cs
+			Properties\Settings.Designer.cs
+
+			_AppDoNotModify\Data\DataCollector.cs
+			_AppDoNotModify\Data\ECData.cs
+			_AppDoNotModify\Data\ResultData.cs
+
+			_AppDoNotModify\Common\MainClass_Audit.cs
+			_AppDoNotModify\Common\MainClass_IMainClass.cs
+			_AppDoNotModify\Common\MainClass_Invoker.cs
+			_AppDoNotModify\Common\MainClass_Resolver.cs
+			_AppDoNotModify\Common\MainClass_LimitAndConfig.cs
+			_AppDoNotModify\Common\MainClass_RunMode_Trigger.cs
+			_AppDoNotModify\Common\MainClass_Utilities.cs
+
+			_AppDoNotModify\Definitions\ItemLimit.cs
+			_AppDoNotModify\Definitions\ScriptAttributes.cs
+			_AppDoNotModify\Definitions\StationLimits.cs
+
+			_AppDoNotModify\Extensions\ArgsExtension.cs
+			_AppDoNotModify\Extensions\ByteExtension.cs
+			_AppDoNotModify\Extensions\ConcurrentDictionaryExtension.cs
+			_AppDoNotModify\Extensions\EnumExtension.cs
+			_AppDoNotModify\Extensions\ListExtension.cs
+			_AppDoNotModify\Extensions\LitJsonExtension.cs
+			_AppDoNotModify\Extensions\LoggerExtension.cs
+			_AppDoNotModify\Extensions\ObjectExtension.cs
+			_AppDoNotModify\Extensions\SerialPortExtension.cs
+			_AppDoNotModify\Extensions\StringExtension.cs
+			_AppDoNotModify\Extensions\TypeExtension.cs
+			_AppDoNotModify\Extensions\XmlNodeExtension.cs
+
+			_AppDoNotModify\Helpers\AppraiserHelper.cs
+			_AppDoNotModify\Helpers\AuditHelper.cs
+			_AppDoNotModify\Helpers\ComDeviceHelper.cs
+			_AppDoNotModify\Helpers\CSVHelper.cs
+			_AppDoNotModify\Helpers\IniHelper.cs
+			_AppDoNotModify\Helpers\JsonSettingHelper.cs
+			_AppDoNotModify\Helpers\XmlSettingHelper.cs
+			_AppDoNotModify\Helpers\ZipHelper.cs
+
+			_Common\MainClass.cs
+			_Common\MainClass_ADB.cs
+			_Common\MainClass_Common.cs
+			_Common\MainClass_MES_GTK.cs
+			_Common\MainClass_QDF_GTK.cs
+
+			_Definitions\ConstKeys.cs
+			_Definitions\Enumerations.cs
+			_Definitions\TestConfig.cs
+
+			_ScriptExtensions\YourExtension.cs
+
+			_ScriptHelpers\YourHelper.cs
+
+			_StartupConfigs\IStartupConfig.cs
+			_StartupConfigs\StartupConfig_Example.cs
+			_StartupConfigs\StartupCustomConfig.cs
+
+			ScriptSettings\BuildPhaseSetting.cs
+			ScriptSettings\CommonSetting.cs
+			ScriptSettings\MESSetting.cs
+			ScriptSettings\ScannerSetting.cs
+			ScriptSettings\ADBLocationSetting.cs
+
+			StationsScripts\Example\Example_Context.cs
+			StationsScripts\Example\Example_Interfaces.cs
+			StationsScripts\Example\Example_Setting.cs
+			StationsScripts\Example\Example_Test.cs
+			StationsScripts\Example\RGBCheck.cs
+			StationsScripts\Example\RGBCheck.Designer.cs
+			StationsScripts\Example\RGBCheck.resx
+
+			StationsScripts\Shared\TestContext.cs
+			StationsScripts\Shared\QDFContext.cs
+			StationsScripts\Shared\TestModeForm.cs
+			StationsScripts\Shared\TestModeForm.Designer.cs
+			StationsScripts\Shared\TestModeForm.resx
+
+			USBDevice\USBDeviceHandler.cs
+			USBDevice\USBDeviceManagement.cs
+		</SourceFiles>
+		<SystemDll>
+			System.dll
+			Microsoft.CSharp.dll
+			Microsoft.VisualBasic.dll
+			System.Core.dll
+			System.Data.dll
+			System.Data.DataSetExtensions.dll
+			System.Xml.dll
+			System.Drawing.dll
+			System.Xml.Linq.dll
+			System.Windows.dll
+			System.Management.dll
+			UIAutomationProvider, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+			PresentationFramework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+			PresentationCore, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+			WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+			System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			System.Web.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+			System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+			netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+			System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+		</SystemDll>
+		<PluginDll>
+			LitJSON.dll
+			UserHelpers.dll
+			MetaHelpers.dll
+			DotNetZip.dll
+			Newtonsoft.Json.dll
+			MES.DLL.Test.Interface.dll
+			GTKWebServices.dll
+			GitignoreParserNet.dll
+Plugin.Sqlite.dll
+		</PluginDll>
+	</Script>
+</Config>
