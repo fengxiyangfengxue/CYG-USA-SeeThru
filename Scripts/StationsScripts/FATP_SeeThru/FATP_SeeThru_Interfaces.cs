@@ -13,6 +13,7 @@ using Test.ModbusTCP;
 using Test.Modules.SerialMotion;
 using Test.Modules.motion_control;
 using Test.StationsScripts.FATP_SeeThru;
+using Test.Modules.WebCameraRecord;
 
 
 namespace Test
@@ -27,10 +28,18 @@ namespace Test
         bool _isSeeThruControlSeverInitilized = false;
 
 
+
+        // web 摄像头试用。
+        private HikvisionCameraRecorder webRecorder = null;
+
         [MainClassConstructor(TEST_STATION.FATP_SeeThru, level: 10)]
         public int MainClassConstructor_SeeThru_Test()
         {
             _SeethruSetting = XmlSettingHelper.LoadSetting<SeeThru_Setting>(CaesarConfigPath, _Config.StartupConfig.Station);
+
+            // note: HK 实例
+            webRecorder = new HikvisionCameraRecorder();
+
             if (_SuperCalSetting == null)
                 throw new Exception("load SeeThru xml config failed!");
 
@@ -38,6 +47,7 @@ namespace Test
             if (!_MotionControlInit)
                 throw new Exception("initial MotionControl Server failed!");
 
+           
 
             UIMessageBox.Show(Project, "Click OK to start SeeThru!", "waiting for start", UIMessageBoxButton.OK, 24, 14);
             return 0;

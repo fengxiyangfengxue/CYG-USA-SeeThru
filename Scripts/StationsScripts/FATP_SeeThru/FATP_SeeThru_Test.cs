@@ -28,6 +28,7 @@ using System.Globalization;
 using Test.StationsScripts.Shared;
 using System.IO.Compression;
 using System.Security.RightsManagement;
+using Test.Modules.WebCameraRecord;
 
 
 namespace Test
@@ -57,9 +58,47 @@ namespace Test
         private volatile bool Seethru_stopRequested;
 
 
-        // 发给cam服务器的存图地址
-        //public string camImagePath = $"C:\\SuperCalRecord\\{DateTime.Now.ToString("yyyy_MM_dd")}";
-        //public string totalPath = string.Empty;
+        public int HKWebRecord(ITestItem item)
+        {
+            bool result = false;
+            try
+            {
+                webRecorder.StartRecording();
+                result = true;
+            }
+            catch (Exception e)
+            {
+                item.AddLog($"record Web error:{e}");
+                
+            }
+       
+            ResultData data = new ResultData(item.Title, result ? "" : CreateErrorCode(item.Title).Name,
+                result?"Pass":"Fail");
+            AddResult(item, data);
+            return result ? 0 : 1;
+        }
+
+        public int HKWebEndRecord(ITestItem item)
+        {
+            bool result = false;
+            try
+            {
+                webRecorder.StopRecording();
+                result = true;
+            }
+            catch (Exception e)
+            {
+                item.AddLog($"record Web error:{e}");
+
+            }
+
+            ResultData data = new ResultData(item.Title, result ? "" : CreateErrorCode(item.Title).Name,
+                result ? "Pass" : "Fail");
+            AddResult(item, data);
+            return result ? 0 : 1;
+        }
+
+
 
 
         // 获取OPID

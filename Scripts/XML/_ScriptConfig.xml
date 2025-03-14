@@ -193,7 +193,10 @@
 			GitignoreParserNet.dll
 			TagAccessCS.dll
 			NLog.dll
-			
+			Emgu.CV.dll
+			OpenCvSharp.dll
+
+
 			QDFSqlite\Plugin.Sqlite.dll
 		</PluginDll>
 	</Script>

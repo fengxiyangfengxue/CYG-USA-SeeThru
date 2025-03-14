@@ -249,7 +249,7 @@ namespace Test
 
 
         // open door
-        public int OpenAutoDoor(ITestItem item, bool RobotServoStatus)
+        public int OpenAutoDoor(ITestItem item)
         {
             bool result = false;
 
