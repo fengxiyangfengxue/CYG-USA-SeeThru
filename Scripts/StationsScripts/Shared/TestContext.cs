@@ -96,6 +96,8 @@ namespace Test.StationsScripts.Shared
         
 
         public DateTime SeeThruStartTime { get; set; }
+        
+        public DateTime ETStartTime { get; set; }
 
         //public Process SeeThruExtCamProce { get; set; }
 

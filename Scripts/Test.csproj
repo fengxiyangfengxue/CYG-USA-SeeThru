@@ -178,6 +178,12 @@
     <Compile Include="Modules\WebCameraRecord\WebCameraRecorder2.cs" />
     <Compile Include="ScriptSettings\ADBLocationSetting.cs" />
     <Compile Include="StationsScripts\FATP_Button\FATP_Button_PLC.cs" />
+    <Compile Include="StationsScripts\FATP_ET\FATP_ET_Context.cs" />
+    <Compile Include="StationsScripts\FATP_ET\FATP_ET_Control.cs" />
+    <Compile Include="StationsScripts\FATP_ET\FATP_ET_Interfaces.cs" />
+    <Compile Include="StationsScripts\FATP_ET\FATP_ET_ReadWriteJson.cs" />
+    <Compile Include="StationsScripts\FATP_ET\FATP_ET_Setting.cs" />
+    <Compile Include="StationsScripts\FATP_ET\FATP_ET_Test.cs" />
     <Compile Include="StationsScripts\FATP_SeeThru\FATP_SeeThru_Control.cs" />
     <Compile Include="StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs" />
     <Compile Include="StationsScripts\FATP_SeeThru\FATP_SeeThru_Context.cs" />
@@ -256,6 +262,7 @@
     <Compile Include="ScriptSettings\MESSetting.cs" />
     <Compile Include="ScriptSettings\BuildPhaseSetting.cs" />
     <Compile Include="ScriptSettings\ScannerSetting.cs" />
+    <Compile Include="_StartupConfigs\StartupConfig_FATP_ET.cs" />
     <Compile Include="_StartupConfigs\StartupConfig_FATP_SeeThru.cs" />
     <Compile Include="_StartupConfigs\StartupConfig_FATP_SuperCal_StageCal.cs" />
     <Compile Include="_StartupConfigs\StartupConfig_FATP_SuperCal.cs" />
@@ -291,22 +298,12 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="XML\_FATP_Button_AppConfig.xml" />
-    <Content Include="XML\_FATP_Button_Project.xml" />
-    <Content Include="XML\_FATP_Button_R_Project.xml" />
-    <Content Include="XML\_FATP_Button_R_Setting.xml" />
+    <Content Include="XML\_FATP_SeeThru_Nodut_AppConfig.xml" />
+    <Content Include="XML\_FATP_SeeThru_Nodut_Project.xml" />
+    <Content Include="XML\_FATP_SeeThru_Nodut_Setting.xml" />
     <Content Include="XML\_FATP_SeeThru_Setting.xml" />
-    <Content Include="XML\_FATP_Button_Setting.xml" />
-    <Content Include="XML\_FATP_SuperCal_AppConfig.xml" />
-    <Content Include="XML\_FATP_SuperCal_Project2.xml" />
-    <Content Include="XML\_FATP_SuperCal_Project.xml" />
-    <Content Include="XML\_FATP_SuperCal_Setting2.xml" />
-    <Content Include="XML\_FATP_SuperCal_Setting.xml" />
     <Content Include="XML\_FATP_SeeThru_AppConfig.xml" />
-    <Content Include="XML\_FATP_SuperCal_StageCal_AppConfig.xml" />
     <Content Include="XML\_FATP_SeeThru_Project.xml" />
-    <Content Include="XML\_FATP_SuperCal_StageCal_Project.xml" />
-    <Content Include="XML\_FATP_SuperCal_StageCal_Setting.xml" />
     <Content Include="XML\_ScriptConfig.xml" />
   </ItemGroup>
   <ItemGroup />

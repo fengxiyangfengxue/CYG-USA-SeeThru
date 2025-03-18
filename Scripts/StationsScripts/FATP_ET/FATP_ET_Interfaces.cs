@@ -12,7 +12,7 @@ using UserHelpers.Helpers;
 using Test.ModbusTCP;
 using Test.Modules.SerialMotion;
 using Test.Modules.motion_control;
-using Test.StationsScripts.FATP_SeeThru;
+using Test.StationsScripts.FATP_ET;
 using Test.Modules.WebCameraRecord;
 
 
@@ -20,45 +20,45 @@ namespace Test
 {
     public partial class MainClass : IDisposable
     {
-        internal HardwareControl hardControl;
-        public SeeThru_Setting _SeethruSetting = null;
-        public SeeThru_Context _SeeThruContext = null;
-        public Dictionary<string, object> jsonConfigData = null;
-        public Dictionary<string , object> jsonCmdData = null;
-        bool _isSeeThruControlSeverInitilized = false;
+        internal HardwareControl EThardControl;
+        public ET_Setting _ETSetting = null;
+        public ET_Context _ETContext = null;
+        public Dictionary<string, object> ETjsonConfigData = null;
+        public Dictionary<string , object> ETjsonCmdData = null;
+        bool ET_isETControlSeverInitilized = false;
 
 
 
         // web 摄像头试用。
-        private HikvisionCameraRecorder webRecorder = null;
+        private HikvisionCameraRecorder ETwebRecorder = null;
 
-        [MainClassConstructor(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int MainClassConstructor_SeeThru_Test()
+        [MainClassConstructor(TEST_STATION.FATP_ET, level: 10)]
+        public int MainClassConstructor_ET_Test()
         {
-            _SeethruSetting = XmlSettingHelper.LoadSetting<SeeThru_Setting>(CaesarConfigPath, _Config.StartupConfig.Station);
+            _ETSetting = XmlSettingHelper.LoadSetting<ET_Setting>(CaesarConfigPath, _Config.StartupConfig.Station);
 
             // note: HK 实例
-            webRecorder = new HikvisionCameraRecorder();
+            ETwebRecorder = new HikvisionCameraRecorder();
 
-            if (_SeethruSetting == null)
-                throw new Exception("load SeeThru xml config failed!");
+            if (_ETSetting == null)
+                throw new Exception("load ET xml config failed!");
 
-            bool _MotionControlInit = FixtureInit_SeeThru_MotionControl();
+            bool _MotionControlInit = FixtureInit_ET_MotionControl();
             if (!_MotionControlInit)
                 throw new Exception("initial MotionControl Server failed!");
 
            
 
-            UIMessageBox.Show(Project, "Click OK to start SeeThru!", "waiting for start", UIMessageBoxButton.OK, 24, 14);
+            UIMessageBox.Show(Project, "Click OK to start ET!", "waiting for start", UIMessageBoxButton.OK, 24, 14);
             return 0;
 
         }
 
 
-        [ScriptInitialize(TEST_STATION.FATP_SeeThru, level: 20)]
-        public int Script_Initialize_SeeThru_Test(ITestItem item)
+        [ScriptInitialize(TEST_STATION.FATP_ET, level: 20)]
+        public int Script_Initialize_ET_Test(ITestItem item)
         {
-            _SeeThruContext = new SeeThru_Context();
+            _ETContext = new ET_Context();
 
             Project.SideBar.TopBar.Add(ConstKeys.Bar_TestStatus, "Testing...", 14, 14, Colors.Black, Colors.Orange);
 
@@ -78,11 +78,11 @@ namespace Test
         }
 
         // todo:需要把这个函数加到第一个函数里面吗？
-        [MainClassConstructor(TEST_STATION.FATP_SeeThru, level: 30)]
-        public int MainClassConstructor_SeeThru_Json()
+        [MainClassConstructor(TEST_STATION.FATP_ET, level: 30)]
+        public int MainClassConstructor_ET_Json()
         {
-            jsonCmdData = ReadWriteJson.LoadJsonConfig(Path.Combine(CaesarConfigPath, (_Config.StartupConfig.Station).ToString(), "adb_shell.json"));
-            jsonConfigData = ReadWriteJson.LoadJsonConfig(Path.Combine(CaesarConfigPath, (_Config.StartupConfig.Station).ToString(), "config.json"));
+            ETjsonCmdData = ReadWriteJson.LoadJsonConfig(Path.Combine(CaesarConfigPath, (_Config.StartupConfig.Station).ToString(), "adb_shell.json"));
+            ETjsonConfigData = ReadWriteJson.LoadJsonConfig(Path.Combine(CaesarConfigPath, (_Config.StartupConfig.Station).ToString(), "config.json"));
             if (jsonCmdData == null || jsonConfigData == null)
                 throw new Exception("load json config failed!");
 
@@ -90,12 +90,12 @@ namespace Test
 
         }
 
-        [MainClassConstructor(TEST_STATION.FATP_SeeThru, level: 40)]
-        public bool FixtureInit_SeeThru_MotionControl()
+        [MainClassConstructor(TEST_STATION.FATP_ET, level: 40)]
+        public bool FixtureInit_ET_MotionControl()
         {
             bool result = false;
 
-            if (!_isSeeThruControlSeverInitilized)
+            if (!ET_isETControlSeverInitilized)
             {
                 // initilize 
                 try
@@ -116,7 +116,7 @@ namespace Test
             }
 
             else
-                _isSeeThruControlSeverInitilized = true;
+                ET_isETControlSeverInitilized = true;
 
             ReturnAndExit:
 
@@ -127,8 +127,8 @@ namespace Test
 
 
         //   会自动弹窗等待
-        //[TriggerAttribute(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int Test_Trigger_FATP_SeeThru(ITimeLogger logger)
+        //[TriggerAttribute(TEST_STATION.FATP_ET, level: 10)]
+        public int Test_Trigger_FATP_ET(ITimeLogger logger)
         {
             RefreshTopBar();
             Project.SideBar.TopBar.Add(ConstKeys.Bar_TestStatus, "Ready...", 14, 14, Colors.Black, Colors.Green);
@@ -155,8 +155,8 @@ namespace Test
 
 
 
-        [BeforeTesting(TEST_STATION.FATP_SeeThru, level: 70)]
-        public int BeforeTesting_SeeThru(ITimeLogger logger)
+        [BeforeTesting(TEST_STATION.FATP_ET, level: 70)]
+        public int BeforeTesting_ET(ITimeLogger logger)
         {
             bool result = false;
             try
@@ -179,8 +179,8 @@ namespace Test
             return 0;
         }
 
-        [TriggerAttribute(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int Test_Trigger_SeeThru(ITimeLogger logger)
+        [TriggerAttribute(TEST_STATION.FATP_ET, level: 10)]
+        public int Test_Trigger_ET(ITimeLogger logger)
         {
             RefreshTopBar(); 
             Project.SideBar.TopBar.Add(ConstKeys.Bar_TestStatus, "Ready...", 14, 14, Colors.Black, Colors.Green);
@@ -209,8 +209,8 @@ namespace Test
         
 
 
-        [AfterScript(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int AfterScript_SeeThru_Test(ITimeLogger logger)
+        [AfterScript(TEST_STATION.FATP_ET, level: 10)]
+        public int AfterScript_ET_Test(ITimeLogger logger)
         {
 
             bool result = false;
@@ -235,8 +235,8 @@ namespace Test
         }
 
 
-        [BeforeSavingLog(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int BeforeSavingLog_SeeThru_Test(ITimeLogger logger)
+        [BeforeSavingLog(TEST_STATION.FATP_ET, level: 10)]
+        public int BeforeSavingLog_ET_Test(ITimeLogger logger)
         {
             bool result = false;
             try
@@ -259,8 +259,8 @@ namespace Test
             return 0;
         }
 
-        [LogFilter(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int LogFilter_SeeThru_Test(ILogInformation logInfo, ITimeLogger logger)
+        [LogFilter(TEST_STATION.FATP_ET, level: 10)]
+        public int LogFilter_ET_Test(ILogInformation logInfo, ITimeLogger logger)
         {
             bool result = false;
             try
@@ -283,8 +283,8 @@ namespace Test
         }
 
 
-        [AfterSavingLog(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int AfterSavingLog_SeeThru_Test()
+        [AfterSavingLog(TEST_STATION.FATP_ET, level: 10)]
+        public int AfterSavingLog_ET_Test()
         {
             bool result = false;
 
@@ -310,8 +310,8 @@ namespace Test
         }
 
 
-        [BeforeShowingResult(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int BeforeShowingResult_SeeThru_Test()
+        [BeforeShowingResult(TEST_STATION.FATP_ET, level: 10)]
+        public int BeforeShowingResult_ET_Test()
         {
             bool result = false;
             try
@@ -337,8 +337,8 @@ namespace Test
 
 
 
-        [AfterTesting(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int AfterTesting_SeeThru_Test()
+        [AfterTesting(TEST_STATION.FATP_ET, level: 10)]
+        public int AfterTesting_ET_Test()
         {
             bool result = false;
             try
@@ -364,8 +364,8 @@ namespace Test
         }
 
 
-        [AfterClosed(TEST_STATION.FATP_SeeThru, level: 10)]
-        public int AfterClosed_SeeThru_Test()
+        [AfterClosed(TEST_STATION.FATP_ET, level: 10)]
+        public int AfterClosed_ET_Test()
         {
             bool result = false;
             try

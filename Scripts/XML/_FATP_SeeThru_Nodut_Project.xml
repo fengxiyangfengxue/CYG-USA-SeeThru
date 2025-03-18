@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Root>
-  <Project Title="Seethru" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="200" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b1d895f7-049e-436b-9c26-9bb9917cb4fc">
+  <Project Title="SeethruNoDUT" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="200" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b1d895f7-049e-436b-9c26-9bb9917cb4fc">
     <FunctionArguments />
     <Item Title="Script_Initialize" Checked="True" FunctionName="Script_Initialize" RetryTimes="3" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="70727fc1-53a3-4d14-b82c-5a774f83325e">
       <FunctionArguments />
@@ -13,34 +13,13 @@
     <Item Title="GetOpID" Checked="True" FunctionName="GetOpID" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="606badc7-e8d4-4535-9e48-5c943e81c24b">
       <FunctionArguments />
     </Item>
-    <Item Title="SeeThruCheckNoDutTime" Checked="True" FunctionName="SeeThruCheckNoDutTime" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="1275af4c-5f9e-40d9-9581-a22fbdfd9387">
-      <FunctionArguments>
-        <Argument Name="testInterval" Type="int" Value="7" />
-        <Argument Name="checkCmd" Type="string" Value="curl http://172.18.193.172:8088/parameterdata/NODUT/24/dstcalstation/camera" />
-      </FunctionArguments>
-    </Item>
     <Item Title="StartTest" Checked="True" FunctionName="StartTest" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d8cc694f-58ea-4746-879c-097e2c562774">
       <FunctionArguments />
     </Item>
-    <Item Title="SeeThruReadSnAndOtherCommand" Checked="True" FunctionName="SeeThruReadSnAndOtherCommand" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="5147c08f-ae8f-42f2-941f-239ebdfd4a73">
-      <FunctionArguments>
-        <Argument Name="timeout_" Type="int" Value="10000" />
-      </FunctionArguments>
-    </Item>
     <Item Title="CreateFolderStructure" Checked="True" FunctionName="CreateFolderStructure" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e41df7c3-b4c8-4016-ae0f-5f367e773da7">
       <FunctionArguments>
-        <Argument Name="isNotDUt" Type="bool" Value="false" />
+        <Argument Name="isNotDUt" Type="bool" Value="true" />
         <Argument Name="Stability" Type="bool" Value="false" />
-      </FunctionArguments>
-    </Item>
-    <Item Title="SeeThruReadIAD" Checked="True" FunctionName="SeeThruReadIAD" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="2d48108c-5355-44c6-9ce2-739de9a722a3">
-      <FunctionArguments>
-        <Argument Name="timeout" Type="int" Value="10000" />
-      </FunctionArguments>
-    </Item>
-    <Item Title="PullIOTCalibrationFiles" Checked="True" FunctionName="PullIOTCalibrationFiles" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="ee029248-f106-40e1-8b1e-2beef29f93b4">
-      <FunctionArguments>
-        <Argument Name="timeout" Type="int" Value="10000" />
       </FunctionArguments>
     </Item>
     <Item Title="TestActionSetLights" Checked="True" FunctionName="SetLights" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6dbc27e5-66d2-4186-a7ef-b15eb8542662">
@@ -50,12 +29,6 @@
         <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{2500,2500,2500}" />
       </FunctionArguments>
     </Item>
-    <Group Title="HKStartRecord" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="99446d08-4ea6-4a58-bdb3-2458e646aa04">
-      <FunctionArguments />
-      <Item Title="HKStartRecord" Checked="False" FunctionName="HKWebRecord" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="df4d4ac2-c854-493d-a998-7b5e5096f9f3">
-        <FunctionArguments />
-      </Item>
-    </Group>
     <Item Title="ServoControl-ON" Checked="True" FunctionName="RobotServoControl" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="18e62845-e7a8-4872-b88b-aa93ac160484">
       <FunctionArguments>
         <Argument Name="RobotServoStatus" Type="bool" Value="true" />
@@ -79,18 +52,12 @@
         <Argument Name="minimumExerciseTime" Type="int" Value="1" />
       </FunctionArguments>
     </Item>
-    <Item Title="StartDUTVRS" Checked="True" FunctionName="StartVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="bce3cf08-f5f2-4193-a844-50729ef52a2a">
-      <FunctionArguments>
-        <Argument Name="timeout" Type="int" Value="50000" />
-        <Argument Name="duration" Type="int" Value="45" />
-      </FunctionArguments>
-    </Item>
     <Item Title="StartExtCamRecording" Checked="True" FunctionName="ExternalCameraStartVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="592aac93-bced-4ab2-8901-43fd2cbd8971">
       <FunctionArguments>
         <Argument Name="pythonPath" Type="string" Value="D:\\python3.11" />
         <Argument Name="cameraClientPath" Type="string" Value="D:\\python" />
         <Argument Name="stability" Type="bool" Value="false" />
-        <Argument Name="notDut" Type="bool" Value="false" />
+        <Argument Name="notDut" Type="bool" Value="true" />
         <Argument Name="vrsDuration" Type="int" Value="35" />
         <Argument Name="timeout" Type="int" Value="50000" />
       </FunctionArguments>
@@ -102,17 +69,15 @@
         <Argument Name="minimumExerciseTime" Type="int" Value="6" />
       </FunctionArguments>
     </Item>
-    <Item Title="PullDUTVRS" Checked="True" FunctionName="PullVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="82075300-d863-4cf9-8dad-f615fbbf4561">
-      <FunctionArguments>
-        <Argument Name="timeoutMs" Type="int" Value="50000" />
-      </FunctionArguments>
-    </Item>
-    <Item Title="CheckExtCamVRS" Checked="True" FunctionName="CheckExtCamVrs" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="9faff354-cf22-419c-9233-d352a66873cb">
+    <Item Title="CheckExtCamVRS" Checked="True" FunctionName="CheckExtCamVrs" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="9f832a6b-b3e9-4552-8a8a-b8127467862e">
       <FunctionArguments>
         <Argument Name="timeout" Type="int" Value="5000" />
       </FunctionArguments>
     </Item>
-    <Item Title="SetLightsDisplay" Checked="True" FunctionName="SetLights" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="84139537-971a-41b7-97ba-be4bc7d3f01e">
+    <Item Title="New_Item_2025/3/14 16:17:00" Checked="False" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="06ff3762-c83b-4041-921f-3089719840d4">
+      <FunctionArguments />
+    </Item>
+    <Item Title="SetLightsDisplay" Checked="False" FunctionName="SetLights" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="84139537-971a-41b7-97ba-be4bc7d3f01e">
       <FunctionArguments>
         <Argument Name="timeout" Type="int" Value="5000" />
         <Argument Name="LightStatue" Type="bool" Value="false" />
@@ -120,22 +85,27 @@
         <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{0,0,0}" />
       </FunctionArguments>
     </Item>
-    <Item Title="DisplayCalibration" Checked="True" FunctionName="DisplayCalibration" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="a94bebd8-8a88-46c8-a495-6a9a432afb06">
+    <Item Title="DisplayCalibration" Checked="False" FunctionName="DisplayCalibration" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="a94bebd8-8a88-46c8-a495-6a9a432afb06">
       <FunctionArguments>
         <Argument Name="timeout" Type="int" Value="5000" />
       </FunctionArguments>
     </Item>
     <Item Title="ZipFile" Checked="True" FunctionName="ZIPFile" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="eaddd81a-c4dd-4f01-8be2-e5a63646fcec">
       <FunctionArguments>
-        <Argument Name="notDut" Type="bool" Value="false" />
+        <Argument Name="notDut" Type="bool" Value="true" />
         <Argument Name="timeout" Type="int" Value="50000" />
       </FunctionArguments>
     </Item>
     <Item Title="UploadFileToAlgoServer" Checked="True" FunctionName="UploadFileToAlgoServer" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3201122b-a931-4fe9-a194-49a2fe612174">
       <FunctionArguments>
-        <Argument Name="notDut" Type="bool" Value="false" />
+        <Argument Name="notDut" Type="bool" Value="true" />
         <Argument Name="stability" Type="bool" Value="false" />
-        <Argument Name="timeout" Type="int" Value="60000" />
+        <Argument Name="timeout" Type="int" Value="90000" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="waitSleepSecond" Checked="True" FunctionName="TimeWaitSeconds" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="7db8e69d-f74b-40d6-88fb-6bbb6636bcbd">
+      <FunctionArguments>
+        <Argument Name="timeSleepSecond" Type="int" Value="120" />
       </FunctionArguments>
     </Item>
     <Item Title="CheckRobotHome" Checked="True" FunctionName="CheckLoadOrHome" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b50f7576-a389-470e-9a9e-475fb55afcb2">
@@ -152,12 +122,6 @@
     </Group>
     <Finally Title="ExecuteLast" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="7e5e5a40-20aa-4234-9da5-09e0718be277">
       <FunctionArguments />
-      <Item Title="DUTPushJson" Checked="True" FunctionName="DUTPushJson" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="2f318d54-e271-4480-b1f9-a1ed19eda6e2">
-        <FunctionArguments>
-          <Argument Name="pullJsonPath" Type="string" Value="D:\vrs_test\push_file" />
-          <Argument Name="timeout" Type="int" Value="10000" />
-        </FunctionArguments>
-      </Item>
       <Item Title="RobotCallJobHomeToLoad" Checked="True" FunctionName="RobotCallJob" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="20c5189a-204b-4704-a66c-e942a2ccf4b7">
         <FunctionArguments>
           <Argument Name="jobName" Type="string" Value="CARPO_HOME_2_LOAD" />
@@ -177,14 +141,14 @@
           <Argument Name="RobotServoStatus" Type="bool" Value="false" />
         </FunctionArguments>
       </Item>
+      <Item Title="CheckNoDutCalibrationResult" Checked="True" FunctionName="CheckNoDutCalibrationResult" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="89e6f36b-ce8f-4901-85ba-4734402ddef5">
+        <FunctionArguments>
+          <Argument Name="timeout" Type="int" Value="80000" />
+        </FunctionArguments>
+      </Item>
       <Item Title="OpenAutoDoor" Checked="True" FunctionName="OpenAutoDoor" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="98ce6086-317e-4a9b-8e90-f5074efeac82">
         <FunctionArguments>
           <Argument Name="RobotServoStatus" Type="bool" Value="" />
-        </FunctionArguments>
-      </Item>
-      <Item Title="PullKirinLogs" Checked="True" FunctionName="FinishAndPullLog" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="a50638ae-4ffc-407a-a569-acf493223e63">
-        <FunctionArguments>
-          <Argument Name="timeout" Type="int" Value="15000" />
         </FunctionArguments>
       </Item>
       <Item Title="FinishTest" Checked="True" FunctionName="FinishTest" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="63dce86a-33cd-4cff-a8be-7721887b1b7a">

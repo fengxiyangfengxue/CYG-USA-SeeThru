@@ -44,6 +44,7 @@ namespace Test.Definition
         FATP_SuperCal,
         FATP_SuperCal_StageCal,
         FATP_SeeThru,
+        FATP_ET,
     }
 
     public enum Script_Mode

@@ -394,6 +394,17 @@ namespace Test.Modules.motion_control
 
             return _controller.SendCommand(command);
         }
+
+        public (bool Success, string Data) lc_light_control(ITestItem item, Dictionary<string, object> para)
+        {
+            var command = $"LC_control({para})";
+            Logger.Info($"LC_control({para})");
+            item.AddLog($"LC_control({para})");
+
+            return _controller.SendCommand(command);
+        }
+
+
         #endregion
         public void Dispose()
         {

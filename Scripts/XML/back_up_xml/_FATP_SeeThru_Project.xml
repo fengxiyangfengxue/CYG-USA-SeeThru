@@ -107,11 +107,6 @@
         <Argument Name="timeoutMs" Type="int" Value="50000" />
       </FunctionArguments>
     </Item>
-    <Item Title="CheckExtCamVRS" Checked="True" FunctionName="CheckExtCamVrs" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="9faff354-cf22-419c-9233-d352a66873cb">
-      <FunctionArguments>
-        <Argument Name="timeout" Type="int" Value="5000" />
-      </FunctionArguments>
-    </Item>
     <Item Title="SetLightsDisplay" Checked="True" FunctionName="SetLights" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="84139537-971a-41b7-97ba-be4bc7d3f01e">
       <FunctionArguments>
         <Argument Name="timeout" Type="int" Value="5000" />

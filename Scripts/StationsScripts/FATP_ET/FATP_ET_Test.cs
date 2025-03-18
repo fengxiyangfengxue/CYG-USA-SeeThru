@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Media;
 using Test._Definitions;
 using Test._ScriptHelpers;
-using Test.StationsScripts.FATP_SeeThru;
+using Test.StationsScripts.FATP_ET;
 using UserHelpers.Helpers;
 using Test._App;
 using System.Xml.Serialization;
@@ -31,36 +31,54 @@ using CsvHelper;
 using CsvHelper.Configuration;
 using System.Net.Http;
 using Emgu.CV.Ocl;
+using NLog;
 
 
 namespace Test
 {
     public partial class MainClass
     {
-        private static readonly object SeeThrufilelock = new object();
-        public string test_id_;
-        private readonly object _lock = new object();
+        private readonly object ET_lock = new object();
 
-        public Dictionary<string, object> savaDataDictSeeThru = new Dictionary<string, object>();
-        public AdbCommandRunner cmd_runner = null;
+        public AdbCommandRunner ET_cmd_runner = null;
 
 
-        public string SeeThruTestDir = string.Empty;
-        public string SeeThruTimestamp = string.Empty;
-        public string SeeThruCalTestId = string.Empty;
-        public string SeeThruDutVrsName = string.Empty;
-        public string SeeThruExtCamVrsName = string.Empty;
-        public Process SeeThruExtCamProce = null;
-        public string SeeThruZipFilePath = string.Empty;
-        public string SeeThruPullJonsPathName = string.Empty;
-        public bool? SeeThruRecordMark = null;
+        public string ETTestDir = string.Empty;
+        public string ETTimestamp = string.Empty;
+        public string ETCalTestId = string.Empty;    //PYTHON 代码中定义了这个TestId的变量，但是并没有给它赋值，我记不清为什么没赋值也有多出地方调用它。可能就是为了使用空值？
+        private string ETIOTCalTestID;           // 为了不使用空值，定义一个IOT的TestID.待确认具体使用方式，目前只能暂时和python中代码一致。
 
+        public string ETDutVrsName = string.Empty;
+        public string ETExtCamVrsName = string.Empty;
+        public Process ETExtCamProce = null;
+        public string ETZipFilePath = string.Empty;
+        public string ETPullJsonPathName = string.Empty;
+        public bool? ETRecordMark = null;
+        public Dictionary<string, object> iotcalTestIdDict = new Dictionary<string, object>();
+
+        public string ETPullCsvPath = string.Empty;
+        public string ETPushJsonPathName = string.Empty;
+
+
+        public Dictionary<string, string> vrsNameDict = new Dictionary<string, string>
+        {
+            { "Carpo_EtCalStation", "" },
+            { "Carpo_EtCalBlackbox", "" },
+            { "Carpo_EtCalIlluminator", "" }
+        };
+
+        public Dictionary<string, string> uploadBuildConfigNameDict = new Dictionary<string, string>
+        {
+            { "Carpo_EtCalStation", "station" },
+            { "Carpo_EtCalBlackbox", "blackbox_optimized" },
+            { "Carpo_EtCalIlluminator", "illuminator_data_storage_only" }
+        };
 
         // 给线程使用
-        private volatile bool Seethru_stopRequested;
+        private volatile bool ET_stopRequested;
 
 
-        public int HKWebRecord(ITestItem item)
+        public int ETHKWebRecord(ITestItem item)
         {
             bool result = false;
             try
@@ -79,7 +97,7 @@ namespace Test
             return result ? 0 : 1;
         }
 
-        public int HKWebEndRecord(ITestItem item)
+        public int ETHKWebEndRecord(ITestItem item)
         {
             bool result = false;
             try
@@ -100,7 +118,7 @@ namespace Test
 
 
         // 获取OPID
-        public int GetOpID(ITestItem item)
+        public int ETGetOpID(ITestItem item)
         {
             bool result = false;
             BarCodeConfig config = new BarCodeConfig() {
@@ -142,13 +160,13 @@ namespace Test
 
 
         // 初始化执行ADB的类的实例
-        public int GenerateAdbCommandRunnerinstance(ITestItem item, string adbPath)
+        public int ETGenerateAdbCommandRunnerinstance(ITestItem item, string adbPath)
         {
             bool result = false;
             try
             {
                 var adbCommand =
-                    jsonCmdData?.ToDictionary(kvp => kvp.Key, kvp => kvp.Value?.ToString() ?? string.Empty);
+                    ETjsonCmdData?.ToDictionary(kvp => kvp.Key, kvp => kvp.Value?.ToString() ?? string.Empty);
                 item.AddLog($"cmd: {adbCommand}");
                 foreach (KeyValuePair<string, string> kvp in adbCommand)
                 {
@@ -158,9 +176,9 @@ namespace Test
                 }
 
 
-                if (cmd_runner == null)
+                if (ET_cmd_runner == null)
                 {
-                    cmd_runner = new AdbCommandRunner(adbCommand, adbPath);
+                    ET_cmd_runner = new AdbCommandRunner(adbCommand, adbPath);
                 }
 
                 result = true;
@@ -179,8 +197,8 @@ namespace Test
         }
 
 
-        // 为SeeThru的检查校准文件是否超时
-        public int SeeThruCheckNoDutTime(ITestItem item, int testInterval, string checkCmd)
+        // 为ET的检查校准文件是否超时
+        public int ETCheckNoDutTime(ITestItem item, int testInterval, string checkCmd)
         {
             bool result = false;
             string fileDateTime = "19700101000000";
@@ -245,7 +263,7 @@ namespace Test
         /// <param name="item"></param>
         /// <param name="timeout_"></param>
         /// <returns></returns>
-        public int SeeThruReadSnAndOtherCommand(ITestItem item, int timeout_ = 10000)
+        public int ETReadSnAndOtherCommand(ITestItem item, int timeout_ = 10000)
         {
             bool result = false;
             string SN = string.Empty;
@@ -253,18 +271,16 @@ namespace Test
             string read = string.Empty;
 
             List<string> othreadCmd = new List<string> {
-                "adb_devices", "adb_reboot", "adb_wait_for_device", "adb_root",
-                "adb_remount", "adb_remove_log_files", "adb_enter_station", "adb_get_serialno",
-                "adb_get_sn", "adb_enable_manual_exposure", "adb_enable_manual_gain", "adb_et_led_off",
-                "adb_restart_tracking", "adb_display_off", "adb_check_input_voltage", "adb_get_battery",
-                "adb_get_temps"
+                "adb_devices","adb_reboot","adb_wait_for_device","adb_root","adb_persist_Exposure_true",
+                "adb_persist_Gian_true","adb_root","echo_wait_for_device","adb_wait_for_device","adb_root",
+                "adb_remount","adb_syncboss","adb_vendor_oculus","adb_trackingfidelity","adb_display_off"
             };
             try
             {
                 foreach (var key in othreadCmd)
                 {
-                    // 调用修改后的RunCommand方法
-                    var (success, res) = cmd_runner.RunCommand(item, key, timeout: timeout_);
+                    // RunCommand
+                    var (success, res) = ET_cmd_runner.RunCommand(item, key, timeout: timeout_);
                     if (key == "adb_devices")
                     {
                         // 处理序列号获取逻辑
@@ -309,6 +325,7 @@ namespace Test
             return result ? 0 : 1;
         }
 
+
         /// <summary>
         /// 创建文件夹结构
         /// </summary>
@@ -316,22 +333,22 @@ namespace Test
         /// <param name="isNotDUt">是否有dut</param>
         /// <param name="Stability">是否是Stability</param>
         /// <returns></returns>
-        public int CreateFolderStructure(ITestItem item, bool isNotDUt = false, bool Stability = false)
+        public int ETCreateFolderStructure(ITestItem item, bool isNotDUt = false, bool Stability = false)
         {
             bool result = false;
 
             try
             {
-                SeeThruTimestamp = DateTime.Now.ToString("yyyyMMddHHmmss");
+                ETTimestamp = DateTime.Now.ToString("yyyyMMddHHmmss");
 
                 if (isNotDUt)
                 {
                     Project.SerialNumber = "NODUT";
                 }
 
-                SeeThruTestDir = Path.Combine((string)jsonConfigData["output_path"],
-                    $"{Project.SerialNumber}_{SeeThruTimestamp}");
-                var _tempWorkingDir = SeeThruTestDir;
+                ETTestDir = Path.Combine((string)jsonConfigData["output_path"],
+                    $"{Project.SerialNumber}_{ETTimestamp}");
+                var _tempWorkingDir = ETTestDir;
 
                 if (!Stability && !isNotDUt)
                 {
@@ -343,7 +360,7 @@ namespace Test
                             foreach (var image in (string[])jsonConfigData["image_names"])
                             {
                                 var fullPath = Path.Combine(
-                                    SeeThruTestDir,
+                                    ETTestDir,
                                     "display",
                                     cam,
                                     color,
@@ -378,7 +395,7 @@ namespace Test
 
         #region read IAD
 
-        public int SeeThruReadIAD(ITestItem item, int timeout = 10000)
+        public int ETReadIAD(ITestItem item, int timeout = 10000)
         {
             bool result = false;
             bool readIAD = false;
@@ -387,7 +404,7 @@ namespace Test
             float? distance2 = null;
             try
             {
-                var (success1, result1Str) = cmd_runner.RunCommand(item, "adb_shell_IAD", timeout: timeout);
+                var (success1, result1Str) = ET_cmd_runner.RunCommand(item, "adb_shell_IAD", timeout: timeout);
                 if (!success1)
                 {
                     item.AddLog($"run adb shell_IAD ERROR: {result1Str}");
@@ -398,7 +415,7 @@ namespace Test
                 readIAD = IsValidDistance(distance1);
 
                 // 执行第二个命令并解析结果
-                var (success2, result2Str) = cmd_runner.RunCommand(item, "adb_shell_IAD_meters", timeout: timeout);
+                var (success2, result2Str) = ET_cmd_runner.RunCommand(item, "adb_shell_IAD_meters", timeout: timeout);
                 if (!success2)
                 {
                     item.AddLog($"run adb shell_IAD fail:{result2Str}");
@@ -431,7 +448,7 @@ namespace Test
         /// <summary>
         /// 解析距离值（带安全校验）
         /// </summary>
-        private float? ParseDistance(string commandResult, int lineIndex)
+        private float? ETParseDistance(string commandResult, int lineIndex)
         {
             try
             {
@@ -476,7 +493,7 @@ namespace Test
         /// <summary>
         /// 验证距离有效性（带范围容差）
         /// </summary>
-        private bool IsValidDistance(float? distance)
+        private bool ETIsValidDistance(float? distance)
         {
             const float min = 0.063f;
             const float max = 0.0651f;
@@ -489,7 +506,7 @@ namespace Test
 
         #endregion
 
-        public int PullIOTCalibrationFiles(ITestItem item, int timeout = 10000)
+        public int ETPullIOTCalibrationFiles(ITestItem item, int timeout = 10000)
         {
             bool result = false;
 
@@ -500,10 +517,10 @@ namespace Test
                 // 拉取IMU校准文件
                 var imuReplaceParams = new Dictionary<string, string> {
                     ["file_to_pull"] = "/persist/calibration/imu_calibration.json",
-                    ["output_path"] = Path.Combine(SeeThruTestDir, "imu_calibration.json")
+                    ["output_path"] = Path.Combine(ETTestDir, "imu_calibration.json")
                 };
                 var (imuSuccess, imuResult) =
-                    cmd_runner.RunCommand(item, "adb_pull", imuReplaceParams, timeout: timeout);
+                    ET_cmd_runner.RunCommand(item, "adb_pull", imuReplaceParams, timeout: timeout);
                 if (!imuSuccess)
                 {
                     item.AddLog($"pull Calibration Files error: {imuResult}");
@@ -512,11 +529,11 @@ namespace Test
 
                 var cameraReplaceParams = new Dictionary<string, string> {
                     ["file_to_pull"] = "/persist/calibration/camera_calibration.json",
-                    ["output_path"] = Path.Combine(SeeThruTestDir, "camera_calibration.json")
+                    ["output_path"] = Path.Combine(ETTestDir, "camera_calibration.json")
                 };
 
                 var (cameraSuccess, cameraResult) =
-                    cmd_runner.RunCommand(item, "adb_pull", cameraReplaceParams, timeout: timeout);
+                    ET_cmd_runner.RunCommand(item, "adb_pull", cameraReplaceParams, timeout: timeout);
                 if (!cameraSuccess)
                 {
                     item.AddLog($"Camera calibration file pull error: {cameraResult}");
@@ -537,14 +554,14 @@ namespace Test
                     var iotCalibration = JsonConvert.DeserializeObject<JObject>(jsonContent);
 
                     // 安全访问嵌套属性
-                    SeeThruCalTestId = iotCalibration?["Metadata"]?["NamedTags"]?["cal_test_id"]?.Value<string>();
-                    if (string.IsNullOrWhiteSpace(SeeThruCalTestId))
+                    ETCalTestId = iotCalibration?["Metadata"]?["NamedTags"]?["cal_test_id"]?.Value<string>();
+                    if (string.IsNullOrWhiteSpace(ETCalTestId))
                     {
                         item.AddLog("cal_test_id值为空或不存在");
                         goto ReturnAndExit;
                     }
 
-                    item.AddLog($"成功获取IOT cal_test_id: {SeeThruCalTestId}");
+                    item.AddLog($"成功获取IOT cal_test_id: {ETCalTestId}");
                     result = true;
                 }
                 catch (JsonException ex)
@@ -573,21 +590,31 @@ namespace Test
 
         #region dut statr dut recode Vrs func
 
-        public int StartVRS(ITestItem item, int timeout = 50000, int duration = 45)
+        public int ETStartVRS(ITestItem item, int timeout = 50000,string vrs_name = "recording2.vrs", string duration = "14")
         {
             bool result = false;
 
             try
             {
                 item.AddLog($"dut statr recode Vrs");
-                SeeThruDutVrsName =
-                    $"{jsonConfigData["vrs_name_prefix"]}_{Project.SerialNumber}_{SeeThruTimestamp}_{SeeThruCalTestId}_dut.vrs";
+                ETDutVrsName =
+                    $"{vrs_name}_{Project.SerialNumber}_{ETTimestamp}_{ETIOTCalTestID}.vrs";
 
-                var cameraReplaceParams = BuildRecordParameters(duration);
+                List<string> vrsAllName = new List<string> { "Carpo_EtCalStation", "Carpo_EtCalIlluminator", "Carpo_EtCalBlackbox" };
+                foreach (string n in vrsAllName)
+                {
+                    if (vrs_name.Contains(n))
+                    {
+                        vrsNameDict[n] = ETDutVrsName;
+                    }
+                }
+
+
+                var cameraReplaceParams = ETBuildRecordParameters(duration,vrs_name);
                 item.AddLog($"record params ->{cameraReplaceParams}");
                 // 启动异步录制任务
-                var recordingTask = StartRecordingAsync(item, "record_vrs_data", cameraReplaceParams);
-                Task.Delay(2000).Wait();
+                var recordingTask = ETStartRecordingAsync(item, "record_vrs_data", cameraReplaceParams);
+                Task.Delay(1000).Wait();
                 result = true;
             }
             catch (Exception ex)
@@ -604,7 +631,7 @@ namespace Test
         }
 
 
-        private dynamic BuildRecordParameters(int duration)
+        private dynamic ETBuildRecordParameters(string duration,string vrs_tags_name)
         {
             string dcTypeValue = string.Empty;
             if (jsonConfigData.TryGetValue("vrs_tag_config", out var vrsTagConfig))
@@ -626,35 +653,34 @@ namespace Test
             }
 
             return new {
-                vrs_name = SeeThruDutVrsName,
                 vrs_duration = duration,
-                station_type_name_value = "dstcal",
-                dc_type_value = dcTypeValue,
-                dc_id_value = SeeThruCalTestId,
-                cal_test_id_value = SeeThruTimestamp,
-                iot_cal_test_id_value = SeeThruCalTestId,
-                operator_id_value = Project.ProjectDictionary["OPID"]
+                tset_id = " ",
+                cal_test_id = ETTimestamp,
+                operator_id = Project.ProjectDictionary["OPID"],
+                iot_cal_test_id = ETIOTCalTestID,
+                dc_type = dcTypeValue,
+                calibration_type = vrs_tags_name.Split('_').Last().ToLower(),
             };
         }
 
-        private async Task StartRecordingAsync(ITestItem item, string command, dynamic parameters)
+        private async Task ETStartRecordingAsync(ITestItem item, string command, dynamic parameters)
         {
             await Task.Run(() =>
             {
                 try
                 {
                     // todo:模拟Python的runCommand调用 感觉这样会有错误，但是目前暂时只能按照AI给的方式
-                    var result = cmd_runner.RunCommand(item, command, parameters);
+                    var result = ET_cmd_runner.RunCommand(item, command, parameters);
 
                     // 处理录制结果
-                    lock (_lock)
+                    lock (ET_lock)
                     {
-                        SeeThruRecordMark = result.Output.Contains("FINAL STATS");
+                        ETRecordMark = result.Output.Contains("FINAL STATS");
                     }
 
-                    if (SeeThruRecordMark.HasValue)
+                    if (ETRecordMark.HasValue)
                     {
-                        item.AddLog((bool)SeeThruRecordMark ? "录制完成" : "未检测到结束标记");
+                        item.AddLog((bool)ETRecordMark ? "录制完成" : "未检测到结束标记");
                     }
                 }
                 catch (Exception ex)
@@ -668,7 +694,7 @@ namespace Test
 
         #region Start External camera Recording
 
-        public int ExternalCameraStartVRS(ITestItem item, string pythonPath, string cameraClientPath,
+        public int ETExternalCameraStartVRS(ITestItem item, string pythonPath, string cameraClientPath,
             bool stability = false, bool notDut = false, int vrsDuration = 45, int timeout = 50000)
         {
             bool result = false;
@@ -677,36 +703,36 @@ namespace Test
             {
                 item.AddLog($"Start External Camera Recording");
                 if (stability)
-                    SeeThruExtCamVrsName =
-                        $"{SeeThruTestDir}/{jsonConfigData["vrs_name_prefix"]}_{Project.SerialNumber}_{SeeThruTimestamp}_{SeeThruTimestamp}_ext.vrs";
+                    ETExtCamVrsName =
+                        $"{ETTestDir}/{jsonConfigData["vrs_name_prefix"]}_{Project.SerialNumber}_{ETTimestamp}_{ETTimestamp}_ext.vrs";
                 else if (notDut)
-                    SeeThruExtCamVrsName =
-                        $"{SeeThruTestDir}/{jsonConfigData["vrs_name_prefix"]}_{Project.SerialNumber}_{SeeThruTimestamp}.vrs";
+                    ETExtCamVrsName =
+                        $"{ETTestDir}/{jsonConfigData["vrs_name_prefix"]}_{Project.SerialNumber}_{ETTimestamp}.vrs";
                 else
-                    SeeThruExtCamVrsName =
-                        $"{SeeThruTestDir}/{jsonConfigData["vrs_name_prefix"]}_{Project.SerialNumber}_{SeeThruTimestamp}_{SeeThruCalTestId}_ext.vrs";
+                    ETExtCamVrsName =
+                        $"{ETTestDir}/{jsonConfigData["vrs_name_prefix"]}_{Project.SerialNumber}_{ETTimestamp}_{ETCalTestId}_ext.vrs";
 
                 string command =
-                    $"{pythonPath} {cameraClientPath} -m \"roll -o {SeeThruExtCamVrsName} -d {vrsDuration}\"";
+                    $"{pythonPath} {cameraClientPath} -m \"roll -o {ETExtCamVrsName} -d {vrsDuration}\"";
                 item.AddLog($"recording command: {command}");
-                SeeThruExtCamProce = new Process();
-                SeeThruExtCamProce.StartInfo.FileName = "cmd.exe";
-                SeeThruExtCamProce.StartInfo.Arguments = $"/C {command}";
-                SeeThruExtCamProce.StartInfo.RedirectStandardError = true;
-                SeeThruExtCamProce.StartInfo.RedirectStandardOutput = true;
-                SeeThruExtCamProce.StartInfo.StandardErrorEncoding = Encoding.UTF8;
-                SeeThruExtCamProce.StartInfo.CreateNoWindow = true;
-                SeeThruExtCamProce.StartInfo.UseShellExecute = false;
-                SeeThruExtCamProce.Start();
+                ETExtCamProce = new Process();
+                ETExtCamProce.StartInfo.FileName = "cmd.exe";
+                ETExtCamProce.StartInfo.Arguments = $"/C {command}";
+                ETExtCamProce.StartInfo.RedirectStandardError = true;
+                ETExtCamProce.StartInfo.RedirectStandardOutput = true;
+                ETExtCamProce.StartInfo.StandardErrorEncoding = Encoding.UTF8;
+                ETExtCamProce.StartInfo.CreateNoWindow = true;
+                ETExtCamProce.StartInfo.UseShellExecute = false;
+                ETExtCamProce.Start();
                 item.Sleep(2000);
 
                 result = true;
 
                 //// 记录启动时间
                 //DateTime startTime = DateTime.Now;
-                //while (!SeeThruExtCamProce.HasExited)
+                //while (!ETExtCamProce.HasExited)
                 //{
-                //    string stderrOutput = SeeThruExtCamProce.StandardError.ReadLine();
+                //    string stderrOutput = ETExtCamProce.StandardError.ReadLine();
                 //    if (stderrOutput != null && stderrOutput.Contains("Creating VRS writer"))
                 //    {
                 //        Thread.Sleep(2000);
@@ -736,7 +762,7 @@ namespace Test
 
         #region Start pull vrs
 
-        public int PullVRS(ITestItem item, int timeoutMs = 50000)
+        public int ETPullVRS(ITestItem item, string vrs_name = "Carpo_EtCalStation",string save_vrs_path = "D:\\vrs_test\\test", int timeoutMs = 50000)
         {
             bool result = false;
 
@@ -747,45 +773,57 @@ namespace Test
                 for (int attempts = 0; attempts < maxAttempts; attempts++)
                 {
                     item.Sleep(500);
-                    if (SeeThruRecordMark == null)
+                    if (ETRecordMark == null)
                         continue;
-                    else if (SeeThruRecordMark.Value)
+                    else if (ETRecordMark.Value)
                     {
                         item.Sleep(300);
-                        SeeThruRecordMark = null;
+                        ETRecordMark = null;
                         break;
                     }
                     else
                     {
                         item.Sleep(300);
-                        SeeThruRecordMark = null;
+                        ETRecordMark = null;
                         result = false;
                         goto ReturnAndExit;
                     }
                 }
 
-                Dictionary<string, string> cmdPara = new Dictionary<string, string> {
-                    ["vrs_name"] = SeeThruDutVrsName,
-                    ["save_vrs_path"] = $"{SeeThruTestDir}/{SeeThruDutVrsName}"
-                };
 
-                var pullResult = cmd_runner.RunCommand(item, "adb_vrs_pull", cmdPara, timeout: timeoutMs);
-                if (pullResult.Success)
+                List<string> vrsAllName = new List<string> { "Carpo_EtCalStation", "Carpo_EtCalIlluminator", "Carpo_EtCalBlackbox" };
+
+                if (vrsAllName.Contains(vrs_name))
                 {
-                    item.AddLog($"PASS: vrs_pull--result:{pullResult.Result}");
-
-                    var cmdParaMove = new Dictionary<string, string>() {
-                        ["file_path_to_remove"] = $"/data/{SeeThruDutVrsName}"
-                    };
-                    cmd_runner.RunCommand(item, "adb_remove_file", cmdParaMove, timeout: 5000);
-                    result = true;
+                    vrs_name = vrsNameDict[vrs_name];
                 }
                 else
                 {
-                    var cmdParaMove = new Dictionary<string, string>() {
-                        ["file_path_to_remove"] = $"/data/{SeeThruDutVrsName}"
-                    };
-                    cmd_runner.RunCommand(item, "adb_remove_file", cmdParaMove, timeout: 5000);
+                    item.AddLog("Can't find the target VRS to pull");
+                    result = false;
+                    goto ReturnAndExit;
+                }
+                
+                Dictionary<string, string> cmdPara = new Dictionary<string, string> {
+                    
+                    ["save_vrs_path"] = $"{save_vrs_path}/{vrs_name}"
+                };
+
+                var pullResult = ET_cmd_runner.RunCommand(item, "adb_vrs_pull", cmdPara, timeout: timeoutMs);
+                if (pullResult.Success)
+                {
+                    item.AddLog($"PASS: vrs_pull--result:{pullResult.Result}");
+                    if (pullResult.Result.Contains("No such file or directory"))
+                    {
+                        result = false;
+                        goto ReturnAndExit;
+                    }
+                    result = true;
+
+                }
+                else
+                {
+                    
                     result = false;
                     item.AddLog($"FAIL:vrs_pull--result:{pullResult.Result}");
                 }
@@ -807,7 +845,7 @@ namespace Test
 
         #region check External camera Recording
 
-        public int CheckExtCamVrs(ITestItem item, int timeout = 5000)
+        public int ETCheckExtCamVrs(ITestItem item, int timeout = 5000)
         {
             bool result = false;
 
@@ -815,12 +853,12 @@ namespace Test
             {
                 item.AddLog($"Start Check External Camera vrs");
 
-                if (SeeThruExtCamProce == null || SeeThruExtCamProce.HasExited)
+                if (ETExtCamProce == null || ETExtCamProce.HasExited)
                 {
                     item.AddLog("No active external camera process found.");
                 }
 
-                bool exited = SeeThruExtCamProce.WaitForExit(timeout);
+                bool exited = ETExtCamProce.WaitForExit(timeout);
                 if (exited)
                 {
                     item.AddLog("External camera process has exited.");
@@ -828,16 +866,16 @@ namespace Test
                 else
                 {
                     item.AddLog("Timeout waiting for external camera process.");
-                    SeeThruExtCamProce.Kill(); // 强制终止进程（可选）
-                    SeeThruExtCamProce.WaitForExit(); // 等待进程完全退出
-                    SeeThruExtCamProce.Dispose(); // 释放资源
-                    SeeThruExtCamProce = null; // 清空引用
+                    ETExtCamProce.Kill(); // 强制终止进程（可选）
+                    ETExtCamProce.WaitForExit(); // 等待进程完全退出
+                    ETExtCamProce.Dispose(); // 释放资源
+                    ETExtCamProce = null; // 清空引用
                 }
 
                 // 检查VRS文件是否生成
-                if (File.Exists(SeeThruExtCamVrsName))
+                if (File.Exists(ETExtCamVrsName))
                 {
-                    item.AddLog($"External camera VRS file found: {SeeThruExtCamVrsName}");
+                    item.AddLog($"External camera VRS file found: {ETExtCamVrsName}");
                     result = true;
                 }
                 else
@@ -863,7 +901,7 @@ namespace Test
 
         #region DisplayCalibration
 
-        public int DisplayCalibration(ITestItem item, int timeout = 50000)
+        public int ETDisplayCalibration(ITestItem item, int timeout = 50000)
         {
             bool result = false;
             try
@@ -871,7 +909,7 @@ namespace Test
                 var replacePara = new Dictionary<string, string> {
                 };
 
-                cmd_runner.RunCommand(item, "adb_display_drive_conditions", timeout: timeout);
+                ET_cmd_runner.RunCommand(item, "adb_display_drive_conditions", timeout: timeout);
                 var overallStartTime = DateTime.Now;
                 if (jsonConfigData != null && jsonConfigData.TryGetValue("image_names", out var imageNamesObj))
                 {
@@ -879,16 +917,16 @@ namespace Test
                     foreach (var image in imageNames)
                     {
                         var imageStartTime = DateTime.Now;
-                        cmd_runner.RunCommand(item, "adb_display_on", timeout: timeout);
+                        ET_cmd_runner.RunCommand(item, "adb_display_on", timeout: timeout);
                         replacePara["image_path"] = $"{jsonConfigData["dut_image_path"]}/{image}.png";
-                        cmd_runner.RunCommand(item, "adb_render_image", replacePara, timeout: timeout);
+                        ET_cmd_runner.RunCommand(item, "adb_render_image", replacePara, timeout: timeout);
                         foreach (var color in new[] { "red", "green", "blue" })
                         {
                             SetBrightness(color, replacePara);
                             item.AddLog($"Start displays for image {image}");
                             item.Sleep(100);
-                            cmd_runner.RunCommand(item, "adb_set_brightness_left", replacePara, timeout: timeout);
-                            cmd_runner.RunCommand(item, "adb_set_brightness_right", replacePara, timeout: timeout);
+                            ET_cmd_runner.RunCommand(item, "adb_set_brightness_left", replacePara, timeout: timeout);
+                            ET_cmd_runner.RunCommand(item, "adb_set_brightness_right", replacePara, timeout: timeout);
                             item.AddLog($"begin exposures");
 
                             var docExposures = ((JArray)jsonConfigData["doc_exposures"]).ToObject<List<int>>();
@@ -897,7 +935,7 @@ namespace Test
                                 var captureStartTime = DateTime.Now;
                                 replacePara["exposure_l"] = exposure.ToString();
                                 replacePara["exposure_r"] = exposure.ToString();
-                                cmd_runner.RunCommand(item, "lensCroc_set_exposure", replacePara, timeout: timeout);
+                                ET_cmd_runner.RunCommand(item, "lensCroc_set_exposure", replacePara, timeout: timeout);
                                 item.AddLog("Capture image");
 
                                 string paddedSec =
@@ -907,16 +945,16 @@ namespace Test
                                         "D4");
 
                                 replacePara["path_l"] =
-                                    $"{SeeThruTestDir}/display/docl/{color}/{image}/display.docl.{color}.{image}.{paddedSec}.{paddedFracSec}s.{exposure:D6}.png";
+                                    $"{ETTestDir}/display/docl/{color}/{image}/display.docl.{color}.{image}.{paddedSec}.{paddedFracSec}s.{exposure:D6}.png";
                                 replacePara["path_r"] =
-                                    $"{SeeThruTestDir}/display/docr/{color}/{image}/display.docr.{color}.{image}.{paddedSec}.{paddedFracSec}s.{exposure:D6}.png";
+                                    $"{ETTestDir}/display/docr/{color}/{image}/display.docr.{color}.{image}.{paddedSec}.{paddedFracSec}s.{exposure:D6}.png";
 
-                                cmd_runner.RunCommand(item, "lensCroc_snap_image", replacePara, timeout: timeout);
+                                ET_cmd_runner.RunCommand(item, "lensCroc_snap_image", replacePara, timeout: timeout);
 
                                 if (!File.Exists(replacePara["path_l"]) || !File.Exists(replacePara["path_r"]))
                                 {
                                     item.AddLog($"Missing file: {replacePara["path_l"]} or {replacePara["path_r"]}");
-                                    cmd_runner.RunCommand(item, "adb_display_off", timeout: timeout);
+                                    ET_cmd_runner.RunCommand(item, "adb_display_off", timeout: timeout);
                                     result = false;
                                     goto ReturnAndExit;
                                 }
@@ -929,7 +967,7 @@ namespace Test
                                 {
                                     item.AddLog(
                                         $"File size check failure: {replacePara["path_l"]} or {replacePara["path_r"]}");
-                                    cmd_runner.RunCommand(item, "adb_display_off", timeout: timeout);
+                                    ET_cmd_runner.RunCommand(item, "adb_display_off", timeout: timeout);
                                     result = false;
                                     goto ReturnAndExit;
                                 }
@@ -940,14 +978,14 @@ namespace Test
                             item.AddLog("Stop display between images");
                         }
 
-                        cmd_runner.RunCommand(item, "adb_display_off", timeout: timeout);
+                        ET_cmd_runner.RunCommand(item, "adb_display_off", timeout: timeout);
                         item.AddLog($"Each image capture takes: {(DateTime.Now - imageStartTime).TotalSeconds}s");
                     }
                 }
 
                 replacePara["exposure_l"] = "5000";
                 replacePara["exposure_r"] = "5000";
-                cmd_runner.RunCommand(item, "lensCroc_set_exposure_all", replacePara, timeout: timeout);
+                ET_cmd_runner.RunCommand(item, "lensCroc_set_exposure_all", replacePara, timeout: timeout);
                 result = true;
             }
             catch (Exception ex)
@@ -963,7 +1001,7 @@ namespace Test
             return result ? 0 : 1;
         }
 
-        private void SetBrightness(string color, Dictionary<string, string> replacePara)
+        private void ETSetBrightness(string color, Dictionary<string, string> replacePara)
         {
             replacePara["red_brightness"] = color == "red" ? "70" : "0";
             replacePara["green_brightness"] = color == "green" ? "20" : "0";
@@ -974,40 +1012,29 @@ namespace Test
 
         #region genera zip file
 
-        public int ZIPFile(ITestItem item, bool notDut = false, int timeout = 50000)
+        public int ETZIPFile(ITestItem item, string vrsType, string zipName,string vrsPath, int timeout = 50000)
         {
             bool result = false;
-            string zipName = string.Empty;
+            // string zipName = string.Empty;
             try
             {
-                if (notDut)
-                    zipName = "display_nodut.zip";
-                else
-                    zipName = "diaplay.zip";
-                string zipPath = (string)jsonConfigData["output_path"];
-                SeeThruZipFilePath = Path.Combine(zipPath, zipName);
-                if (File.Exists(SeeThruZipFilePath))
-                    File.Delete(SeeThruZipFilePath);
+                string vrsName = vrsNameDict[vrsType];
+                string zipDir = Path.Combine("D:\\vrs_zip",Project.SerialNumber,
+                    $"{ETCalTestId}_{ETStartTimestamp}");
+                Directory.CreateDirectory(zipDir);
 
-                // 创建文件流
-                using (FileStream zipToOpen = new FileStream(SeeThruZipFilePath, FileMode.Create))
+                var zipPath = Path.Combine(zipDir, zipName);
+                ETZipFilePath = zipPath;
+                // Create and populate ZIP files
+                using (var zip = ZipFile.Open(zipPath,ZipArchiveMode.Create))
                 {
-                    // 创建ZIP压缩对象 -ZipArchive 是压缩逻辑的核心类。
-                    using (ZipArchive archive = new ZipArchive(zipToOpen, ZipArchiveMode.Create))
+                    foreach (var file in Directory.EnumerateFiles(vrsPath))
                     {
-                        // 遍历目录下的所有文件 第一个参数是目标目录， 第二个参数’*‘ 匹配所有文件
-                        foreach (string file in Directory.GetFiles(SeeThruTestDir, "*", SearchOption.AllDirectories))
-                        {
-                            string entryName = GetRelativePath(SeeThruTestDir, file);
-                            // 创建ZIP中的条目（文件）
-                            ZipArchiveEntry entry = archive.CreateEntry(entryName);
+                        var fileName = Path.GetFileName(file);
 
-                            // 将源文件内容写入ZIP条目
-                            using (FileStream fileStream = new FileStream(file, FileMode.Open, FileAccess.Read))
-                            using (Stream entryStream = entry.Open())
-                            {
-                                fileStream.CopyTo(entryStream);
-                            }
+                        if (fileName.Contains(vrsName) || fileName.EndsWith(".json",StringComparison.OrdinalIgnoreCase))
+                        {
+                            zip.CreateEntryFromFile(file, fileName);
                         }
                     }
                 }
@@ -1028,7 +1055,7 @@ namespace Test
 
         // 计算相对路径方法，兼容.NET Framework
         // uri  可以方便地计算路径差异，同时处理跨平台的路径分隔符问题
-        static string GetRelativePath(string basePath, string fullPath)
+        static string ETGetRelativePath(string basePath, string fullPath)
         {
             Uri baseUri = new Uri(basePath.EndsWith(Path.DirectorySeparatorChar.ToString())
                 ? basePath
@@ -1040,27 +1067,30 @@ namespace Test
 
         #endregion
 
-
-        public int UploadFileToAlgoServer(ITestItem item, bool notDut = false, bool stability = false,
-            int timeout = 80000)
+        // todo：ET上传文件到算法服务器
+        public int ETUploadFileToAlgoServer(ITestItem item, string vrsType, int timeoutSecond = 50)
         {
             bool result = false;
-            string binaryType = string.Empty;
+            string bulidConfig = string.Empty;
             string cmdUpload = string.Empty;
             try
             {
-                if (stability)
-                    binaryType = "carpo_p1_dstcal";
-                else if (notDut)
-                    binaryType = "carpo_p1_dstcalstation";
+                if (uploadBuildConfigNameDict.ContainsKey(vrsType))
+                {
+                    bulidConfig = uploadBuildConfigNameDict[vrsType];
+                }
                 else
-                    binaryType = "carpo_p1_dstcal";
+                {
+                    goto ReturnAndExit;
+                }
 
-                cmdUpload =
-                    $"curl -T {SeeThruZipFilePath} -X POST 172.18.193.172:8080/gendstcal/{Project.SerialNumber}/{binaryType}/1/{SeeThruTimestamp}/0/1";
-                item.AddLog($"upload cmd: {cmdUpload}");
-                var uploadRes = cmd_runner.UploadSubprocess(item, cmdUpload, timeoutSecond: timeout);
-                if (uploadRes.res.Contains("job_id"))
+                bool genRes = GenerateUpLoadCmd(item, ETZipFilePath, Project.SerialNumber, bulidConfig,
+                    ETStartTimestamp, out cmdUpload);
+
+
+                var uploadRes = ET_cmd_runner.UploadSubprocess(item, cmdUpload, timeoutSecond: timeoutSecond);
+                
+                if (uploadRes.res.Contains("job_id") || uploadRes.errRes.Contains("job_id"))
                 {
                     result = true;
                 }
@@ -1081,8 +1111,151 @@ namespace Test
             return result ? 0 : 1;
         }
 
+        /// <summary>
+        /// 生成上传文件的url
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <param name="SN"></param>
+        /// <param name="buildConfig"></param>
+        /// <param name="startTimetamp"></param>
+        /// <returns></returns>
+        public bool GenerateUpLoadCmd(ITestItem item,string filePath, string sn, string buildConfig, string startTimestamp, out string uploadCmd)
+        {
+            uploadCmd = string.Empty;
+            try
+            {
+                if (jsonConfigData.TryGetValue("UPLOAD_CMD_ALGO", out var cmdObj) && cmdObj is string cmdTemplate)
+                {
+                    uploadCmd = string.Format(cmdTemplate, filePath, sn, buildConfig, startTimestamp);
+                    return true;
+                }
+                
+                item.AddLog("generate_upload_cmd error: UPLOAD_CMD_ALGO not found or invalid.");
+                return false;
+                
+            }
+            catch (Exception e)
+            {
+                item.AddLog($"generate_upload_cmd error: {e.Message}");
+                return false;
+            }
+        }
+
+
+        public bool GenerateGetCmd(ITestItem item, string sn, string startTimestamp, out string getCmd)
+        {
+            getCmd = string.Empty;
+            try
+            {
+                if (jsonConfigData.TryGetValue("GET_RESULT_CMD_ALGO",out var cmdValue) && cmdValue is string cmdTemplate)
+                {
+                    getCmd = string.Format(cmdTemplate, sn, startTimestamp);
+                    return true;
+                }
+                
+                item.AddLog("generate_get_cmd error: GET_RESULT_CMD_ALGO not found or invalid.");
+                return false;
+                
+            }
+            catch (Exception e)
+            {
+                item.AddLog($"generate_get_cmd error: {e.Message}");
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// 从algoServer中拉取解析结果
+        /// </summary>
+        /// <param name="item"></param>
+        /// <param name="vrsType"></param>
+        /// <param name="timeoutSecond"></param>
+        /// <returns></returns>
+        public int ETGetFileToAlgoServer(ITestItem item, string vrsType, int timeoutSecond = 50)
+        {
+            bool result = false;
+            string bulidConfig = string.Empty;
+            string cmdUpload = string.Empty;
+            try
+            {
+                if (uploadBuildConfigNameDict.ContainsKey(vrsType))
+                {
+                    bulidConfig = uploadBuildConfigNameDict[vrsType];
+                }
+                else
+                {
+                    goto ReturnAndExit;
+                }
+
+                bool getRes = GenerateGetCmd(item, Project.SerialNumber, ETStartTimestamp, out cmdUpload);
+
+                bool pullSuccess = false;
+                string getStringElement = string.Empty;
+
+                for (int i = 1; i <= 5; i++)
+                {
+                    item.AddLog($"Number of times the loop is pulled-->:{i}");
+                    var (res, errres) = ET_cmd_runner.UploadSubprocess(item, cmdUpload, timeoutSecond);
+                    if (res.Contains("serial_number"))
+                    {
+                        pullSuccess = true;
+                        getStringElement = res;
+                        item.AddLog($"Getting parsing results successfully, number of for loop pulls --->:{i}");
+                        break;
+                    }
+                    else
+                    {
+                        item.Sleep(2000);
+                    }
+
+                }
+
+                if (!pullSuccess)
+                {
+                    item.AddLog($"Timeout failure for pulling file parsing results");
+                    goto ReturnAndExit;
+                }
+
+                ETPullCsvPath = Path.Combine((string)jsonConfigData["pull_csv_save_path"],
+                    $"{Project.SerialNumber}_{ETCalTestId}.csv");
+
+                try
+                {
+                    File.WriteAllText(ETPullCsvPath, getStringElement);
+                    List<Dictionary<string, string>> listDict = ETReadCsvValues(ETPullCsvPath, "name", "overall_status");
+                    foreach (Dictionary<string, string> d in listDict)
+                    {
+                        if (d.TryGetValue("attribute", out string attributeValue) && attributeValue == "1")
+                        {
+                            result = true;
+                        }
+                    }
+
+
+                }
+                catch (Exception e)
+                {
+                    item.AddLog($"Error while generating CSV file: {e.Message}");
+                    goto ReturnAndExit;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                item.AddLog($"UploadFileToAlgoServer -> {ex}");
+            }
+
+            ReturnAndExit:
+            ResultData data = new ResultData(item.Title, result ? "" : CreateErrorCode(item.Title).Name,
+                result ? ConstKeys.PASS : ConstKeys.FAIL);
+            AddResult(item, data);
+            return result ? 0 : 1;
+        }
+
+
+
         #region Check No Dut result
-        public int CheckNoDutCalibrationResult(ITestItem item, int timeout = 80000)
+        public int ETCheckNoDutCalibrationResult(ITestItem item, int timeout = 80000)
         {
             bool result = false;
             string cmdUpload = string.Empty;
@@ -1103,7 +1276,7 @@ namespace Test
             return result ? 0 : 1;
         }
 
-        public async Task<bool> ProcessTestAsync(ITestItem item)
+        public async Task<bool> ETProcessTestAsync(ITestItem item)
         {
             try
 
@@ -1115,7 +1288,7 @@ namespace Test
                 }
                 
                 string pullCsvPath = string.Empty;
-                var checkNodutUrl = $"http://172.18.193.172:8088/dtr_search/dstcalstation/NODUT/1/{SeeThruTimestamp}";
+                var checkNodutUrl = $"http://172.18.193.172:8088/dtr_search/dstcalstation/NODUT/1/{ETTimestamp}";
                item.AddLog($"check NODUT command: {checkNodutUrl}");
 
                 string responseContent = null;
@@ -1152,7 +1325,7 @@ namespace Test
                 }
 
                 // 生成CSV文件路径
-                pullCsvPath = Path.Combine(jsonConfigData["pull_csv_save_path"].ToString(), $"{SeeThruTimestamp}_{SeeThruCalTestId}.csv");
+                pullCsvPath = Path.Combine(jsonConfigData["pull_csv_save_path"].ToString(), $"{ETTimestamp}_{ETCalTestId}.csv");
                 // 提取目录路径
                 var directoryPath = Path.GetDirectoryName(pullCsvPath);
                 Directory.CreateDirectory(directoryPath);
@@ -1168,7 +1341,7 @@ namespace Test
 
 
                     // 读取并解析CSV
-                    var records = ReadCsvValues(pullCsvPath, "name", "overall_status");
+                    var records = ETReadCsvValues(pullCsvPath, "name", "overall_status");
 
                     foreach (var record in records)
                     {
@@ -1195,7 +1368,7 @@ namespace Test
             }
         }
         
-        private List<Dictionary<string, string>> ReadCsvValues(string path, string header, string key)
+        private List<Dictionary<string, string>> ETReadCsvValues(string path, string header, string key)
         {
             var config = new CsvConfiguration(CultureInfo.InvariantCulture) {
                 HasHeaderRecord = true,
@@ -1232,7 +1405,7 @@ namespace Test
 
 
 
-        public int TimeWaitSeconds(ITestItem item, int timeSleepSecond)
+        public int ETTimeWaitSeconds(ITestItem item, int timeSleepSecond)
         {
             int timeSleepMs = timeSleepSecond * 1000;
             item.Sleep(timeSleepMs);
@@ -1240,42 +1413,102 @@ namespace Test
         }
 
 
-        public int DUTPushJson(ITestItem item, string pullJsonPath, int timeout = 80000)
+        public int ETDUTPullJson(ITestItem item, int timeout = 8000)
         {
             bool result = false;
-            string pullJsonPathTotal = string.Empty;
+            string pullJsonPathTotal = "D:\\vrs_test\\test";
+            try
+            {
+
+                Directory.CreateDirectory(pullJsonPathTotal);
+                var cmdResult = ET_cmd_runner.RunCommand(item, "adb_pull_json",  timeout: timeout);
+                if (!cmdResult.Success)
+                {
+                    result = false;
+                    item.AddLog($"command run failed");
+                    goto ReturnAndExit;
+                }
+
+                string FilePath = "D:\\vrs_test\\test\\camera_calibration.json";
+                // 读取 JSON 文件并解析内容
+                if (!File.Exists(FilePath))
+                {
+                    item.AddLog("pull fail;file not exist");
+                   goto ReturnAndExit;
+                }
+
+                string jsonData = File.ReadAllText(FilePath);
+                JObject tempJObject = JsonConvert.DeserializeObject<JObject>(jsonData);
+                ETIOTCalTestID = tempJObject?["Metadata"]?["NamedTags"]?["cal_test_id"]?.ToString();
+                if (string.IsNullOrEmpty(ETIOTCalTestID))
+                {
+                    ETIOTCalTestID = "123123123";
+                }
+                
+
+                item.AddLog($"jsonData->{jsonData}");
+                iotcalTestIdDict = JsonConvert.DeserializeObject<Dictionary<string, object>>(jsonData);
+                if ((iotcalTestIdDict != null && iotcalTestIdDict.Count > 0))
+                {
+                    item.AddLog("iotcalTestIdDict : " + JsonConvert.SerializeObject(iotcalTestIdDict, Formatting.Indented));
+                    result = true;
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                item.AddLog($"DUTPullJson have error  -> {ex}");
+            }
+
+            ReturnAndExit:
+            ResultData data = new ResultData(item.Title, result ? "" : CreateErrorCode(item.Title).Name,
+                result ? ConstKeys.PASS : ConstKeys.FAIL);
+            AddResult(item, data);
+            return result ? 0 : 1;
+        }
+
+        // DUT Push json
+        public int ETDUTPushJson(ITestItem item,string pushJsonPath, int timeout = 8000)
+        {
+            bool result = false;
+            
             try
             {
                 Dictionary<string, string> jsonDict = new Dictionary<string, string>() {
                     ["SN"] = Project.SerialNumber,
-                    ["cal_test_id"] = SeeThruTimestamp,
+                    ["cal_test_id"] = ETStartTimestamp,
                     ["station_number"] = "1"
                 };
-                pullJsonPathTotal = Path.Combine(pullJsonPath, $"{Project.SerialNumber}_{SeeThruCalTestId}");
-                Directory.CreateDirectory(pullJsonPathTotal);
 
-                SeeThruPullJonsPathName = Path.Combine(pullJsonPathTotal, "dstcal_usecase.json");
+                Directory.CreateDirectory(pushJsonPath);
+                ETPushJsonPathName = Path.Combine(pushJsonPath, "etcal_usecase.json");
 
-                item.AddLog($"SeeThruPullJonsPathName->{SeeThruPullJonsPathName}");
-
-                File.WriteAllText(SeeThruPullJonsPathName,
-                    JsonConvert.SerializeObject(jsonDict, Formatting.Indented));
+                using (StreamWriter swStreamWriter = new StreamWriter(ETPushJsonPathName))
+                {
+                    JsonSerializer serializer = new JsonSerializer();
+                    serializer.Serialize(swStreamWriter,jsonDict);
+                }
 
                 Dictionary<string, string> cmdPara = new Dictionary<string, string>() {
-                    ["file_to_push"] = SeeThruPullJonsPathName,
-                    ["destination"] = "/data/dstcal_usecase.json"
+                    ["json_name"] = ETPushJsonPathName
                 };
-                item.AddLog($"cmdpara->{cmdPara}");
 
-                var cmdResult = cmd_runner.RunCommand(item, "adb_push", cmdPara, timeout: timeout);
-                if (cmdResult.Success)
+                var cmdResult = ET_cmd_runner.RunCommand(item, "adb_push_file",cmdPara, timeout: timeout);
+                if (!cmdResult.Success)
+                {
+                    result = false;
+                    item.AddLog($"Pushing json file to product fails");
+                    goto ReturnAndExit;
+                }
+                else
                 {
                     result = true;
                 }
             }
             catch (Exception ex)
             {
-                item.AddLog($"DUTPushJson have error  -> {ex}");
+                item.AddLog($"DUT Push Json generate error  -> {ex}");
             }
 
             ReturnAndExit:
@@ -1286,27 +1519,61 @@ namespace Test
         }
 
 
-        public int FinishAndPullLog(ITestItem item, int timeout = 8000)
+        // ET SET DUT LED
+        public int ETSetLeds(ITestItem item, int timeout = 5000,string ledTime = "5",string brightness = "0")
+        {
+            bool result = false;
+            
+            try
+            {
+                var cmdPara = new Dictionary<string, string>() {
+                    ["led_time"] = ledTime,
+                    ["brightness"] = brightness
+
+                };
+                var cmdResult = ET_cmd_runner.RunCommand(item, "adb_syncboss_led", cmdPara,timeout: timeout);
+
+                item.AddLog($"TestActionETLeds--result:{cmdResult.Success}");
+                if (cmdResult.Success)
+                {
+                    result = true;
+                }
+
+            }
+            catch (Exception ex)
+            {
+                item.AddLog($"TestActionETLeds have error  -> {ex}");
+            }
+
+            ReturnAndExit:
+            ResultData data = new ResultData(item.Title, result ? "" : CreateErrorCode(item.Title).Name,
+                result ? ConstKeys.PASS : ConstKeys.FAIL);
+            AddResult(item, data);
+            return result ? 0 : 1;
+        }
+
+
+        public int ETFinishAndPullLog(ITestItem item, int timeout = 8000)
         {
             bool result = false;
 
             try
             {
-                var cmdResult = cmd_runner.RunCommand(item, "adb_exit_station", timeout: timeout);
+                var cmdResult = ET_cmd_runner.RunCommand(item, "adb_exit_station", timeout: timeout);
                 if (!cmdResult.Success)
                 {
                     goto ReturnAndExit;
                 }
 
 
-                var cmdpara_ = new Dictionary<string, string>() { ["destination"] = SeeThruTestDir };
-                var cmdResult_1 = cmd_runner.RunCommand(item, "adb_pull_log_files", cmdpara_, timeout: timeout);
+                var cmdpara_ = new Dictionary<string, string>() { ["destination"] = ETTestDir };
+                var cmdResult_1 = ET_cmd_runner.RunCommand(item, "adb_pull_log_files", cmdpara_, timeout: timeout);
                 if (!cmdResult_1.Success)
                 {
                     goto ReturnAndExit;
                 }
 
-                var cmdResult_2 = cmd_runner.RunCommand(item, "adb_remove_log_files", timeout: timeout);
+                var cmdResult_2 = ET_cmd_runner.RunCommand(item, "adb_remove_log_files", timeout: timeout);
                 if (!cmdResult_2.Success)
                 {
                     goto ReturnAndExit;

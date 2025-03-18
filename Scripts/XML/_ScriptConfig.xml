@@ -98,6 +98,7 @@
 			_StartupConfigs\StartupConfig_FATP_Button.cs
 			_StartupConfigs\StartupCustomConfig.cs
 			_StartupConfigs\StartupConfig_FATP_SuperCal.cs
+			_StartupConfigs\StartupConfig_FATP_ET.cs
 			_StartupConfigs\StartupConfig_FATP_SeeThru.cs
 			_StartupConfigs\StartupConfig_FATP_SuperCal_StageCal.cs
 
@@ -135,6 +136,13 @@
 			StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs
 			StationsScripts\FATP_SeeThru\FATP_SeeThru_ReadWriteJson.cs
 
+			StationsScripts\FATP_ET\FATP_ET_Context.cs
+			StationsScripts\FATP_ET\FATP_ET_Control.cs
+			StationsScripts\FATP_ET\FATP_ET_Interfaces.cs
+			StationsScripts\FATP_ET\FATP_ET_Setting.cs
+			StationsScripts\FATP_ET\FATP_ET_Test.cs
+			StationsScripts\FATP_ET\FATP_ET_ReadWriteJson.cs
+
 			StationsScripts\Shared\QDFContext.cs
 			StationsScripts\Shared\TestContext.cs
 			StationsScripts\Shared\TestModeForm.cs
@@ -150,6 +158,8 @@
 			Modules\SerialMotionBf\serialPort.cs
 			Modules\motion_control\hardware_control.cs
 			Modules\motion_control\robotMotionServer.cs
+			Modules\WebCameraRecord\WebCameraRecorder.cs
+			Modules\WebCameraRecord\WebCameraRecorder2.cs
 
 		</SourceFiles>
 		<SystemDll>
@@ -176,6 +186,7 @@
 			System.ServiceProcess, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 			System.IO.Compression.dll
 			System.IO.Compression.FileSystem.dll
+			System.Net.Http.dll
 
 		</SystemDll>
 		<PluginDll>
