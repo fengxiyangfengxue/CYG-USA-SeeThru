@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_ADB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_ADB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\Shared\\TestContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\Shared\\TestContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\Shared\\TestModeForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\Shared\\TestModeForm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\Test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\Test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_AppDoNotModify\\Common\\MainClass_Utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\_AppDoNotModify\\Common\\MainClass_Utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\_Common\\MainClass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass_ADB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\_Common\\MainClass_ADB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_AppDoNotModify\\Data\\ECData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\_AppDoNotModify\\Data\\ECData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Interfaces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\USBDevice\\USBDeviceHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\USBDevice\\USBDeviceHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\USBDevice\\USBDeviceManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\USBDevice\\USBDeviceManagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\ScriptSettings\\ADBLocationSetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\ScriptSettings\\ADBLocationSetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_StartupConfigs\\StartupConfig_PCBA_RF.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\_StartupConfigs\\StartupConfig_PCBA_RF.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass_Common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scripts\\_Common\\MainClass_Common.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Limits\\SWDL.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Limits\\SWDL.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Configs\\Example\\ExampleSetting.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Configs\\Example\\ExampleSetting.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestContext.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\Shared\\TestContext.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\Shared\\TestContext.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\Shared\\TestContext.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\Shared\\TestContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:29:46.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestModeForm.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\Shared\\TestModeForm.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\Shared\\TestModeForm.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\Shared\\TestModeForm.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\Shared\\TestModeForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAWwBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:29:36.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Test.csproj",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\Test.csproj",
+              "RelativeDocumentMoniker": "Scripts\\Test.csproj",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\Test.csproj",
+              "RelativeToolTip": "Scripts\\Test.csproj",
+              "ViewState": "AgIAAMsAAAAAzczMzEwiwOAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-19T03:10:02.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FATP_Camera_ADB.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_ADB.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_ADB.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_ADB.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_ADB.cs",
+              "ViewState": "AgIAAK4BAAAAAAAAAAAWwOUBAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:38:08.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainClass.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass.cs",
+              "RelativeDocumentMoniker": "Scripts\\_Common\\MainClass.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass.cs",
+              "RelativeToolTip": "Scripts\\_Common\\MainClass.cs",
+              "ViewState": "AgIAAIUCAAAAYDMzMzPrv7gCAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:02:08.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainClass_Utilities.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_AppDoNotModify\\Common\\MainClass_Utilities.cs",
+              "RelativeDocumentMoniker": "Scripts\\_AppDoNotModify\\Common\\MainClass_Utilities.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_AppDoNotModify\\Common\\MainClass_Utilities.cs",
+              "RelativeToolTip": "Scripts\\_AppDoNotModify\\Common\\MainClass_Utilities.cs",
+              "ViewState": "AgIAACYBAAAAAAAAAAAgwC8BAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T03:07:45.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FATP_Camera_Interfaces.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Interfaces.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Interfaces.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Interfaces.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Interfaces.cs",
+              "ViewState": "AgIAADwAAAAAzczMzAwswBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:45:42.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainClass_ADB.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass_ADB.cs",
+              "RelativeDocumentMoniker": "Scripts\\_Common\\MainClass_ADB.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass_ADB.cs",
+              "RelativeToolTip": "Scripts\\_Common\\MainClass_ADB.cs",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAOwO0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T07:24:13.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ECData.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_AppDoNotModify\\Data\\ECData.cs",
+              "RelativeDocumentMoniker": "Scripts\\_AppDoNotModify\\Data\\ECData.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_AppDoNotModify\\Data\\ECData.cs [Read Only]",
+              "RelativeToolTip": "Scripts\\_AppDoNotModify\\Data\\ECData.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T09:55:13.903Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FATP_Camera_Test.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Test.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Test.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Test.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Test.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAWwI8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:45:22.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FATP_Camera_Utilities.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Utilities.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Utilities.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Utilities.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\FATP_Camera\\FATP_Camera_Utilities.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:46:11.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PCBA_RF_Test.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Test.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Test.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Test.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Test.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:36:06.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PCBA_RF_Interfaces.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Interfaces.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Interfaces.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Interfaces.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Interfaces.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAAA8BAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:31:54.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PCBA_RF_Context.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Context.cs",
+              "RelativeDocumentMoniker": "Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Context.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Context.cs",
+              "RelativeToolTip": "Scripts\\StationsScripts\\PCBA_RF\\PCBA_RF_Context.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAWwBUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:31:40.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "USBDeviceManagement.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\USBDevice\\USBDeviceManagement.cs",
+              "RelativeDocumentMoniker": "Scripts\\USBDevice\\USBDeviceManagement.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\USBDevice\\USBDeviceManagement.cs",
+              "RelativeToolTip": "Scripts\\USBDevice\\USBDeviceManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:25:33.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "USBDeviceHandler.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\USBDevice\\USBDeviceHandler.cs",
+              "RelativeDocumentMoniker": "Scripts\\USBDevice\\USBDeviceHandler.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\USBDevice\\USBDeviceHandler.cs",
+              "RelativeToolTip": "Scripts\\USBDevice\\USBDeviceHandler.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:25:02.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ADBLocationSetting.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\ScriptSettings\\ADBLocationSetting.cs",
+              "RelativeDocumentMoniker": "Scripts\\ScriptSettings\\ADBLocationSetting.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\ScriptSettings\\ADBLocationSetting.cs",
+              "RelativeToolTip": "Scripts\\ScriptSettings\\ADBLocationSetting.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:21:55.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StartupConfig_PCBA_RF.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_StartupConfigs\\StartupConfig_PCBA_RF.cs",
+              "RelativeDocumentMoniker": "Scripts\\_StartupConfigs\\StartupConfig_PCBA_RF.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_StartupConfigs\\StartupConfig_PCBA_RF.cs",
+              "RelativeToolTip": "Scripts\\_StartupConfigs\\StartupConfig_PCBA_RF.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:19:58.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainClass_Common.cs",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass_Common.cs",
+              "RelativeDocumentMoniker": "Scripts\\_Common\\MainClass_Common.cs",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Scripts\\_Common\\MainClass_Common.cs",
+              "RelativeToolTip": "Scripts\\_Common\\MainClass_Common.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T05:02:13.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SWDL.json",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Limits\\SWDL.json",
+              "RelativeDocumentMoniker": "Limits\\SWDL.json",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Limits\\SWDL.json",
+              "RelativeToolTip": "Limits\\SWDL.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-08T04:59:02.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ExampleSetting.xml",
+              "DocumentMoniker": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Configs\\Example\\ExampleSetting.xml",
+              "RelativeDocumentMoniker": "Configs\\Example\\ExampleSetting.xml",
+              "ToolTip": "D:\\CYG\\Button\\barista_button\\Caesar_Demo_202400724_1752_Example_password_is_meta\\Configs\\Example\\ExampleSetting.xml",
+              "RelativeToolTip": "Configs\\Example\\ExampleSetting.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-10-08T04:57:35.699Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

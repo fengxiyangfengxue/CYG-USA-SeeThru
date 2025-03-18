@@ -1,0 +1,88 @@
+{
+    "moving": [
+        {
+            "velocity1": 360,
+            "position1": 0,
+            "velocity2": 360,
+            "position2": 0,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": -135,
+            "velocity2": 360,
+            "position2": 0,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": 135,
+            "velocity2": 360,
+            "position2": -90,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": 90,
+            "velocity2": 360,
+            "position2": 135,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": 90,
+            "velocity2": 360,
+            "position2": -135,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": -90,
+            "velocity2": 360,
+            "position2": 0,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": 135,
+            "velocity2": 360,
+            "position2": 90,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": -140,
+            "velocity2": 360,
+            "position2": -143,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": 117,
+            "velocity2": 360,
+            "position2": 153,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": 54,
+            "velocity2": 360,
+            "position2": -167,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": -122,
+            "velocity2": 360,
+            "position2": 93,
+            "delay": 0
+        },
+        {
+            "velocity1": 360,
+            "position1": 56,
+            "velocity2": 360,
+            "position2": -52,
+            "delay": 0
+        }
+    ]
+}

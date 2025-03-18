@@ -1,0 +1,17 @@
+{
+  "read_sn": "{0} --read-asm-serial-number --com-port={1} --ign",
+  "read_handedness": "{0} --read-handedness  --com-port={1} --ign",
+  "read_imu_info": "{0} --get-imu-conversions  --com-port={1} --ign",
+  "read_fw": "{0} --get-fw-version  --com-port={1} --ign",
+  "read_uuid": "{0} --get-uuid  --com-port={1} --ign",
+  "led_irled_cfg": "{0} --set-irled-config 5020 30 500 --com-port={1} --ign",
+  "led_irled_start": "{0} --start-thread irled --com-port={1} --ign",
+  "ir_led_off": "{0} --stop-thread irled --com-port={1} --ign",
+  "display_led_off": "{0} --rgbw-ux-clear --com-port={1} --ign",
+  "imu_cal": "{0} --streamn imu_factory 0 0 --com-port={1} --ign",
+  "led_cal": "py -3.10 {0} --streamn imu_factory 0 0 --com-port={1} --ign",
+  "write_config_dut": "py -3.10 {0} --write-irled-calibration < {1} --com-port={2} --ign",
+  "uart_reboot": "{0} --reset-to-main  --com-port={1} --ign",
+  "uart_long_reboot": "{0} --toggle-rts 1000 0  --com-port={1} --ign",
+  "stop_com": "{0} --com-port={1} --ign"
+}

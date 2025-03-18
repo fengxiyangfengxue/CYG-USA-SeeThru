@@ -1,0 +1,8 @@
+﻿<ScannerSetting>
+  <ComConfigs>
+    <ScannerComConfig>
+      <Port>COM1</Port>
+      <BaudRate>115200</BaudRate>
+    </ScannerComConfig>
+  </ComConfigs>
+</ScannerSetting>

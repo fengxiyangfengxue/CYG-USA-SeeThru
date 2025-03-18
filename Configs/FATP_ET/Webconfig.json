@@ -1,0 +1,9 @@
+{
+    "ip_1": "192.168.254.2",
+    "ip_2": "192.168.254.3",
+    "admin": "admin",
+    "password": "et123456",
+    "channel_number": "D1",
+    "base_path": "E:\\WEBCamera_video",
+    
+}

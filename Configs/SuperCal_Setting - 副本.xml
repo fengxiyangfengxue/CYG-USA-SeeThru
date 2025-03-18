@@ -1,0 +1,22 @@
+﻿<SuperCal_Setting>
+  <ProbeCntMax>5000</ProbeCntMax>
+  <CntCount>1</CntCount>
+  <main_app_ver>0.4</main_app_ver>
+  <rawDataFile_minSize>1024</rawDataFile_minSize>
+  <cam_num>4</cam_num>
+  <hcPlcIP>192.168.1.88</hcPlcIP>
+  <img_no_max>450</img_no_max>
+  <img_no_max>520</img_no_max>
+  <uart_sn_nest_dict>  
+    < key="D30HLYNHA" value="1" >  
+    < key="D30HLYQJA" value="2" >  
+    < key="D30HLCOQA" value="3" >  
+    < key="D30HLYPCA" value="4" >  
+    < key="D30HLCP7A" value="5" >  
+    < key="D30HLYP7A" value="6" >  
+    < key="D30GXF28A" value="7" >  
+    < key="D30HLYOQA" value="8" >  
+  </uart_sn_nest_dict>  
+<Line>1</Line>
+<Station>1</Station>
+</SuperCal_Setting>

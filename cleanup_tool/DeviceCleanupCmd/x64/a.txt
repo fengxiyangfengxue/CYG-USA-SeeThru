@@ -1,0 +1,6 @@
+DeviceCleanup V1.2.0
+Uninstalls non present devices
+Freeware by Uwe Sieber - www.uwe-sieber.de
+No admin privileges available - activating test-mode? (y/N)
+
+Close Button pressed -> abort

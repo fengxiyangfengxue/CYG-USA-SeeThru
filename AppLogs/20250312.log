@@ -1,0 +1,445 @@
+------------------------2025-03-12 10:25:03.972------------------------
+error CS2015: 'E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs' is a binary file instead of a text file
+error CS2015: 'E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Interfaces.cs' is a binary file instead of a text file
+error CS2015: 'E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\Shared\TestContext.cs' is a binary file instead of a text file
+
+Combine script failed!
+Load configuration failed!
+------------------------2025-03-12 10:25:20.513------------------------
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(858,13) : error CS1038: #endregion directive expected
+
+Combine script failed!
+Load configuration failed!
+------------------------2025-03-12 10:25:55.657------------------------
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptExtensions\StringExtension.cs(161,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(817,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Helpers\ComDeviceHelper.cs(66,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(861,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(883,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(1045,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_CalBoard.cs(297,30) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_CalBoard.cs(282,17) : warning CS0219: The variable 'all_cam_bmp_num_list' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Common\MainClass_Invoker.cs(40,34) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Common\MainClass_Invoker.cs(350,33) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(153,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(257,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(353,17) : warning CS0162: Unreachable code detected
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(45,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(78,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(492,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(511,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(541,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(788,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(812,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(836,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(865,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(888,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_Common.cs(182,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(59,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(421,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(534,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(678,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(712,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(743,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(884,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(914,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(924,18) : warning CS0219: The variable 'result' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(118,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(260,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(374,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(504,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(581,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(663,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(790,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(833,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(938,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(975,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1017,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1026,13) : warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1044,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1081,46) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1153,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1182,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1196,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1572,18) : warning CS0219: The variable 'isDataOK' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1745,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1677,42) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1705,42) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2342,18) : warning CS0219: The variable 'isDataOK' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2403,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2501,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(76,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(159,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(210,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(250,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(245,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(306,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(363,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(427,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(536,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(596,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(664,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(696,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(722,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(791,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(73,34) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(60,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(86,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(108,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(128,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(59,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(118,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(171,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(37,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(65,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(126,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(184,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(212,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(236,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(258,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(291,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(324,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1042,21) : warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1051,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1068,30) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1113,46) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1201,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1225,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1247,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1274,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1415,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1477,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1514,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1542,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1574,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1604,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1663,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1699,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1717,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1820,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(68,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(127,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(147,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(166,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(184,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(209,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(229,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(255,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(274,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(139,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(155,20) : warning CS0219: The variable 'fileDateTime' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(336,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(555,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(677,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,28) : error CS1069: The type name 'ZipArchive' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,53) : error CS1069: The type name 'ZipArchive' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,75) : error CS0103: The name 'ZipArchiveMode' does not exist in the current context
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(817,29) : error CS1069: The type name 'ZipArchiveEntry' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(840,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Interfaces.cs(22,34) : warning CS0649: Field 'MainClass.hardControl' is never assigned to, and will always have its default value null
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(46,31) : warning CS0169: The field 'MainClass._stopRequested' is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(52,31) : warning CS0169: The field 'MainClass.Seethru_stopRequested' is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(32,14) : warning CS0414: The field 'MainClass._isCameraFixtureInitilized' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(55,23) : warning CS0414: The field 'MainClass._cameraConsole' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\Modules\SerialMotionBf\serialPort.cs(927,18) : warning CS0414: The field 'PlcMotion.plcStatus' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(34,14) : warning CS0414: The field 'MainClass._isButtonPLCInitilized_button' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(56,23) : warning CS0414: The field 'MainClass._console_pex' is assigned but its value is never used
+
+Combine script failed!
+Load configuration failed!
+------------------------2025-03-12 10:26:44.830------------------------
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptExtensions\StringExtension.cs(161,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Helpers\ComDeviceHelper.cs(66,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(817,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(861,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(883,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(1045,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_CalBoard.cs(297,30) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_CalBoard.cs(282,17) : warning CS0219: The variable 'all_cam_bmp_num_list' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Common\MainClass_Invoker.cs(40,34) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Common\MainClass_Invoker.cs(350,33) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(153,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(257,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(353,17) : warning CS0162: Unreachable code detected
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(45,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(78,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(492,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(511,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(541,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(788,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(812,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(836,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(865,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(888,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_Common.cs(182,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(59,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(421,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(534,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(678,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(712,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(743,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(884,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(914,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(924,18) : warning CS0219: The variable 'result' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(118,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(260,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(374,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(504,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(581,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(663,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(790,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(833,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(938,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(975,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1017,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1026,13) : warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1044,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1081,46) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1153,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1182,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1196,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1572,18) : warning CS0219: The variable 'isDataOK' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1745,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1677,42) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1705,42) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2342,18) : warning CS0219: The variable 'isDataOK' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2403,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2501,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(76,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(159,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(210,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(250,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(245,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(306,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(363,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(427,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(536,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(596,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(664,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(696,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(722,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(791,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(73,34) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(60,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(86,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(108,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(128,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(59,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(118,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(171,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(37,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(65,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(126,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(184,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(212,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(236,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(258,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(291,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(324,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1042,21) : warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1051,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1068,30) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1113,46) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1201,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1225,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1247,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1274,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1415,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1477,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1514,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1542,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1574,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1604,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1663,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1699,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1717,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1820,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(68,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(127,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(147,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(166,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(184,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(209,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(229,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(255,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(274,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(139,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(155,20) : warning CS0219: The variable 'fileDateTime' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(336,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(555,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(677,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,28) : error CS1069: The type name 'ZipArchive' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,53) : error CS1069: The type name 'ZipArchive' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,75) : error CS0103: The name 'ZipArchiveMode' does not exist in the current context
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(817,29) : error CS1069: The type name 'ZipArchiveEntry' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(840,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(46,31) : warning CS0169: The field 'MainClass._stopRequested' is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Interfaces.cs(22,34) : warning CS0649: Field 'MainClass.hardControl' is never assigned to, and will always have its default value null
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(52,31) : warning CS0169: The field 'MainClass.Seethru_stopRequested' is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(55,23) : warning CS0414: The field 'MainClass._cameraConsole' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(34,14) : warning CS0414: The field 'MainClass._isButtonPLCInitilized_button' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(56,23) : warning CS0414: The field 'MainClass._console_pex' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(32,14) : warning CS0414: The field 'MainClass._isCameraFixtureInitilized' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\Modules\SerialMotionBf\serialPort.cs(927,18) : warning CS0414: The field 'PlcMotion.plcStatus' is assigned but its value is never used
+
+Combine script failed!
+Load configuration failed!
+------------------------2025-03-12 11:25:17.667------------------------
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptExtensions\StringExtension.cs(161,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(817,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Helpers\ComDeviceHelper.cs(66,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(861,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(883,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_ScriptHelpers\ADBClientHelper.cs(1045,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_CalBoard.cs(297,30) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_CalBoard.cs(282,17) : warning CS0219: The variable 'all_cam_bmp_num_list' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Common\MainClass_Invoker.cs(40,34) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_AppDoNotModify\Common\MainClass_Invoker.cs(350,33) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(153,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(257,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass.cs(353,17) : warning CS0162: Unreachable code detected
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(45,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(78,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(492,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(511,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(541,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(788,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(812,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(836,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(865,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_ADB.cs(888,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_Common.cs(182,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(59,38) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(421,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(534,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(678,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(712,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(743,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(884,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(914,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\_Common\MainClass_MES_GTK.cs(924,18) : warning CS0219: The variable 'result' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(118,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(260,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(374,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(504,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(581,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(663,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(790,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(833,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(938,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(975,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1017,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1026,13) : warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1044,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1081,46) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1153,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1182,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1196,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1572,18) : warning CS0219: The variable 'isDataOK' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1745,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1677,42) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(1705,42) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2342,18) : warning CS0219: The variable 'isDataOK' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2403,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(2501,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(76,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(159,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(210,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(250,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(245,30) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(306,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(363,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(427,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(536,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(596,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(664,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(696,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(722,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_PLC.cs(791,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(73,34) : warning CS0168: The variable 'ex' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(60,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(86,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(108,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_BfMotion.cs(128,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(59,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(118,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcModbus.cs(171,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(37,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(65,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(126,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(184,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(212,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(236,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(258,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(291,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCal_HcTag.cs(324,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1042,21) : warning CS4014: Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1051,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1068,30) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1113,46) : warning CS0168: The variable 'e' is declared but never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1201,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1225,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1247,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1274,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1415,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1477,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1514,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1542,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1574,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1604,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1663,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1699,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1717,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(1820,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(68,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(127,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(147,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(166,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(184,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(209,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(229,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(255,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal_StageCal\FATP_SuperCal_StageCal_Test.cs(274,13) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(139,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(155,20) : warning CS0219: The variable 'fileDateTime' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(336,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(555,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(677,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,28) : error CS1069: The type name 'ZipArchive' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,53) : error CS1069: The type name 'ZipArchive' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(810,75) : error CS0103: The name 'ZipArchiveMode' does not exist in the current context
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(817,29) : error CS1069: The type name 'ZipArchiveEntry' could not be found in the namespace 'System.IO.Compression'. This type has been forwarded to assembly 'System.IO.Compression, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089' Consider adding a reference to that assembly.
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(840,9) : warning CS0164: This label has not been referenced
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Test.cs(52,31) : warning CS0169: The field 'MainClass.Seethru_stopRequested' is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SuperCal\FATP_SuperCalTest_Test.cs(46,31) : warning CS0169: The field 'MainClass._stopRequested' is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_SeeThru\FATP_SeeThru_Interfaces.cs(22,34) : warning CS0649: Field 'MainClass.hardControl' is never assigned to, and will always have its default value null
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\Modules\SerialMotionBf\serialPort.cs(927,18) : warning CS0414: The field 'PlcMotion.plcStatus' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(56,23) : warning CS0414: The field 'MainClass._console_pex' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(32,14) : warning CS0414: The field 'MainClass._isCameraFixtureInitilized' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_DUT.cs(55,23) : warning CS0414: The field 'MainClass._cameraConsole' is assigned but its value is never used
+E:\USA\caesar\et_seethru\ET_SEE_THRU\Scripts\StationsScripts\FATP_Button\FATP_Button_Interfaces.cs(34,14) : warning CS0414: The field 'MainClass._isButtonPLCInitilized_button' is assigned but its value is never used
+
+Combine script failed!
+Load configuration failed!
+------------------------2025-03-12 19:45:39.683------------------------
+System.Exception: Combine all args failed, check items args please!
+System.Exception: c:\Users\Administrator\AppData\Local\Temp\sttskyhp\sttskyhp.0.cs(83,37) : error CS0622: 只能使用数组初始值设定项表达式为数组类型赋值。请尝试改用 new 表达式。
+c:\Users\Administrator\AppData\Local\Temp\sttskyhp\sttskyhp.0.cs(85,34) : error CS0622: 只能使用数组初始值设定项表达式为数组类型赋值。请尝试改用 new 表达式。
+
+   在  .                            (XmlAppConfig , String , List`1 , Guid )
+   在  .                            (XmlAppConfig , String , List`1 , Guid )
+   在  .(List`1 )
+   在  .()
+   在  .()
+   在  .(Object , DoWorkEventArgs )
+------------------------2025-03-12 19:45:51.689------------------------
+System.Exception: Combine all args failed, check items args please!
+System.Exception: c:\Users\Administrator\AppData\Local\Temp\qh5q4qll\qh5q4qll.0.cs(83,37) : error CS0622: 只能使用数组初始值设定项表达式为数组类型赋值。请尝试改用 new 表达式。
+c:\Users\Administrator\AppData\Local\Temp\qh5q4qll\qh5q4qll.0.cs(85,34) : error CS0622: 只能使用数组初始值设定项表达式为数组类型赋值。请尝试改用 new 表达式。
+
+   在  .                            (XmlAppConfig , String , List`1 , Guid )
+   在  .                            (XmlAppConfig , String , List`1 , Guid )
+   在  .(List`1 )
+   在  .()
+   在  .()
+   在  .(Object , DoWorkEventArgs )

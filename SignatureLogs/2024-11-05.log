@@ -1,0 +1,330 @@
+2024-11-05 09:07:54.946 : 
+2024-11-05 09:07:54.949 : ================== Signature Check ====================
+2024-11-05 09:07:54.951 : Author = paul di_Debug_OffLine
+2024-11-05 09:07:54.952 : Version = 2024.0718.155524
+2024-11-05 09:07:54.952 : ChangeLog = for debug/verify
+2024-11-05 09:07:54.953 : Expiration = 2028-06-24
+2024-11-05 10:06:25.014 : 
+2024-11-05 10:06:25.016 : ================== Signature Check ====================
+2024-11-05 10:06:25.019 : Author = paul di
+2024-11-05 10:06:25.020 : Version = 2024.0718.155524
+2024-11-05 10:06:25.021 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 10:06:25.022 : Expiration = 2028-06-24
+2024-11-05 10:06:25.023 : Checked Files = 1
+2024-11-05 10:06:25.025 : 
+2024-11-05 10:06:25.025 : ------- Compare MD5 -------
+2024-11-05 10:06:25.026 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 10:06;25.028 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 10:06;25.032 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 10:06:25.034 : seconds = 0.0089453
+2024-11-05 10:06:25.035 : ------- Compare MD5 Done -------
+2024-11-05 10:09:10.407 : 
+2024-11-05 10:09:10.408 : ================== Signature Check ====================
+2024-11-05 10:09:10.411 : Author = paul di
+2024-11-05 10:09:10.412 : Version = 2024.0718.155524
+2024-11-05 10:09:10.413 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 10:09:10.413 : Expiration = 2028-06-24
+2024-11-05 10:09:10.415 : Checked Files = 1
+2024-11-05 10:09:10.417 : 
+2024-11-05 10:09:10.418 : ------- Compare MD5 -------
+2024-11-05 10:09:10.418 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 10:09;10.422 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 10:09;10.425 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 10:09:10.427 : seconds = 0.0085058
+2024-11-05 10:09:10.427 : ------- Compare MD5 Done -------
+2024-11-05 16:20:13.389 : 
+2024-11-05 16:20:13.390 : ================== Signature Check ====================
+2024-11-05 16:20:13.393 : Author = paul di
+2024-11-05 16:20:13.393 : Version = 2024.0718.155524
+2024-11-05 16:20:13.394 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:20:13.395 : Expiration = 2028-06-24
+2024-11-05 16:20:13.396 : Checked Files = 1
+2024-11-05 16:20:13.398 : 
+2024-11-05 16:20:13.399 : ------- Compare MD5 -------
+2024-11-05 16:20:13.400 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:20;13.402 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:20;13.405 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:20:13.406 : seconds = 0.0082888
+2024-11-05 16:20:13.407 : ------- Compare MD5 Done -------
+2024-11-05 16:20:38.761 : 
+2024-11-05 16:20:38.762 : ================== Signature Check ====================
+2024-11-05 16:20:38.763 : Author = paul di
+2024-11-05 16:20:38.763 : Version = 2024.0718.155524
+2024-11-05 16:20:38.764 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:20:38.766 : Expiration = 2028-06-24
+2024-11-05 16:20:38.766 : Checked Files = 1
+2024-11-05 16:20:38.768 : 
+2024-11-05 16:20:38.768 : ------- Compare MD5 -------
+2024-11-05 16:20:38.769 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:20;38.771 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:20;38.773 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:20:38.773 : seconds = 0.0053821
+2024-11-05 16:20:38.774 : ------- Compare MD5 Done -------
+2024-11-05 16:21:45.569 : 
+2024-11-05 16:21:45.570 : ================== Signature Check ====================
+2024-11-05 16:21:45.571 : Author = paul di
+2024-11-05 16:21:45.571 : Version = 2024.0718.155524
+2024-11-05 16:21:45.572 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:21:45.572 : Expiration = 2028-06-24
+2024-11-05 16:21:45.573 : Checked Files = 1
+2024-11-05 16:21:45.575 : 
+2024-11-05 16:21:45.575 : ------- Compare MD5 -------
+2024-11-05 16:21:45.577 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:21;45.578 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:21;45.580 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:21:45.581 : seconds = 0.0055756
+2024-11-05 16:21:45.582 : ------- Compare MD5 Done -------
+2024-11-05 16:23:55.024 : 
+2024-11-05 16:23:55.026 : ================== Signature Check ====================
+2024-11-05 16:23:55.027 : Author = paul di
+2024-11-05 16:23:55.028 : Version = 2024.0718.155524
+2024-11-05 16:23:55.028 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:23:55.030 : Expiration = 2028-06-24
+2024-11-05 16:23:55.030 : Checked Files = 1
+2024-11-05 16:23:55.031 : 
+2024-11-05 16:23:55.031 : ------- Compare MD5 -------
+2024-11-05 16:23:55.031 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:23;55.032 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:23;55.035 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:23:55.035 : seconds = 0.0040552
+2024-11-05 16:23:55.036 : ------- Compare MD5 Done -------
+2024-11-05 16:24:52.008 : 
+2024-11-05 16:24:52.009 : ================== Signature Check ====================
+2024-11-05 16:24:52.010 : Author = paul di
+2024-11-05 16:24:52.011 : Version = 2024.0718.155524
+2024-11-05 16:24:52.011 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:24:52.012 : Expiration = 2028-06-24
+2024-11-05 16:24:52.013 : Checked Files = 1
+2024-11-05 16:24:52.015 : 
+2024-11-05 16:24:52.016 : ------- Compare MD5 -------
+2024-11-05 16:24:52.016 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:24;52.018 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:24;52.020 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:24:52.021 : seconds = 0.0061296
+2024-11-05 16:24:52.022 : ------- Compare MD5 Done -------
+2024-11-05 16:25:49.015 : 
+2024-11-05 16:25:49.016 : ================== Signature Check ====================
+2024-11-05 16:25:49.018 : Author = paul di
+2024-11-05 16:25:49.018 : Version = 2024.0718.155524
+2024-11-05 16:25:49.019 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:25:49.019 : Expiration = 2028-06-24
+2024-11-05 16:25:49.020 : Checked Files = 1
+2024-11-05 16:25:49.021 : 
+2024-11-05 16:25:49.022 : ------- Compare MD5 -------
+2024-11-05 16:25:49.023 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:25;49.024 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:25;49.026 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:25:49.027 : seconds = 0.0063458
+2024-11-05 16:25:49.028 : ------- Compare MD5 Done -------
+2024-11-05 16:29:13.371 : 
+2024-11-05 16:29:13.372 : ================== Signature Check ====================
+2024-11-05 16:29:13.375 : Author = paul di
+2024-11-05 16:29:13.375 : Version = 2024.0718.155524
+2024-11-05 16:29:13.375 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:29:13.376 : Expiration = 2028-06-24
+2024-11-05 16:29:13.377 : Checked Files = 1
+2024-11-05 16:29:13.378 : 
+2024-11-05 16:29:13.379 : ------- Compare MD5 -------
+2024-11-05 16:29:13.379 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:29;13.381 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:29;13.383 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:29:13.384 : seconds = 0.0060167
+2024-11-05 16:29:13.385 : ------- Compare MD5 Done -------
+2024-11-05 16:31:27.195 : 
+2024-11-05 16:31:27.207 : ================== Signature Check ====================
+2024-11-05 16:31:27.210 : Author = paul di
+2024-11-05 16:31:27.210 : Version = 2024.0718.155524
+2024-11-05 16:31:27.211 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:31:27.211 : Expiration = 2028-06-24
+2024-11-05 16:31:27.212 : Checked Files = 1
+2024-11-05 16:31:27.213 : 
+2024-11-05 16:31:27.214 : ------- Compare MD5 -------
+2024-11-05 16:31:27.214 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:31;27.216 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:31;27.218 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:31:27.219 : seconds = 0.0065935
+2024-11-05 16:31:27.220 : ------- Compare MD5 Done -------
+2024-11-05 16:36:34.195 : 
+2024-11-05 16:36:34.207 : ================== Signature Check ====================
+2024-11-05 16:36:34.209 : Author = paul di
+2024-11-05 16:36:34.209 : Version = 2024.0718.155524
+2024-11-05 16:36:34.210 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:36:34.211 : Expiration = 2028-06-24
+2024-11-05 16:36:34.212 : Checked Files = 1
+2024-11-05 16:36:34.213 : 
+2024-11-05 16:36:34.214 : ------- Compare MD5 -------
+2024-11-05 16:36:34.214 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:36;34.216 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:36;34.219 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:36:34.220 : seconds = 0.0075646
+2024-11-05 16:36:34.220 : ------- Compare MD5 Done -------
+2024-11-05 16:37:34.891 : 
+2024-11-05 16:37:34.903 : ================== Signature Check ====================
+2024-11-05 16:37:34.904 : Author = paul di
+2024-11-05 16:37:34.905 : Version = 2024.0718.155524
+2024-11-05 16:37:34.905 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:37:34.906 : Expiration = 2028-06-24
+2024-11-05 16:37:34.907 : Checked Files = 1
+2024-11-05 16:37:34.908 : 
+2024-11-05 16:37:34.909 : ------- Compare MD5 -------
+2024-11-05 16:37:34.909 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:37;34.912 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:37;34.914 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:37:34.915 : seconds = 0.006653
+2024-11-05 16:37:34.915 : ------- Compare MD5 Done -------
+2024-11-05 16:37:56.357 : 
+2024-11-05 16:37:56.358 : ================== Signature Check ====================
+2024-11-05 16:37:56.360 : Author = paul di
+2024-11-05 16:37:56.360 : Version = 2024.0718.155524
+2024-11-05 16:37:56.360 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:37:56.361 : Expiration = 2028-06-24
+2024-11-05 16:37:56.362 : Checked Files = 1
+2024-11-05 16:37:56.363 : 
+2024-11-05 16:37:56.364 : ------- Compare MD5 -------
+2024-11-05 16:37:56.364 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:37;56.366 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:37;56.368 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:37:56.369 : seconds = 0.0060398
+2024-11-05 16:37:56.370 : ------- Compare MD5 Done -------
+2024-11-05 16:49:27.227 : 
+2024-11-05 16:49:27.239 : ================== Signature Check ====================
+2024-11-05 16:49:27.241 : Author = paul di
+2024-11-05 16:49:27.241 : Version = 2024.0718.155524
+2024-11-05 16:49:27.242 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:49:27.242 : Expiration = 2028-06-24
+2024-11-05 16:49:27.244 : Checked Files = 1
+2024-11-05 16:49:27.245 : 
+2024-11-05 16:49:27.245 : ------- Compare MD5 -------
+2024-11-05 16:49:27.246 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:49;27.249 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:49;27.251 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:49:27.252 : seconds = 0.0068758
+2024-11-05 16:49:27.253 : ------- Compare MD5 Done -------
+2024-11-05 16:49:44.192 : 
+2024-11-05 16:49:44.193 : ================== Signature Check ====================
+2024-11-05 16:49:44.194 : Author = paul di
+2024-11-05 16:49:44.195 : Version = 2024.0718.155524
+2024-11-05 16:49:44.196 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:49:44.196 : Expiration = 2028-06-24
+2024-11-05 16:49:44.197 : Checked Files = 1
+2024-11-05 16:49:44.200 : 
+2024-11-05 16:49:44.201 : ------- Compare MD5 -------
+2024-11-05 16:49:44.201 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:49;44.204 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:49;44.207 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:49:44.208 : seconds = 0.0084965
+2024-11-05 16:49:44.210 : ------- Compare MD5 Done -------
+2024-11-05 16:50:06.684 : 
+2024-11-05 16:50:06.686 : ================== Signature Check ====================
+2024-11-05 16:50:06.687 : Author = paul di
+2024-11-05 16:50:06.688 : Version = 2024.0718.155524
+2024-11-05 16:50:06.688 : ChangeLog = Achieve_20240718_1555 x64.
+2024-11-05 16:50:06.689 : Expiration = 2028-06-24
+2024-11-05 16:50:06.690 : Checked Files = 1
+2024-11-05 16:50:06.691 : 
+2024-11-05 16:50:06.692 : ------- Compare MD5 -------
+2024-11-05 16:50:06.693 : Local Root = D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\
+2024-11-05 16:50;06.694 : D:\CYG\Button\barista_button\Caesar_Demo_202400724_1752_Example_password_is_meta\Caesar.exe
+2024-11-05 16:50;06.696 : MD5 = bf17e9a91e2b6cf3697fc549ea251b33  Pass
+
+2024-11-05 16:50:06.697 : seconds = 0.005705
+2024-11-05 16:50:06.698 : ------- Compare MD5 Done -------
+2024-11-05 16:59:47.228 : 
+2024-11-05 16:59:47.243 : ================== Signature Check ====================
+2024-11-05 16:59:47.245 : Author = paul di_Debug_OffLine
+2024-11-05 16:59:47.245 : Version = 2024.0718.155524
+2024-11-05 16:59:47.246 : ChangeLog = for debug/verify
+2024-11-05 16:59:47.246 : Expiration = 2028-06-24
+2024-11-05 17:00:22.358 : 
+2024-11-05 17:00:22.359 : ================== Signature Check ====================
+2024-11-05 17:00:22.360 : Author = paul di_Debug_OffLine
+2024-11-05 17:00:22.361 : Version = 2024.0718.155524
+2024-11-05 17:00:22.362 : ChangeLog = for debug/verify
+2024-11-05 17:00:22.362 : Expiration = 2028-06-24
+2024-11-05 17:00:56.067 : 
+2024-11-05 17:00:56.068 : ================== Signature Check ====================
+2024-11-05 17:00:56.070 : Author = paul di_Debug_OffLine
+2024-11-05 17:00:56.070 : Version = 2024.0718.155524
+2024-11-05 17:00:56.071 : ChangeLog = for debug/verify
+2024-11-05 17:00:56.071 : Expiration = 2028-06-24
+2024-11-05 17:01:29.292 : 
+2024-11-05 17:01:29.305 : ================== Signature Check ====================
+2024-11-05 17:01:29.306 : Author = paul di_Debug_OffLine
+2024-11-05 17:01:29.307 : Version = 2024.0718.155524
+2024-11-05 17:01:29.308 : ChangeLog = for debug/verify
+2024-11-05 17:01:29.308 : Expiration = 2028-06-24
+2024-11-05 17:02:03.675 : 
+2024-11-05 17:02:03.676 : ================== Signature Check ====================
+2024-11-05 17:02:03.677 : Author = paul di_Debug_OffLine
+2024-11-05 17:02:03.678 : Version = 2024.0718.155524
+2024-11-05 17:02:03.678 : ChangeLog = for debug/verify
+2024-11-05 17:02:03.679 : Expiration = 2028-06-24
+2024-11-05 17:03:26.548 : 
+2024-11-05 17:03:26.550 : ================== Signature Check ====================
+2024-11-05 17:03:26.551 : Author = paul di_Debug_OffLine
+2024-11-05 17:03:26.552 : Version = 2024.0718.155524
+2024-11-05 17:03:26.552 : ChangeLog = for debug/verify
+2024-11-05 17:03:26.553 : Expiration = 2028-06-24
+2024-11-05 17:06:23.827 : 
+2024-11-05 17:06:23.844 : ================== Signature Check ====================
+2024-11-05 17:06:23.847 : Author = paul di_Debug_OffLine
+2024-11-05 17:06:23.848 : Version = 2024.0718.155524
+2024-11-05 17:06:23.849 : ChangeLog = for debug/verify
+2024-11-05 17:06:23.850 : Expiration = 2028-06-24
+2024-11-05 17:07:43.386 : 
+2024-11-05 17:07:43.403 : ================== Signature Check ====================
+2024-11-05 17:07:43.406 : Author = paul di_Debug_OffLine
+2024-11-05 17:07:43.407 : Version = 2024.0718.155524
+2024-11-05 17:07:43.409 : ChangeLog = for debug/verify
+2024-11-05 17:07:43.410 : Expiration = 2028-06-24
+2024-11-05 17:08:41.943 : 
+2024-11-05 17:08:41.944 : ================== Signature Check ====================
+2024-11-05 17:08:41.946 : Author = paul di_Debug_OffLine
+2024-11-05 17:08:41.946 : Version = 2024.0718.155524
+2024-11-05 17:08:41.947 : ChangeLog = for debug/verify
+2024-11-05 17:08:41.947 : Expiration = 2028-06-24
+2024-11-05 17:10:59.165 : 
+2024-11-05 17:10:59.167 : ================== Signature Check ====================
+2024-11-05 17:10:59.169 : Author = paul di_Debug_OffLine
+2024-11-05 17:10:59.171 : Version = 2024.0718.155524
+2024-11-05 17:10:59.172 : ChangeLog = for debug/verify
+2024-11-05 17:10:59.173 : Expiration = 2028-06-24
+2024-11-05 17:12:15.771 : 
+2024-11-05 17:12:15.773 : ================== Signature Check ====================
+2024-11-05 17:12:15.774 : Author = paul di_Debug_OffLine
+2024-11-05 17:12:15.774 : Version = 2024.0718.155524
+2024-11-05 17:12:15.775 : ChangeLog = for debug/verify
+2024-11-05 17:12:15.775 : Expiration = 2028-06-24
+2024-11-05 17:13:29.977 : 
+2024-11-05 17:13:29.978 : ================== Signature Check ====================
+2024-11-05 17:13:29.979 : Author = paul di_Debug_OffLine
+2024-11-05 17:13:29.981 : Version = 2024.0718.155524
+2024-11-05 17:13:29.981 : ChangeLog = for debug/verify
+2024-11-05 17:13:29.982 : Expiration = 2028-06-24
+2024-11-05 17:24:36.785 : 
+2024-11-05 17:24:36.787 : ================== Signature Check ====================
+2024-11-05 17:24:36.788 : Author = paul di_Debug_OffLine
+2024-11-05 17:24:36.789 : Version = 2024.0718.155524
+2024-11-05 17:24:36.789 : ChangeLog = for debug/verify
+2024-11-05 17:24:36.790 : Expiration = 2028-06-24
+2024-11-05 17:32:48.607 : 
+2024-11-05 17:32:48.609 : ================== Signature Check ====================
+2024-11-05 17:32:48.610 : Author = paul di_Debug_OffLine
+2024-11-05 17:32:48.612 : Version = 2024.0718.155524
+2024-11-05 17:32:48.612 : ChangeLog = for debug/verify
+2024-11-05 17:32:48.612 : Expiration = 2028-06-24

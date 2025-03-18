@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Config>
+  <Version>2024.0626.112236</Version>
+  <Files>
+    <File>
+      <Checked>1</Checked>
+      <Path>_Example_Debug.bat</Path>
+      <Size>125.00   B</Size>
+      <MD5Checked>1</MD5Checked>
+      <MD5>3954a3af39e6a31b80394646d566af3d</MD5>
+    </File>
+    <File>
+      <Checked>1</Checked>
+      <Path>_Example_Debug_One.bat</Path>
+      <Size>132.00   B</Size>
+      <MD5Checked>1</MD5Checked>
+      <MD5>427a1a355e63aed9b7f9940d70e71de1</MD5>
+    </File>
+    <File>
+      <Checked>1</Checked>
+      <Path>_Example_Release.bat</Path>
+      <Size>135.00   B</Size>
+      <MD5Checked>1</MD5Checked>
+      <MD5>b93fd3b276a38301c37360b9ad40ccac</MD5>
+    </File>
+    <File>
+      <Checked>1</Checked>
+      <Path>_Example_Release_One.bat</Path>
+      <Size>139.00   B</Size>
+      <MD5Checked>1</MD5Checked>
+      <MD5>c6251471a9f331be6c2999c8bcf66031</MD5>
+    </File>
+    <File>
+      <Checked>1</Checked>
+      <Path>Caesar.exe</Path>
+      <Size>420.00 KB</Size>
+      <MD5Checked>1</MD5Checked>
+      <MD5>db1d2d4f3a208c69f8645dccb3d6d26c</MD5>
+    </File>
+  </Files>
+</Config>

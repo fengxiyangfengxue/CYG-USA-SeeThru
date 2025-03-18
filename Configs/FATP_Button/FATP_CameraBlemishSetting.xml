@@ -1,0 +1,10 @@
+﻿<FATP_CameraBlemishSetting>
+  <CanyonConfig>
+    <PythonExePath>python.exe</PythonExePath>
+    <PyPath>xxx.py</PyPath>
+  </CanyonConfig>
+  <JacksonConfig>
+    <PythonExePath>python.exe</PythonExePath>
+    <PyPath>xxx.py</PyPath>
+  </JacksonConfig>
+</FATP_CameraBlemishSetting>

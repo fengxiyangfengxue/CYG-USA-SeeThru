@@ -1,0 +1,2691 @@
+
+{
+    "No_Limit" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },      
+    "Battery_Read" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "FW_Main_App_Version" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "0.1.10"
+    },  
+    "FW_SPL_Version" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "0.1.10"
+    },  
+    "Input_FW_Main_App_Version" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "0.1.10"
+    },  
+    "Input_FW_SPL_Version" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "0.1.10"
+    },  
+    "Handedness_Read" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "left"
+    },  
+    "AX_Capsense_Value_Max_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Min_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Avg_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_First_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Last_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "BY_Capsense_Value_Max_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "BY_Capsense_Value_Min_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "BY_Capsense_Value_Avg_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "BY_Capsense_Value_First_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "BY_Capsense_Value_Last_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbstick_Capsense_Value_Max_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbstick_Capsense_Value_Min_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbstick_Capsense_Value_Avg_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbstick_Capsense_Value_First_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbstick_Capsense_Value_Last_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_Max_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_Min_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_Avg_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 5.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_First_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_Last_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Deadband_Calibration_X_Min" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Deadband_Calibration_X_Max" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Deadband_Calibration_Y_Min" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Deadband_Calibration_Y_Max" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Curl_Capsense_Value_Max_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Curl_Capsense_Value_Min_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Curl_Capsense_Value_Avg_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Curl_Capsense_Value_First_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Curl_Capsense_Value_Last_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Foretrigger_Capsense_Value_Max_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Foretrigger_Capsense_Value_Min_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Foretrigger_Capsense_Value_Avg_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Foretrigger_Capsense_Value_First_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Foretrigger_Capsense_Value_Last_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Buttons_Ax_All_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_All_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_All_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_All_No_Touch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Max_AX_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Min_AX_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Avg_AX_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 80.0,
+        "LCL"               : 40.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_First_AX_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Last_AX_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Max_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Min_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Avg_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 127.0,
+        "LCL"               : 50.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_First_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "AX_Capsense_Value_Last_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Buttons_Ax_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 1,
+        "LCL"               : 1,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_AX_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Buttons_Ax_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "AX_Capsense_Value_Max_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "AX_Capsense_Value_Min_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "AX_Capsense_Value_Avg_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "AX_Capsense_Value_First_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "AX_Capsense_Value_Last_AX_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "BY_Capsense_Value_Max_BY_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Min_BY_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Avg_BY_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 80.0,
+        "LCL"               : 40.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_First_BY_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Last_BY_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "BY_Capsense_Value_Max_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Min_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Avg_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 127.0,
+        "LCL"               : 50.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_First_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Last_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Buttons_Ax_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 1,
+        "LCL"               : 1,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_BY_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Buttons_Ax_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "BY_Capsense_Value_Max_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Min_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Avg_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_First_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "BY_Capsense_Value_Last_BY_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Capsense_Value_Max_TS_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Min_TS_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Avg_TS_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 127.0,
+        "LCL"               : 80.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_First_TS_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Last_TS_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Capsense_Value_Max_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Min_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Avg_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 127.0,
+        "LCL"               : 80.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_First_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Last_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Buttons_Ax_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 1,
+        "LCL"               : 1,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_TS_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Buttons_Ax_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Capsense_Value_Max_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Min_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Avg_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_First_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Capsense_Value_Last_TS_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Range_Cal_X_Axis_ADC_Min" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 4000,
+        "LCL"               : 1000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Range_Cal_X_Axis_ADC_Max" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 12000,
+        "LCL"               : 8000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_X_Axis_Range_Delta" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10000,
+        "LCL"               : 6000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Range_Cal_Y_Axis_ADC_Min" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 4000,
+        "LCL"               : 1000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Range_Cal_Y_Axis_ADC_Max" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 12000,
+        "LCL"               : 8000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Y_Axis_Range_Delta" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10000,
+        "LCL"               : 6000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Avg_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Min_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Max_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_First_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Last_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_Y_Axis_ADC_Avg_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Min_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Max_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_First_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Last_before" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Avg_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Min_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Max_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_First_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Last_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_Y_Axis_ADC_Avg_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Min_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Max_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_First_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Last_X_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Avg_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Min_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Max_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_First_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Last_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_Y_Axis_ADC_Avg_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Min_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Max_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_First_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Last_X_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Avg_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Min_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Max_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_First_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Last_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_Y_Axis_ADC_Avg_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Min_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Max_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_First_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Last_Y_Positive" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Avg_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Min_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Max_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_First_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Last_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_Y_Axis_ADC_Avg_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Min_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Max_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_First_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Last_Y_Negative" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Avg_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Min_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Max_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_First_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Last_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_Y_Axis_ADC_Avg_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Min_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Max_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_First_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Last_after" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Avg_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Min_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_Max_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_X_Axis_ADC_First_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_X_Axis_ADC_Last_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbstick_Deadband_Y_Axis_ADC_Avg_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Min_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Max_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_First_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbstick_Deadband_Y_Axis_ADC_Last_After_2" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Buttons_Ax_Home_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_Home_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_Home_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_Home_Click" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 1,
+        "LCL"               : 1,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Buttons_Ax_Home_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_By_Home_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Ts_Home_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Buttons_Home_Home_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbrest_Capsense_Value_Max_TR_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbrest_Capsense_Value_Min_TR_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbrest_Capsense_Value_Avg_TR_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 127.0,
+        "LCL"               : 40.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Thumbrest_Capsense_Value_First_TR_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbrest_Capsense_Value_Last_TR_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Thumbrest_Capsense_Value_Max_TR_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_Min_TR_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_Avg_TR_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 5.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_First_TR_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Thumbrest_Capsense_Value_Last_TR_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_Max_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_Min_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_Avg_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 11000,
+        "LCL"               : 7000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_First_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_Last_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Pinch_Button_Status_Grip_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Grip_Trigger_Surface_Real_Force" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 600,
+        "LCL"               : 30,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_Surface_Real_Position" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },   
+    "Grip_Trigger_ADC_Max_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_Min_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Grip_Trigger_ADC_Avg_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 4000,
+        "LCL"               : 1500,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_First_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_Last_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Grip_Trigger_Pressed_Real_Force" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 2100,
+        "LCL"               : 600,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_Pressed_Real_Position" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_Pressed_displacement" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 5.5,
+        "LCL"               : 4.8,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Grip_Trigger_ADC_Max_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_Min_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Grip_Trigger_ADC_Avg_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10000,
+        "LCL"               : 8000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_First_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_ADC_Last_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Max_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Min_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Avg_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 16000,
+        "LCL"               : 14500,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_First_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Last_No_Press" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Capsense_Value_Max_Fore_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_Min_Fore_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Capsense_Value_Avg_Fore_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 127,
+        "LCL"               : 40,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_First_Fore_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_Last_Fore_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Surface_Real_Force" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 600,
+        "LCL"               : 30,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Surface_Real_Position" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Surface_Displacement" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Max_Stage_Switch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Min_Stage_Switch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Avg_Stage_Switch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 12000,
+        "LCL"               : 8500,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_First_Stage_Switch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Last_Stage_Switch" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Max_Middle_Point" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Min_Middle_Point" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Avg_Middle_Point" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10500,
+        "LCL"               : 7500,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_First_Middle_Point" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Last_Middle_Point" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Release_Real_Force" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Release_Real_Position" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Release_Displacement" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Stream_Fore_Trigger_ADC_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Middle_Point_Real_Force" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 15000,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Middle_Point_Real_Position" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Middle_Point_Displacement" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Capsense_Value_Max_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_Min_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Capsense_Value_Avg_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 127,
+        "LCL"               : 50,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_First_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_Last_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Capsense_Value_Max_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_Min_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Capsense_Value_Avg_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10,
+        "LCL"               : -10,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_First_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Capsense_Value_Last_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Release_Point_Real_Force" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 15000,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Release_Point_Real_Position" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Release_Point_Displacement" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Max_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Min_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Avg_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 16000,
+        "LCL"               : 14500,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_First_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Last_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Pinch_Button_Status_Fore_Release" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 0,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Max_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Hard_Stop_Real_Force" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 15000,
+        "LCL"               : 1000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },   
+    "Fore_Trigger_Stage_Switch_Real_Force" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 3030,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_ADC_Min_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Avg_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 9500,
+        "LCL"               : 6000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Fore_Trigger_Hard_Stop_Displacement" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Hard_Stop_Real_Position" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Fore_Trigger_Stage_Switch_Displacement" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 6.5,
+        "LCL"               : 5.7,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_Stage_Switch_Real_Position" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_First_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Fore_Trigger_ADC_Last_Hard_Stop" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Force Zero" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : -1500,
+        "LCL"               : -1900,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Trig Out" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 15000,
+        "LCL"               : 5000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Pos_Min_PWM" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 70,
+        "LCL"               : -70,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Neg_Min_PWM" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 70,
+        "LCL"               : -70,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Cam Out" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 65535,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Cam In" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 65535,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Trig In" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 7000,
+        "LCL"               : 2000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Cam Travel" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 55000,
+        "LCL"               : 47000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "trig_cam_coex_lut" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "trig_cam_coex_shift" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "trig_to_cam_cal_generated" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "force_cal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "motor_off_backdrive_mN" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "spring_out_nmm" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 30,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "spring_in_nmm" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 30,
+        "LCL"               : 0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "fft_cal_result" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "TRUE"
+    },  
+    "Curl_Capsense_Value_Max_Curl_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Curl_Capsense_Value_Min_Curl_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Curl_Capsense_Value_Avg_Curl_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 80.0,
+        "LCL"               : 40.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Curl_Capsense_Value_First_Curl_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Curl_Capsense_Value_Last_Curl_Surface" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Curl_Capsense_Value_Max_Curl_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Curl_Capsense_Value_Min_Curl_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Curl_Capsense_Value_Avg_Curl_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 10.0,
+        "LCL"               : -10.0,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Curl_Capsense_Value_First_Curl_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },
+    "Curl_Capsense_Value_Last_Curl_Remove" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "TS_Range_Calibration_X_Min_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    },  
+    "TS_Range_Calibration_X_Max_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    },  
+    "TS_Range_Calibration_Y_Min_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    },  
+    "TS_Range_Calibration_Y_Max_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    }, 
+    "TS_Deadband_Calibration_X_Min_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    },  
+    "TS_Deadband_Calibration_X_Max_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    },  
+    "TS_Deadband_Calibration_Y_Min_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    },  
+    "TS_Deadband_Calibration_Y_Max_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    }, 
+    "Grip_Trigger_Max_Min_Delta" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : 8000,
+        "LCL"               : 4000,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Grip_Trigger_Calibration_Range_Min_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    },  
+    "Grip_Trigger_Calibration_Range_Max_CheckLocal" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : "Pass"
+    }, 
+    "TS_Range_Calibration_X_Min_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Range_Calibration_X_Max_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Range_Calibration_Y_Min_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "TS_Range_Calibration_Y_Max_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Deadband_Calibration_X_Min_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Deadband_Calibration_X_Max_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "TS_Deadband_Calibration_Y_Min_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "TS_Deadband_Calibration_Y_Max_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }, 
+    "Grip_Trigger_Calibration_Range_Min_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    },  
+    "Grip_Trigger_Calibration_Range_Max_CheckMes" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }
+}

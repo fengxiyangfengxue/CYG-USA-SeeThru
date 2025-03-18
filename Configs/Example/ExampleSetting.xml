@@ -1,0 +1,36 @@
+﻿<ExampleSetting>
+  <ComConfigs>
+    <RFPorts>
+      <RFTxPort>RF1.1</RFTxPort>
+      <RFRxPort>RF1.2</RFRxPort>
+    </RFPorts>
+    <RFPorts>
+      <RFTxPort>RF1.1</RFTxPort>
+      <RFRxPort>RF1.2</RFRxPort>
+    </RFPorts>
+    <RFPorts>
+      <RFTxPort>RF1.1</RFTxPort>
+      <RFRxPort>RF1.2</RFRxPort>
+    </RFPorts>
+    <RFPorts>
+      <RFTxPort>RF1.1</RFTxPort>
+      <RFRxPort>RF1.2</RFRxPort>
+    </RFPorts>
+    <RFPorts>
+      <RFTxPort>RF1.1</RFTxPort>
+      <RFRxPort>RF1.2</RFRxPort>
+    </RFPorts>
+    <RFPorts>
+      <RFTxPort>RF1.1</RFTxPort>
+      <RFRxPort>RF1.2</RFRxPort>
+    </RFPorts>
+    <RFPorts>
+      <RFTxPort>RF1.1</RFTxPort>
+      <RFRxPort>RF1.2</RFRxPort>
+    </RFPorts>
+    <RFPorts>
+      <RFTxPort>RF1.1</RFTxPort>
+      <RFRxPort>RF1.2</RFRxPort>
+    </RFPorts>
+  </ComConfigs>
+</ExampleSetting>

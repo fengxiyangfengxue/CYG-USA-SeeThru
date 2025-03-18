@@ -1,0 +1,9 @@
+﻿<SuperCal_Setting>
+  <ProbeCntMax>0</ProbeCntMax>
+  <CntCount>0</CntCount>
+  <turbocal_raw_data>1024</turbocal_raw_data>
+  <cam_num>4</cam_num>
+  <hcPlcIP>192.168.1.88</hcPlcIP>
+  <img_no_min>0</img_no_min>
+  <img_no_max>0</img_no_max>
+</SuperCal_Setting>

@@ -1,0 +1,21 @@
+{
+  "adb_devices": "adb devices",
+  "adb_reboot": "adb reboot",
+  "adb_wait_for_device": "adb wait-for-device",
+  "adb_pull_json": "adb pull /persist/calibration/camera_calibration.json D:\\vrs_test\\test",
+  "adb_root": "adb root",
+  "adb_persist_Exposure_true": "adb shell setprop persist.vendor.camera.rgb.manualExposure true",
+  "adb_persist_Gian_true": "adb shell setprop persist.vendor.camera.rgb.manualGain true",
+  "echo_wait_for_device": "echo wait-for-device",
+  "adb_remount": "adb remount",
+  "adb_syncboss": "adb shell syncboss_consumers_ctl stop",
+  "adb_vendor_oculus": "adb shell start vendor.oculus.sensors-hal-1-0",
+  "adb_trackingfidelity": "adb shell start trackingfidelityservice",
+  "adb_display_off": "adb shell kirin -t render-off",
+  "adb_syncboss_led": "adb shell syncboss_led_tool -t [led_time] -c [brightness]",
+  "adb_shell_IAD": "adb shell kirin -t get-iad",
+  "adb_shell_IAD_meters": "adb shell kirin -t get-iad-meters",
+  "record_vrs_data": "adb shell vrs-recorder --output /data/recording2.vrs --cmm_allowed_mux_modes=worldTracking/collection15,eye/eyeHigh --sensoraccess_purposes=worldTracking/active_slots,eye/active_slots --imu --warmup 300 --duration [vrs_duration] --slam_static_exposure_ms 2 --slam_static_gain 1 --eye_static_exposure_ms 2 --tags calibration_type=[calibration_type],dc_type=[dc_type],dc_id=[tset_id],cal_test_id=[cal_test_id],location_id=gtk,station_id=1,nest_id=1,operator_id=[operator_id],station_type=cyg,iot_cal_test_id=[iot_cal_test_id]",
+  "adb_vrs_pull": "adb pull /data/recording2.vrs [save_vrs_path]",
+  "adb_push_file": "adb push [json_name] /data/etcal_usecase.json"
+}

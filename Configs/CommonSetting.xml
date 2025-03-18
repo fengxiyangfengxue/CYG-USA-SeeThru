@@ -1,0 +1,12 @@
+﻿<CommonSetting>
+  <OPIDLength>7</OPIDLength>
+  <SNLength>14</SNLength>
+  <AuditSNCount>2</AuditSNCount>
+  <LoopTimes>0</LoopTimes>
+  <AuditSN>111,222,333</AuditSN>
+  <SummaryPath>D:\TestLog\"Product"\"SFISMode"\Summary\["Product"]["StationName"]["LineName"]["StationDesc"]["yyyy-MM-dd"]["SlotID"].csv</SummaryPath>
+  <QdfLogFolderPath>D:\TestLog\"Product"\"SFISMode"\"StationDesc"\"yyyy-MM-dd"\"Result"\"CM"_"Product"_"LineID"_"StationNumber"_"SN"_"TSRID"</QdfLogFolderPath>
+  <QdfFileName>"CM"_"Product"_"LineID"_"StationNumber"_"SN"_"Result"_"TestStartTime".qdf.csv</QdfFileName>
+  <QdfServicePath>C:\Caesar\QDFService</QdfServicePath>
+  <QdfMonitorPath>C:\Caesar\QDFMonitor</QdfMonitorPath>
+</CommonSetting>

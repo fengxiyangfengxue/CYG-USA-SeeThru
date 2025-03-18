@@ -1,0 +1,30 @@
+{
+    "adb_tool": "C:\\adb_tool\\platform-tools",
+    "telnet_name": "jabil",
+    "telnet_password": "Test_lab1!",
+    "telnet_ip": "192.168.1.3",
+    "vrs_tag_configs": {
+        "dc_type_value": "doe_grr"
+    },
+    "build_config": "poc",
+    "xavier_path": "/home/jabil/xavier_shell.pex",
+    "image_path": "/home/jabil/linux_helper_functions/images/",
+    "image_path_puppet": "/home/jabil/linux_helper_functions/images_puppet/",
+    "output_path": "/home/jabil/output/",
+    "template_config_json": "/home/jabil/config_template.json",
+    "template_config_json_no_dut": "/home/jabil/config_template_no_dut.json",
+    "template_usecase_json": "/home/jabil/usecase.json",
+    "ext_camera_min_file_size_original": 4509715660,
+    "ext_camera_min_file_size": 3409715660,
+    "dut_min_file_size": 300787200,
+    "last_no_dut": "20231113112210",
+    "last_stability": "20231113142147",
+    "display_brightness": {
+        "red": "100",
+        "green": "100",
+        "blue": "50"
+    },
+    "pull_csv_save_path" : "D:\\vrs_test\\dut_csv",
+    "UPLOAD_CMD_ALGO": "curl -T {} -X POST 172.18.193.171:8080/genetcalar/{}/carpo_p1_etcal_{}/1/{}/0/1",
+    "GET_RESULT_CMD_ALGO": "curl 172.18.193.171:8088/dtr_search/etcalstation/{}/1/{}"
+}

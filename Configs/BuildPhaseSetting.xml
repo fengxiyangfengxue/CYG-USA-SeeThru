@@ -1,0 +1,10 @@
+﻿<BuildPhaseSetting description="config information">
+  <BuildPhase>P1</BuildPhase>
+  <WorkflowComponent>Headset</WorkflowComponent>
+  <FactoryId>wef102</FactoryId>
+  <StationSequencing>1</StationSequencing>
+  <AssemblyPhase>FATP</AssemblyPhase>
+  <Version>V1.7</Version>
+  <Stage>P1</Stage>
+  <TestStatus>PRIME</TestStatus>
+</BuildPhaseSetting>

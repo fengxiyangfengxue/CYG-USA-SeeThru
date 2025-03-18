@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Project Title="ET" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="200" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b1d895f7-049e-436b-9c26-9bb9917cb4fc">
+    <FunctionArguments />
+    <Item Title="Script_Initialize" Checked="True" FunctionName="Script_Initialize" RetryTimes="3" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="70727fc1-53a3-4d14-b82c-5a774f83325e">
+      <FunctionArguments />
+    </Item>
+    <Item Title="GenerateAdbCommandRunnerinstance" Checked="True" FunctionName="ETGenerateAdbCommandRunnerinstance" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="f3c0af4a-268b-4e8f-8b55-702edfd7fe9d">
+      <FunctionArguments>
+        <Argument Name="adbPath" Type="string" Value="C:\adb_tool\platform-tools" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="GetOpID" Checked="True" FunctionName="ETGetOpID" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="606badc7-e8d4-4535-9e48-5c943e81c24b">
+      <FunctionArguments />
+    </Item>
+    <Item Title="StartTest" Checked="True" FunctionName="ETStartTest" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d8cc694f-58ea-4746-879c-097e2c562774">
+      <FunctionArguments />
+    </Item>
+    <Item Title="SeeThruReadSnAndOtherCommand" Checked="True" FunctionName="ETReadSnAndOtherCommand" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="5147c08f-ae8f-42f2-941f-239ebdfd4a73">
+      <FunctionArguments>
+        <Argument Name="timeout_" Type="int" Value="10000" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="CloseAutoDoor" Checked="True" FunctionName="ETCloseAutoDoor" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6e7de067-e463-4654-b741-61d19780882b">
+      <FunctionArguments>
+        <Argument Name="timeoutSecond" Type="int" Value="10" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="ServoControl-ON" Checked="True" FunctionName="ETRobotServoControl" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="18e62845-e7a8-4872-b88b-aa93ac160484">
+      <FunctionArguments>
+        <Argument Name="RobotServoStatus" Type="bool" Value="true" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="SetInfraredLightStart" Checked="True" FunctionName="SetInfraredSource" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="693e3a62-793c-4c24-b48b-34fd3840156e">
+      <FunctionArguments>
+        <Argument Name="LightStatue" Type="bool" Value="false" />
+        <Argument Name="channel" Type="List&lt;string&gt;" Value="new List&lt;string&gt; { &quot;square_channel1&quot;, &quot;rectangle_channel2&quot; }" />
+        <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{100,100}" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="TestActionSetLights" Checked="True" FunctionName="ETSetLights" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6dbc27e5-66d2-4186-a7ef-b15eb8542662">
+      <FunctionArguments>
+        <Argument Name="LightStatue" Type="bool" Value="false" />
+        <Argument Name="channel" Type="List&lt;string&gt;" Value="new List&lt;string&gt; { &quot;channel1&quot;, &quot;channel2&quot;, &quot;channel3&quot; }" />
+        <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{600,600,600}" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="RobotCallJobStationToHOME" Checked="True" FunctionName="ETRobotCallJob" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="df2ca935-1294-4cd9-9d5c-b014160c1ca0">
+      <FunctionArguments>
+        <Argument Name="jobName" Type="string" Value="LOAD_TO_HOME" />
+        <Argument Name="timeout" Type="int" Value="100" />
+        <Argument Name="minimumExerciseTime" Type="int" Value="2" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="DUTReadIAD" Checked="True" FunctionName="ETReadIAD" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="f2c0bdad-9a2d-48d3-8236-922c2923c271">
+      <FunctionArguments>
+        <Argument Name="timeout" Type="int" Value="10000" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="ETDUTPullJson" Checked="True" FunctionName="ETDUTPullJson" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="41370d8d-8520-4f53-a365-b732ff54dde5">
+      <FunctionArguments>
+        <Argument Name="timeout" Type="int" Value="8000" />
+      </FunctionArguments>
+    </Item>
+    <Group Title="EtCalStation" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="9db8bf45-9dc5-46af-bdec-01dde6a6b96f">
+      <FunctionArguments />
+      <Item Title="ETSetLeds-OFF" Checked="True" FunctionName="ETSetLeds" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3efbb007-2be7-476b-99ac-6f488d8e5ad2">
+        <FunctionArguments>
+          <Argument Name="timeout" Type="int" Value="5000" />
+          <Argument Name="ledTime" Type="string" Value="0" />
+          <Argument Name="brightness" Type="string" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="StartDUTVRS" Checked="True" FunctionName="ETStartVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="bce3cf08-f5f2-4193-a844-50729ef52a2a">
+        <FunctionArguments>
+          <Argument Name="timeout" Type="int" Value="50000" />
+          <Argument Name="vrs_name" Type="string" Value="Carpo_EtCalStation" />
+          <Argument Name="duration" Type="string" Value="14" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="RobotCallJobStation" Checked="True" FunctionName="ETRobotCallJob" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="172978f8-efc1-48e2-88e1-dea79565242e">
+        <FunctionArguments>
+          <Argument Name="jobName" Type="string" Value="STATION" />
+          <Argument Name="timeout" Type="int" Value="100" />
+          <Argument Name="minimumExerciseTime" Type="int" Value="6" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PullDUTVRStation" Checked="True" FunctionName="ETPullVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="82075300-d863-4cf9-8dad-f615fbbf4561">
+        <FunctionArguments>
+          <Argument Name="vrs_name" Type="string" Value="Carpo_EtCalStation" />
+          <Argument Name="save_vrs_path" Type="string" Value="D:\vrs_test\test" />
+          <Argument Name="timeoutMs" Type="int" Value="50000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="ZipFileStation" Checked="True" FunctionName="ETZIPFile" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="eaddd81a-c4dd-4f01-8be2-e5a63646fcec">
+        <FunctionArguments>
+          <Argument Name="vrsType" Type="string" Value="Carpo_EtCalStation" />
+          <Argument Name="zipName" Type="string" Value="EtCalStation.zip" />
+          <Argument Name="vrsPath" Type="string" Value="D:\vrs_test\test" />
+          <Argument Name="timeout" Type="int" Value="50000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="UploadFileToAlgoServer_EtCalStation" Checked="True" FunctionName="ETUploadFileToAlgoServer" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3201122b-a931-4fe9-a194-49a2fe612174">
+        <FunctionArguments>
+          <Argument Name="vrsType" Type="string" Value="Carpo_EtCalStation" />
+          <Argument Name="timeoutSecond" Type="int" Value="50" />
+        </FunctionArguments>
+      </Item>
+    </Group>
+    <Group Title="EtCalIlluminator" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="0b660ed8-1e23-4816-b667-b4fe1fd9bb14">
+      <FunctionArguments />
+      <Item Title="ETLeds_ill" Checked="True" FunctionName="ETSetLeds" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="8d3e607d-0b99-4826-8683-10cf53a77eed">
+        <FunctionArguments>
+          <Argument Name="timeout" Type="int" Value="5000" />
+          <Argument Name="ledTime" Type="string" Value="500" />
+          <Argument Name="brightness" Type="string" Value="10" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="SetInfraredLightStart_ill" Checked="True" FunctionName="SetInfraredSource" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="7e5a2dcf-91e4-4d8a-9556-66681928a02d">
+        <FunctionArguments>
+          <Argument Name="LightStatue" Type="bool" Value="false" />
+          <Argument Name="channel" Type="List&lt;string&gt;" Value="new List&lt;string&gt; { &quot;square_channel1&quot;, &quot;rectangle_channel2&quot; }" />
+          <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{0,0}" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="StartVRS_ill" Checked="True" FunctionName="ETStartVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="46e2836b-7d13-4b35-90f5-5ab42e0b3490">
+        <FunctionArguments>
+          <Argument Name="timeout" Type="int" Value="50000" />
+          <Argument Name="vrs_name" Type="string" Value="Carpo_EtCalIlluminator" />
+          <Argument Name="duration" Type="string" Value="30" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="RobotCallJob_ill" Checked="True" FunctionName="ETRobotCallJob" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="9326f028-c576-4b28-bfa8-802fa806306a">
+        <FunctionArguments>
+          <Argument Name="jobName" Type="string" Value="ILLU" />
+          <Argument Name="timeout" Type="int" Value="200" />
+          <Argument Name="minimumExerciseTime" Type="int" Value="6" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PullDUTVRS_ill" Checked="True" FunctionName="ETPullVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="820388f6-939b-4220-83f9-e297957f9b6e">
+        <FunctionArguments>
+          <Argument Name="vrs_name" Type="string" Value="Carpo_EtCalIlluminator" />
+          <Argument Name="save_vrs_path" Type="string" Value="D:\vrs_test\test" />
+          <Argument Name="timeoutMs" Type="int" Value="50000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="ZipFile_EtCalIlluminator" Checked="True" FunctionName="ETZIPFile" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="a55c8add-64ec-4bbd-8fe2-c2cd8ae13a6d">
+        <FunctionArguments>
+          <Argument Name="vrsType" Type="string" Value="Carpo_EtCalIlluminator" />
+          <Argument Name="zipName" Type="string" Value="EtCalIlluminator.zip" />
+          <Argument Name="vrsPath" Type="string" Value="D:\vrs_test\test" />
+          <Argument Name="timeout" Type="int" Value="50000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="UploadFileToAlgoServer_EtCalIlluminator" Checked="True" FunctionName="ETUploadFileToAlgoServer" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="cd2e501f-956e-4eff-bd70-a717cefc59eb">
+        <FunctionArguments>
+          <Argument Name="vrsType" Type="string" Value="Carpo_EtCalIlluminator" />
+          <Argument Name="timeoutSecond" Type="int" Value="50" />
+        </FunctionArguments>
+      </Item>
+    </Group>
+    <Group Title="EtCalBlackbox" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="False" GUID="99e819fa-b205-47b3-a595-f20f63f5fc97">
+      <FunctionArguments />
+      <Item Title="ETLeds_bb" Checked="True" FunctionName="ETSetLeds" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="f13458bf-659e-43db-914f-d130dd3f2f9d">
+        <FunctionArguments>
+          <Argument Name="timeout" Type="int" Value="5000" />
+          <Argument Name="ledTime" Type="string" Value="0" />
+          <Argument Name="brightness" Type="string" Value="0" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="SetInfraredLightStart_bb" Checked="True" FunctionName="SetInfraredSource" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="54bb1659-e5f6-4b87-92ce-9470fce95312">
+        <FunctionArguments>
+          <Argument Name="LightStatue" Type="bool" Value="false" />
+          <Argument Name="channel" Type="List&lt;string&gt;" Value="new List&lt;string&gt; { &quot;square_channel1&quot;, &quot;rectangle_channel2&quot; }" />
+          <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{0,100}" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="StartVRS_bb" Checked="True" FunctionName="ETStartVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="92cd3e80-79ed-42a0-b8fb-12d0011bfebf">
+        <FunctionArguments>
+          <Argument Name="timeout" Type="int" Value="500000" />
+          <Argument Name="vrs_name" Type="string" Value="Carpo_EtCalBlackbox" />
+          <Argument Name="duration" Type="string" Value="33" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="RobotCallJob_bb" Checked="True" FunctionName="ETRobotCallJob" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="a74bd189-611c-471f-b877-7b07ae7efe82">
+        <FunctionArguments>
+          <Argument Name="jobName" Type="string" Value="BB_JS" />
+          <Argument Name="timeout" Type="int" Value="200" />
+          <Argument Name="minimumExerciseTime" Type="int" Value="6" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="GetFileToAlgoServer" Checked="True" FunctionName="ETGetFileToAlgoServer" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e1474da5-d72e-4d8b-b254-b22ccea073ee">
+        <FunctionArguments>
+          <Argument Name="vrsType" Type="string" Value="Carpo_EtCalStation" />
+          <Argument Name="timeoutSecond" Type="int" Value="56" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="PullDUTVRS_bb" Checked="True" FunctionName="ETPullVRS" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b1edfb24-1a20-45bc-896c-778f7a95566c">
+        <FunctionArguments>
+          <Argument Name="vrs_name" Type="string" Value="Carpo_EtCalBlackbox" />
+          <Argument Name="save_vrs_path" Type="string" Value="D:\vrs_test\test" />
+          <Argument Name="timeoutMs" Type="int" Value="100000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="ZipFile_EtCalBlackbox" Checked="True" FunctionName="ETZIPFile" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="10295aad-646f-47ad-ac1a-0d30390e9c95">
+        <FunctionArguments>
+          <Argument Name="vrsType" Type="string" Value="Carpo_EtCalBlackbox" />
+          <Argument Name="zipName" Type="string" Value="EtCalBlackbox.zip" />
+          <Argument Name="vrsPath" Type="string" Value="D:\vrs_test\test" />
+          <Argument Name="timeout" Type="int" Value="50000" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="UploadFileToAlgoServer_EtCalBlackbox" Checked="True" FunctionName="ETUploadFileToAlgoServer" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="7c3f4916-fbbc-4f15-b8e5-2532b8ee7351">
+        <FunctionArguments>
+          <Argument Name="vrsType" Type="string" Value="Carpo_EtCalBlackbox" />
+          <Argument Name="timeoutSecond" Type="int" Value="50" />
+        </FunctionArguments>
+      </Item>
+    </Group>
+    <Item Title="DUTPushJson" Checked="True" FunctionName="ETDUTPushJson" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="2f318d54-e271-4480-b1f9-a1ed19eda6e2">
+      <FunctionArguments>
+        <Argument Name="pushJsonPath" Type="string" Value="D:\vrs_test\push_file" />
+        <Argument Name="timeout" Type="int" Value="8000" />
+      </FunctionArguments>
+    </Item>
+    <Item Title="TestActionSetLights" Checked="True" FunctionName="ETSetLights" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="75bce7b2-8baa-490a-ba0c-cbbffd532e86">
+      <FunctionArguments>
+        <Argument Name="LightStatue" Type="bool" Value="true" />
+        <Argument Name="channel" Type="List&lt;string&gt;" Value="new List&lt;string&gt; { &quot;channel1&quot;, &quot;channel2&quot;, &quot;channel3&quot; }" />
+        <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{0,0,0}" />
+      </FunctionArguments>
+    </Item>
+    <Finally Title="ExecuteLast" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="7e5e5a40-20aa-4234-9da5-09e0718be277">
+      <FunctionArguments />
+      <Item Title="RobotCallJobHomeToLoad" Checked="True" FunctionName="ETRobotCallJob" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="20c5189a-204b-4704-a66c-e942a2ccf4b7">
+        <FunctionArguments>
+          <Argument Name="jobName" Type="string" Value="HOME_TO_LOAD" />
+          <Argument Name="timeout" Type="int" Value="100" />
+          <Argument Name="minimumExerciseTime" Type="int" Value="2" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="RobotServoOff" Checked="True" FunctionName="ETRobotServoControl" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="6c317c34-ab43-4547-a367-33bcc51aec10">
+        <FunctionArguments>
+          <Argument Name="RobotServoStatus" Type="bool" Value="false" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="OpenAutoDoor" Checked="True" FunctionName="ETOpenAutoDoor" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="98ce6086-317e-4a9b-8e90-f5074efeac82">
+        <FunctionArguments />
+      </Item>
+      <Item Title="SetInfrared-OFF" Checked="True" FunctionName="SetInfraredSource" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="e4d657af-6021-4bd4-83f7-af1bc399923c">
+        <FunctionArguments>
+          <Argument Name="LightStatue" Type="bool" Value="false" />
+          <Argument Name="channel" Type="List&lt;string&gt;" Value="new List&lt;string&gt; { &quot;square_channel1&quot;, &quot;rectangle_channel2&quot; }" />
+          <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{0,0}" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="SetLightsUnload" Checked="True" FunctionName="ETSetLights" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="22eb429b-e461-485f-8e07-1a3cc96731dd">
+        <FunctionArguments>
+          <Argument Name="LightStatue" Type="bool" Value="true" />
+          <Argument Name="channel" Type="List&lt;string&gt;" Value="new List&lt;string&gt; { &quot;channel1&quot;, &quot;channel2&quot;, &quot;channel3&quot; }" />
+          <Argument Name="lightValue" Type="List&lt;int&gt;" Value="new List&lt;int&gt;{0,0,0}" />
+        </FunctionArguments>
+      </Item>
+      <Item Title="FinishTest" Checked="True" FunctionName="ETFinishTest" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="63dce86a-33cd-4cff-a8be-7721887b1b7a">
+        <FunctionArguments />
+      </Item>
+    </Finally>
+  </Project>
+</Root>

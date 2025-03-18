@@ -1,0 +1,1 @@
+DeviceCleanupCmd.exe * -s -n

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Root>
+  <Project Title="PCBA_RF" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="200" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b1d895f7-049e-436b-9c26-9bb9917cb4fc">
+    <FunctionArguments />
+    <Item Title="Script_Initialize" Checked="True" FunctionName="Script_Initialize" RetryTimes="3" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="70727fc1-53a3-4d14-b82c-5a774f83325e">
+      <FunctionArguments />
+    </Item>
+    <Item Title="00000" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="1f0010e5-c7c9-41a8-b1c6-57336759f244">
+      <FunctionArguments />
+    </Item>
+    <Item Title="Audit_Check" Checked="False" FunctionName="Audit_Check" RetryTimes="3" AgingTimes="1" RunMode="Sequential" IsFailStop="True" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="SkipOffLine" Prefix="" Suffix="" Expanded="True" GUID="38f48416-049c-48dc-9f91-b03152a7846b">
+      <FunctionArguments />
+    </Item>
+    <Group Title="Group1" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Parallel" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="fbc2b78a-db35-4b47-b17c-52c2ff47b026">
+      <FunctionArguments />
+      <Item Title="111111" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="71457208-b959-4860-a4ba-0ae9942de645">
+        <FunctionArguments />
+      </Item>
+      <Item Title="22222" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="757d2bba-e187-4ee4-9862-74acf59c144c">
+        <FunctionArguments />
+      </Item>
+    </Group>
+    <Group Title="Group2" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d12e9c48-f54d-4130-aed2-d098a56fcccd">
+      <FunctionArguments />
+      <Item Title="111111" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="5f135325-27ee-4ac4-8079-eb1b53d3bbe4">
+        <FunctionArguments />
+      </Item>
+      <Item Title="22222" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="fc0b7842-051d-46e7-981d-1bf1b611091c">
+        <FunctionArguments />
+      </Item>
+      <Item Title="111111" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="fe5659f5-5a26-46d1-88f2-2b65469d2c21">
+        <FunctionArguments />
+      </Item>
+      <Item Title="22222" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="273233a6-a2e5-4955-b35b-31b48728fb11">
+        <FunctionArguments />
+      </Item>
+    </Group>
+    <Finally Title="Finally" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="d522ec55-1a24-4fe2-b2d9-ea30c3dc249f">
+      <FunctionArguments />
+      <Group Title="Parallel" Checked="True" FunctionName="" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="3ad05893-1d54-41a7-b0c3-cadfb2661059">
+        <FunctionArguments />
+        <Item Title="camera_close" Checked="True" FunctionName="ADB_CloseCamera" RetryTimes="1" AgingTimes="1" RunMode="Parallel" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b0b3eb14-114d-4e78-9a3c-688ca9dcd2f5">
+          <FunctionArguments>
+            <Argument Name="timeOut" Type="int" Value="20000" />
+            <Argument Name="preWaiting" Type="int" Value="0" />
+            <Argument Name="afterWaiting" Type="int" Value="0" />
+            <Argument Name="retryWaiting" Type="int" Value="0" />
+          </FunctionArguments>
+        </Item>
+        <Item Title="move_load_position" Checked="True" FunctionName="Fixture_PythonControl" RetryTimes="1" AgingTimes="1" RunMode="Parallel" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="203c21dc-82ca-4dad-9d39-c72474d0e912">
+          <FunctionArguments>
+            <Argument Name="command" Type="string" Value="/move_load_position" />
+            <Argument Name="isTrue" Type="bool" Value="true" />
+            <Argument Name="preWaiting" Type="int" Value="0" />
+            <Argument Name="afterWaiting" Type="int" Value="0" />
+            <Argument Name="retryWaiting" Type="int" Value="0" />
+            <Argument Name="timeOut" Type="int" Value="30000" />
+          </FunctionArguments>
+        </Item>
+        <Item Title="open_door" Checked="True" FunctionName="Fixture_Control" RetryTimes="1" AgingTimes="1" RunMode="Parallel" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="b4a366d0-d4b9-4771-8bc1-7eee706592a5">
+          <FunctionArguments>
+            <Argument Name="command" Type="string" Value="/open_door" />
+            <Argument Name="isTrue" Type="bool" Value="true" />
+            <Argument Name="preWaiting" Type="int" Value="4000" />
+            <Argument Name="afterWaiting" Type="int" Value="0" />
+            <Argument Name="retryWaiting" Type="int" Value="0" />
+            <Argument Name="timeOut" Type="int" Value="40000" />
+          </FunctionArguments>
+        </Item>
+      </Group>
+      <Item Title="release_dut" Checked="True" FunctionName="Fixture_PythonControl" RetryTimes="1" AgingTimes="1" RunMode="Sequential" IsFailStop="False" IsFailContinueRetry="False" IsFailBreak="False" IsBreakPoint="False" IsFailOffLine="False" IsRetrySkipPassed="True" HaltMode="NoHalt" TestDataCollectionMode="LatestOne" SFISDataCollectionMode="LatestOne" SkipTestMode="NoSkip" Prefix="" Suffix="" Expanded="True" GUID="ba229418-ac12-4a0d-8730-f5e72f6ccc66">
+        <FunctionArguments>
+          <Argument Name="command" Type="string" Value="/release_dut" />
+          <Argument Name="isTrue" Type="bool" Value="true" />
+          <Argument Name="preWaiting" Type="int" Value="0" />
+          <Argument Name="afterWaiting" Type="int" Value="0" />
+          <Argument Name="retryWaiting" Type="int" Value="0" />
+          <Argument Name="timeOut" Type="int" Value="30000" />
+        </FunctionArguments>
+      </Item>
+    </Finally>
+  </Project>
+</Root>

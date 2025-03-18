@@ -1,0 +1,25 @@
+﻿<StageCalSetting>
+  <ProbeCntMax>5000</ProbeCntMax>
+  <CntCount>1</CntCount>
+  <main_app_ver>0.4</main_app_ver>
+  <rawDataFile_minSize>1024</rawDataFile_minSize>
+  <cam_num>4</cam_num>
+  <hcPlcIP>192.168.1.88</hcPlcIP>
+  <img_no_max>450</img_no_max>
+  <img_no_max>520</img_no_max>
+  <cal_image_path>C:\stagecal_images</cal_image_path>
+  <Convert>D:\</Convert>
+  <zip_stage_cal_file_name>supercal_stagecal_data.zip</zip_stage_cal_file_name>
+  <uart_sn_nest_dict>
+        <uart_sn key="1">"D30HLYNHA"</uart_sn>
+        <uart_sn key="2">"D30HLYQJA"</uart_sn>
+        <uart_sn key="3">"D30HLCOQA"</uart_sn>
+        <uart_sn key="4">"D30HLYPCA"</uart_sn>
+        <uart_sn key="5">"D30HLCP7A"</uart_sn>
+        <uart_sn key="6">"D30HLYP7A"</uart_sn>
+        <uart_sn key="7">"D30GXF28A"</uart_sn>
+        <uart_sn key="8">"D30HLYOQA"</uart_sn>
+    </uart_sn_nest_dict>
+<Line>1</Line>
+<Station>1</Station>
+</StageCalSetting>

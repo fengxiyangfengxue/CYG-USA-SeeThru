@@ -1,0 +1,10 @@
+﻿<SuperCal_Setting>
+  <ProbeCntMax>5000</ProbeCntMax>
+  <CntCount>1</CntCount>
+  <main_app_ver>0.1.10</main_app_ver>
+  <rawDataFile_minSize>1024</rawDataFile_minSize>
+  <cam_num>1</cam_num>
+  <hcPlcIP>192.168.1.88</hcPlcIP>
+  <img_no_max>450</img_no_max>
+  <img_no_max>520</img_no_max>
+</SuperCal_Setting>

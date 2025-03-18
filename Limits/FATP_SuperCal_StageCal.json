@@ -1,0 +1,11 @@
+
+{
+    "No_Limit" : {
+        "LCLClosedInterval" : true,
+        "UCLClosedInterval" : true,
+        "UCL"               : null,
+        "LCL"               : null,
+        "Unit"              : "",
+        "CheckString"       : ""
+    }
+}
